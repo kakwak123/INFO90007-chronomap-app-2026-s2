@@ -32,3 +32,11 @@ export const SCORES = [
   { name: 'Yong', initial: 'Y', photos: 31, score: 74, badge: 'Contributor' },
   { name: 'Ashlesha', initial: 'A', photos: 20, score: 58, badge: 'Contributor' },
 ];
+
+// Fake voice-call chatter shown in the call bar while capturing.
+export const CALL_LINES = [
+  { name: 'Dhiraj', text: 'Swing wide, I\'ve got the front entrance.' },
+  { name: 'Yong', text: 'Heading round to the east side now.' },
+  { name: 'Ashlesha', text: 'Light\'s good on the north wall, grabbing a few.' },
+  { name: 'Dhiraj', text: 'Watch the car park exit, cars coming through.' },
+];

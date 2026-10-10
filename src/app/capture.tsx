@@ -3,6 +3,7 @@ import { router } from 'expo-router';
 import { Pressable, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { CallBar } from '@/components/call-bar';
 import { C } from '@/ui/theme';
 
 function Corner({ style }: { style: object }) {
@@ -20,6 +21,8 @@ export default function Capture() {
         <Text style={{ color: C.text, fontWeight: '700', fontSize: 14 }}>Session ends in 3:42</Text>
         <Ionicons name="flash-off-outline" size={22} color={C.text} />
       </View>
+
+      <CallBar />
 
       <View style={{ flex: 1, marginHorizontal: 12, borderRadius: 14, backgroundColor: C.placeholder, alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
         <Corner style={{ top: 14, left: 14, borderTopWidth: 3, borderLeftWidth: 3 }} />
