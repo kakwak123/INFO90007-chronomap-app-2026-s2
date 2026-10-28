@@ -4,6 +4,9 @@
 | --- | --- |
 | Participant | P1 |
 | Method | Think-aloud (observation) |
+| Date | 29 October 2026 |
+| Profile | 26, male, engineering student |
+| Device | Laptop |
 | Recording | `sessions/audio/P1-2026-10-29.m4a` (gitignored - personal data) |
 | Duration | 3:40 |
 | Transcribed | locally, faster-whisper `base`, language en |

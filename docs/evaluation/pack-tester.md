@@ -81,7 +81,7 @@ useful result, not a failure.
 
 > You are in the session and the host has briefed everyone.
 >
-> Find out which station you have been given and where it is. Then tell the host you are ready —
+> Find out which station you have been given and where it is. Then tell the host you are ready
 > without speaking.
 
 ---
@@ -98,7 +98,7 @@ useful result, not a failure.
 
 > The capture is finished.
 >
-> Find the finished 3D model and share it to a story — but without revealing the exact location.
+> Find the finished 3D model and share it to a story - but without revealing the exact location.
 
 ---
 

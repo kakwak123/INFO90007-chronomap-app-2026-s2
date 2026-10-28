@@ -53,3 +53,4 @@ example
 *.wav
 *.mp4
 docs/evaluation/sessions/audio/
+.artifact-deck/

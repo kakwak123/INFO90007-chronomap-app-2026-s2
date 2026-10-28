@@ -8,6 +8,7 @@ links also appear on the report title page, and the two must not drift apart.
 | What | Link |
 | --- | --- |
 | **Figma - high-fidelity prototype (v1)** *(renamed to ChronoMap 3D Prototype)* | https://www.figma.com/design/nGpbcLweFWROFc3oaonWrO/ChronoMap-3D-Prototype?node-id=0-1 |
+| **Figma - interactive prototype (Present, full flow)** | https://www.figma.com/proto/nGpbcLweFWROFc3oaonWrO/ChronoMap-3D-Prototype?node-id=24-29&starting-point-node-id=24%3A29 |
 | **Overleaf - A3 report (LaTeX)** | https://www.overleaf.com/project/6ae265a36fca9830f321ba4e |
 | **YouTube - 3-minute demo** | https://www.youtube.com/watch?v=i1lIlsDkKQo |
 | **GitHub - repository** | https://github.com/kakwak123/INFO90007-chronomap-app-2026-s2 |
@@ -64,9 +65,7 @@ lessons learned from this evaluation."*
 
 - [x] Rename the Figma file so it no longer says "Low-Fi". Done.
 - [x] Figma sharing confirmed readable in a logged-out private window.
-- [ ] Add a second Figma link to the **Present** view of the full flow, so the marker can click
-      through the journey rather than reading a canvas.
-- [ ] Confirm the exact **screen count** on Page 1 and replace the `[VERIFY: number]` in report
-      §3.1 with it. A countable claim will be counted.
+- [x] Second Figma link to the **Present** view added to the title page.
+- [x] Screen count confirmed: **30 linked screens**, stated in §3.1 and listed in Appendix A.
 - [x] YouTube link opens without sign-in, is Public, and is not flagged "Made for Kids".
 - [ ] Title page links in the report match this file exactly.
