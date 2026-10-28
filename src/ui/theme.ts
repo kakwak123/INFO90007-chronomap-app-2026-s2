@@ -3,7 +3,7 @@
 //
 // The A2 prototype was greyscale low-fi. This is the A3 high-fidelity pass: a warm paper ground,
 // deep archival blue as the ink, and golden-hour amber reserved for the two things that have to
-// stand out — capture conditions, and the host.
+// stand out - capture conditions, and the host.
 export const C = {
   bg: '#F6F5F2',
   surface: '#FFFFFF',

@@ -19,7 +19,7 @@ Decision: **fix** (made in version 2), **defer** (valid, not done, say why), **r
 
 ## Questionnaire tallies
 
-| Participant | SUS score (0–100) | C1 purpose | C2 join strangers | C3 voice comfort | C4 radar clarity | C5 privacy trust | C6 motivation | Device | Tasks not completed |
+| Participant | SUS score (0-100) | C1 purpose | C2 join strangers | C3 voice comfort | C4 radar clarity | C5 privacy trust | C6 motivation | Device | Tasks not completed |
 | ----------- | ----------------- | ---------- | ----------------- | ---------------- | ---------------- | ---------------- | ------------- | ------ | ------------------- |
 | Q1          |                   |            |                   |                  |                  |                  |               |        |                     |
 | Q2          |                   |            |                   |                  |                  |                  |               |        |                     |
@@ -28,7 +28,7 @@ Decision: **fix** (made in version 2), **defer** (valid, not done, say why), **r
 | Q5          |                   |            |                   |                  |                  |                  |               |        |                     |
 | **Mean**    |                   |            |                   |                  |                  |                  |               |        |                     |
 
-SUS per-item means (1–10):
+SUS per-item means (1-10):
 
 | Item | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

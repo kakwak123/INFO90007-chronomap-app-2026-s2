@@ -3,9 +3,9 @@
 //
 // The device frame is 390x844 with clipsContent = true, so content taller than the frame is
 // silently CUT rather than throwing. Each of these three screens lost its last row:
-//   09 Rally          — the "@ashlesha on the way" row
-//   10 Host briefing  — the "@ashlesha unassigned" station row
-//   12 Two groups     — the "Queue yours for 3:10" option body
+//   09 Rally          - the "@ashlesha on the way" row
+//   10 Host briefing  - the "@ashlesha unassigned" station row
+//   12 Two groups     - the "Queue yours for 3:10" option body
 //
 // Strategy: measure first, apply the targeted reduction, measure again, then fall back to a
 // generic gap/padding shrink only if the screen still overflows.
@@ -42,7 +42,7 @@ const mutated = [];
 
 // ---- 09 Rally: shorten the geofence illustration ----
 {
-  const s = byName('09 · Rally — gathering quorum');
+  const s = byName('09 · Rally - gathering quorum');
   if (s) {
     const b = bodyOf(s);
     report.rallyBefore = measure(b);
@@ -58,7 +58,7 @@ const mutated = [];
 
 // ---- 10 Host briefing: smaller radar ----
 {
-  const s = byName('10 · Briefing — host assigns stations');
+  const s = byName('10 · Briefing - host assigns stations');
   if (s) {
     const b = bodyOf(s);
     report.briefingBefore = measure(b);

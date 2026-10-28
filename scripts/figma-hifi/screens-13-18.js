@@ -1,14 +1,14 @@
-// Screens 13-18 — capture and results flow. Row y = 2520.
+// Screens 13-18 - capture and results flow. Row y = 2520.
 // RUN AS: cat _helpers.js screens-13-18.js   and pass the result as the use_figma `code` argument.
 
 const created = [];
 const Y = 2520;
 
-// ============ 13. CAPTURE — YOUR STATION ============
+// ============ 13. CAPTURE - YOUR STATION ============
 // Dark viewfinder. The amber directive banner is the whole point: the participant is told where
 // to stand, so the host's briefing assignment stays visible during the window.
 {
-  const s = SCREEN('13 · Capture — your station', X(0), Y, 'text/primary');
+  const s = SCREEN('13 · Capture - your station', X(0), Y, 'text/primary');
   const top = AL('HORIZONTAL', { itemSpacing: 10, paddingLeft: 16, paddingRight: 16, paddingTop: 4, paddingBottom: 10 });
   top.counterAxisAlignItems = 'CENTER'; s.appendChild(top); top.layoutSizingHorizontal = 'FILL';
   top.appendChild(ICON('x', 24, 'text/onInk'));
@@ -35,7 +35,7 @@ const Y = 2520;
   toast.counterAxisAlignItems = 'CENTER'; toast.cornerRadius = 10; toast.fills = [P('bg/surface')];
   mid.appendChild(toast);
   toast.appendChild(ICON('users', 16, 'brand/ink'));
-  toast.appendChild(T('@dhiraj_s has this angle — try the pillar', 'Caption', 'text/primary'));
+  toast.appendChild(T('@dhiraj_s has this angle - try the pillar', 'Caption', 'text/primary'));
   const hint = T('Keep the arch filling the frame. Move a few steps between shots.', 'Caption', 'text/onInk');
   vf.appendChild(hint); hint.layoutSizingHorizontal = 'FILL'; hint.textAutoResize = 'HEIGHT'; hint.textAlignHorizontal = 'CENTER'; hint.opacity = 0.8;
 
@@ -61,9 +61,9 @@ const Y = 2520;
   created.push(s.id);
 }
 
-// ============ 14. COVERAGE GUIDE — PARTICIPANT ============
+// ============ 14. COVERAGE GUIDE - PARTICIPANT ============
 {
-  const s = SCREEN('14 · Coverage guide — participant', X(1), Y);
+  const s = SCREEN('14 · Coverage guide - participant', X(1), Y);
   APPBAR(s, 'Coverage guide', 'Window 3:42 remaining');
   const b = BODY(s, 14);
   const row = AL('HORIZONTAL', { itemSpacing: 10 }); row.primaryAxisAlignItems = 'CENTER'; b.appendChild(row); row.layoutSizingHorizontal = 'FILL';
@@ -82,11 +82,11 @@ const Y = 2520;
   created.push(s.id);
 }
 
-// ============ 15. COVERAGE — HOST LIVE CONTROL ============
-// The host screen that gives the role actual powers — answers the marker's "who is the host?
+// ============ 15. COVERAGE - HOST LIVE CONTROL ============
+// The host screen that gives the role actual powers - answers the marker's "who is the host?
 // is this person just there monitoring?"
 {
-  const s = SCREEN('15 · Coverage — host live control', X(2), Y);
+  const s = SCREEN('15 · Coverage - host live control', X(2), Y);
   APPBAR(s, 'Coverage · host', 'Window 3:42 remaining');
   const b = BODY(s, 12);
   const stats = AL('HORIZONTAL', { itemSpacing: 10 }); b.appendChild(stats); stats.layoutSizingHorizontal = 'FILL';
@@ -117,7 +117,7 @@ const Y = 2520;
 }
 
 // ============ 16. QUICK CALLOUTS ============
-// Designed around stranger awkwardness rather than assuming it away — one-tap messages so the
+// Designed around stranger awkwardness rather than assuming it away - one-tap messages so the
 // collaboration does not depend on people being willing to shout at strangers.
 {
   const s = SCREEN('16 · Quick callouts (no talking required)', X(3), Y, 'text/primary');
@@ -131,9 +131,9 @@ const Y = 2520;
   const grab = figma.createRectangle(); grab.resize(44, 5); grab.cornerRadius = 3; grab.fills = [P('line/strong')];
   const gw = AL('HORIZONTAL'); gw.primaryAxisAlignItems = 'CENTER'; sheet.appendChild(gw); gw.layoutSizingHorizontal = 'FILL'; gw.appendChild(grab);
   TF(sheet, 'Send a quick callout', 'H2', 'text/primary');
-  TF(sheet, 'Goes to everyone in the session. Most people will not speak up to strangers mid-capture — tap instead.', 'BodySm', 'text/dim');
+  TF(sheet, 'Goes to everyone in the session. Most people will not speak up to strangers mid-capture - tap instead.', 'BodySm', 'text/dim');
   [['navigation', 'I’m moving to the west side'], ['check-circle', 'My side is done'], ['users', 'Someone take the north arch'],
-   ['alert-triangle', 'Something is blocking my view'], ['clock', 'I need two more minutes'], ['walk', 'Watch out — bikes coming through']].forEach(([ic, m]) => {
+   ['alert-triangle', 'Something is blocking my view'], ['clock', 'I need two more minutes'], ['walk', 'Watch out - bikes coming through']].forEach(([ic, m]) => {
     const r = AL('HORIZONTAL', { itemSpacing: 12, paddingLeft: 14, paddingRight: 14, paddingTop: 11, paddingBottom: 11 });
     r.counterAxisAlignItems = 'CENTER'; r.cornerRadius = 12; r.fills = [P('bg/base')]; r.strokes = [P('line/border')]; r.strokeWeight = 1;
     sheet.appendChild(r); r.layoutSizingHorizontal = 'FILL';
@@ -160,7 +160,7 @@ const Y = 2520;
   ring.fills = [P('brand/inkSoft')]; ring.strokes = [P('brand/ink')]; ring.strokeWeight = 3;
   hero.appendChild(ring); ring.appendChild(ICON('box', 58, 'brand/ink'));
   hero.appendChild(T('Building your ChronoMap', 'H1', 'text/primary'));
-  const sub = T('You can close the app — we will notify you.', 'Body', 'text/dim'); hero.appendChild(sub); sub.textAlignHorizontal = 'CENTER';
+  const sub = T('You can close the app - we will notify you.', 'Body', 'text/dim'); hero.appendChild(sub); sub.textAlignHorizontal = 'CENTER';
   BAR(b, 0.62, 'brand/ink');
   const steps = CARD('VERTICAL', 14); b.appendChild(steps); steps.layoutSizingHorizontal = 'FILL'; steps.counterAxisAlignItems = 'MIN';
   [['Uploaded 128 photos from 4 people', true], ['Quality and overlap checks', true], ['Blurring faces and licence plates', true],
@@ -192,7 +192,7 @@ const Y = 2520;
   });
   const nc = TINT('HORIZONTAL', 10, 'state/successSoft'); b.appendChild(nc); nc.layoutSizingHorizontal = 'FILL'; nc.paddingTop = 11; nc.paddingBottom = 11;
   nc.appendChild(ICON('sun', 20, 'state/success'));
-  TF(nc, 'Golden hour added — this landmark now has 2 of 6 conditions.', 'BodySm', 'text/primary');
+  TF(nc, 'Golden hour added - this landmark now has 2 of 6 conditions.', 'BodySm', 'text/primary');
   LBL(b, 'CONTRIBUTION SCORES');
   [['M', '@mapfox', 42, 96, 'Host'], ['J', '@you', 35, 81, 'Unique angles'], ['D', '@dhiraj_s', 31, 74, 'Contributor']].forEach(([i2, n1, ph, sc, bd]) => {
     const c = CARD('VERTICAL', 7); b.appendChild(c); c.layoutSizingHorizontal = 'FILL'; c.counterAxisAlignItems = 'MIN'; c.paddingTop = 10; c.paddingBottom = 10;

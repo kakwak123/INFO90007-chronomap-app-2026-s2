@@ -6,11 +6,11 @@
 
 **Recording setup:** Figma → Page 1 - Hi Fi → Prototype tab → Present. Scenes 1 to 6 run as one continuous path from the flow _ChronoMap · full journey_. Scene 7 starts from the flow _Home (skip onboarding)_. Click slowly and let the narration finish before moving on.
 
-**Suggested speakers:** John (1–2), Dhiraj (3–4), Yong En (5–6), Ashlesha (7–8).
+**Suggested speakers:** John (1-2), Dhiraj (3-4), Yong En (5-6), Ashlesha (7-8).
 
 ---
 
-## Scene 1 · The idea (0:00–0:20)
+## Scene 1 · The idea (0:00-0:20)
 
 <table><tr>
 <td align="center"><img src="video-assets/01-onboarding.png" width="170"><br><sub>01 Onboarding</sub></td>
@@ -22,7 +22,7 @@
 
 ---
 
-## Scene 2 · Home, Community and requests (0:20–0:45)
+## Scene 2 · Home, Community and requests (0:20-0:45)
 
 <table><tr>
 <td align="center"><img src="video-assets/02-home.png" width="170"><br><sub>02 Home</sub></td>
@@ -36,7 +36,7 @@
 
 ---
 
-## Scene 3 · Rules, rally and briefing (0:45–1:10)
+## Scene 3 · Rules, rally and briefing (0:45-1:10)
 
 <table><tr>
 <td align="center"><img src="video-assets/07-rules.png" width="150"><br><sub>07 Rules</sub></td>
@@ -52,7 +52,7 @@ _Optional cut-in:_ 11 "Your station" shows what a participant sees, but it isn't
 
 ---
 
-## Scene 4 · Voice and live capture (1:10–1:45)
+## Scene 4 · Voice and live capture (1:10-1:45)
 
 <table><tr>
 <td align="center"><img src="video-assets/13-voice-channel.png" width="170"><br><sub>13 Voice channel</sub></td>
@@ -66,7 +66,7 @@ _Optional cut-in:_ 11 "Your station" shows what a participant sees, but it isn't
 
 ---
 
-## Scene 5 · Flagging a participant live (1:45–2:10)
+## Scene 5 · Flagging a participant live (1:45-2:10)
 
 <table><tr>
 <td align="center"><img src="video-assets/14-live-capture.png" width="150"><br><sub>14 Live capture</sub></td>
@@ -80,7 +80,7 @@ _Optional cut-in:_ 11 "Your station" shows what a participant sees, but it isn't
 
 ---
 
-## Scene 6 · Artifact and sharing (2:10–2:30)
+## Scene 6 · Artifact and sharing (2:10-2:30)
 
 <table><tr>
 <td align="center"><img src="video-assets/16-capture-complete.png" width="150"><br><sub>16 Capture complete</sub></td>
@@ -94,7 +94,7 @@ _Optional cut-in:_ 11 "Your station" shows what a participant sees, but it isn't
 
 ---
 
-## Scene 7 · Reporting and moderation (2:30–2:45)
+## Scene 7 · Reporting and moderation (2:30-2:45)
 
 <table><tr>
 <td align="center"><img src="video-assets/22-community-model.png" width="150"><br><sub>22 Community model</sub></td>
@@ -108,7 +108,7 @@ _Optional cut-in:_ 11 "Your station" shows what a participant sees, but it isn't
 
 ---
 
-## Scene 8 · Design, evaluation and close (2:45–3:00)
+## Scene 8 · Design, evaluation and close (2:45-3:00)
 
 <table><tr>
 <td align="center"><img src="video-assets/02-home.png" width="100"><br><sub>Original 02</sub></td>

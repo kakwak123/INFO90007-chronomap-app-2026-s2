@@ -5,21 +5,21 @@ import { Pressable, Text, View } from 'react-native';
 import { Card, H, Label, P, Screen } from '@/ui/kit';
 import { C, R } from '@/ui/theme';
 
-/** Every screen, reachable in one tap — the shot list for the A3 demo video. */
+/** Every screen, reachable in one tap - the shot list for the A3 demo video. */
 const SCREENS: { route: string; label: string }[] = [
   { route: '/', label: '01 · Onboarding' },
-  { route: '/home', label: '02–04 · Home (Nearby / Requests / Events)' },
+  { route: '/home', label: '02-04 · Home (Nearby / Requests / Events)' },
   { route: '/request-detail', label: '05 · Request detail' },
   { route: '/notifications', label: '06 · Notifications' },
   { route: '/rules', label: '07 · Rules & safety' },
   { route: '/create', label: '08 · Create a session' },
-  { route: '/rally', label: '09 · Rally — quorum' },
-  { route: '/briefing', label: '10 · Briefing — host' },
-  { route: '/station', label: '11 · Briefing — your station' },
+  { route: '/rally', label: '09 · Rally - quorum' },
+  { route: '/briefing', label: '10 · Briefing - host' },
+  { route: '/station', label: '11 · Briefing - your station' },
   { route: '/conflict', label: '12 · Two groups, one landmark' },
   { route: '/capture', label: '13 · Capture' },
-  { route: '/coverage', label: '14 · Coverage — participant' },
-  { route: '/coverage-host', label: '15 · Coverage — host' },
+  { route: '/coverage', label: '14 · Coverage - participant' },
+  { route: '/coverage-host', label: '15 · Coverage - host' },
   { route: '/callouts', label: '16 · Quick callouts' },
   { route: '/processing', label: '17 · Processing' },
   { route: '/results', label: '18 · Results' },
@@ -34,8 +34,8 @@ export default function About() {
     <Screen title="About ChronoMap 3D">
       <H>Heritage, kept by whoever shows up</H>
       <P>
-        ChronoMap 3D turns a group of phones into one distributed camera. People who happen to be at the same place — usually
-        strangers — are organised into a short, co-located capture window, and the result is a 3D model nobody could have made
+        ChronoMap 3D turns a group of phones into one distributed camera. People who happen to be at the same place - usually
+        strangers - are organised into a short, co-located capture window, and the result is a 3D model nobody could have made
         alone.
       </P>
       <Card style={{ gap: 6 }}>
@@ -52,7 +52,7 @@ export default function About() {
       </Card>
 
       <Label>All screens</Label>
-      <Text style={{ color: C.textDim, fontSize: 12 }}>Prototype navigation — every screen in the high-fidelity set.</Text>
+      <Text style={{ color: C.textDim, fontSize: 12 }}>Prototype navigation - every screen in the high-fidelity set.</Text>
       <View style={{ gap: 8 }}>
         {SCREENS.map((s) => (
           <Pressable

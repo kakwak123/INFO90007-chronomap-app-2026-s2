@@ -6,7 +6,7 @@ import { Avatar, Btn, Card, Label, Pill, Screen, Stat } from '@/ui/kit';
 import { C, R } from '@/ui/theme';
 
 const THREAD = [
-  { i: 'M', handle: '@mapfox', dist: '400 m away', msg: 'The west beds are best lit around 6pm — worth timing a rally for then.' },
+  { i: 'M', handle: '@mapfox', dist: '400 m away', msg: 'The west beds are best lit around 6pm - worth timing a rally for then.' },
   { i: 'Y', handle: '@yongen', dist: '1.1 km away', msg: 'I can bring a second phone so we hit quorum faster.' },
 ];
 

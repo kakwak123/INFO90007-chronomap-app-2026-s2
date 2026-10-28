@@ -170,7 +170,7 @@ C = completed without help, P = completed with an assist or after an error, F = 
 
 | Report section               | Comes from                                                           |
 | ---------------------------- | -------------------------------------------------------------------- |
-| §2.4 Method                  | §1 decisions, §2 participants, §5 tasks, §6–7 protocols, §9 analysis |
+| §2.4 Method                  | §1 decisions, §2 participants, §5 tasks, §6-7 protocols, §9 analysis |
 | §3.4.1 Participants table    | recruitment records (codes only)                                     |
 | §3.4.2 Task performance      | session notes, task rows                                             |
 | §3.4.3 Questionnaire results | form responses, SUS scoring                                          |

@@ -95,18 +95,18 @@ For Assignment 3 the ideation continued in two ways. `[FILL: describe how new fe
 
 ### 2.2 Prototyping techniques and rounds
 
-_Rubric: "multiple prototyping techniques used and their appropriateness well-justified" and "several iterations". Source: A2 §2.2 for rounds 1–3; decision log for rounds 4–5. Status: drafted, dates to confirm. ~300 words._
+_Rubric: "multiple prototyping techniques used and their appropriateness well-justified" and "several iterations". Source: A2 §2.2 for rounds 1-3; decision log for rounds 4-5. Status: drafted, dates to confirm. ~300 words._
 
 We prototyped in six rounds, raising fidelity only once the previous round had settled. Each technique was chosen for the question it could answer cheaply at that stage.
 
 | Round | When                | Technique                                                     | Fidelity | What it was for                                                                                                   | How it was reviewed                                                        | Figures |
 | ----- | ------------------- | ------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------- |
-| 1     | Aug–Sep (A2)        | Hand-drawn paper sketches                                     | Low      | The three scenarios with most uncertainty: joining, recruiting passers-by, creating a session. Quick to redraw.   | Group review against the community heuristic cards                         | 1–4     |
+| 1     | Aug-Sep (A2)        | Hand-drawn paper sketches                                     | Low      | The three scenarios with most uncertainty: joining, recruiting passers-by, creating a session. Quick to redraw.   | Group review against the community heuristic cards                         | 1-4     |
 | 2     | Sep (A2)            | Scenario storyboard                                           | Low      | Put the screens in a social situation (three friends at a landmark) to test whether the collaboration made sense. | Zoom review                                                                | 5       |
 | 3     | Sep (A2)            | Greyscale Figma wireframes                                    | Low      | Structure and wording of the four core screens without visual design.                                             | Zoom review against heuristics and the co-location and synchronicity rules | 6       |
-| 4     | `[FILL: ~8–16 Oct]` | High-fidelity interactive Figma prototype, version 1 (Page 1) | High     | The full journey, every screen linked, so the flow could be demonstrated and tested.                              | Tutor feedback `[FILL: which session]`, WCAG contrast audit, decision log  | 7–`[n]` |
+| 4     | `[FILL: ~8-16 Oct]` | High-fidelity interactive Figma prototype, version 1 (Page 1) | High     | The full journey, every screen linked, so the flow could be demonstrated and tested.                              | Tutor feedback `[FILL: which session]`, WCAG contrast audit, decision log  | 7-`[n]` |
 | 5     | 16 Oct              | Editorial visual direction (Page 3)                           | High     | A second visual identity after a design critique found the first pass generic.                                    | Side-by-side comparison, contrast audit                                    | `[n]`   |
-| 6     | `[FILL: 29–31 Oct]` | High-fidelity prototype, version 2                            | High     | Fixes motivated by the user evaluation (§3.5).                                                                    | Re-check of all prototype links                                            | `[n]`   |
+| 6     | `[FILL: 29-31 Oct]` | High-fidelity prototype, version 2                            | High     | Fixes motivated by the user evaluation (§3.5).                                                                    | Re-check of all prototype links                                            | `[n]`   |
 
 Low fidelity was used first because it is cheap to change and invites criticism of structure rather than appearance. High fidelity was needed for Assignment 3 so that participants could use realistic content, real transitions and real wording, which is what the evaluation methods in §2.4 depend on. `[FILL: one sentence on what the Expo app build was for, if you want to mention it at all; the handout does not require it. If mentioned, call it an exploratory build and do not claim features the repo does not contain.]`
 
@@ -136,14 +136,14 @@ _Rubric: System Evaluation. The lecturer expects a justification of the two meth
 | Querying method     | **Questionnaire**, 5 different participants. They complete the same five tasks unobserved from a task sheet, then answer the System Usability Scale (SUS) [7], six custom items on the social aspects (willingness to join strangers, comfort with voice, clarity of the radar, trust in the privacy controls, motivation of the artifact and badges, clarity of purpose) and two open questions. Can be done remotely. |
 | Participants        | `[FILL: who they were, how recruited, age band, familiarity with 3D capture or photogrammetry; aim for a mix, including some classmates who know the design space]`                                                                                                                                                                                                                                                     |
 | Setting and dates   | `[FILL]`                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Measures            | Task success (complete, partial, failed), assists, errors, time per task, observed problems with severity (0–4), SUS score, custom item scores, open-text themes                                                                                                                                                                                                                                                        |
+| Measures            | Task success (complete, partial, failed), assists, errors, time per task, observed problems with severity (0-4), SUS score, custom item scores, open-text themes                                                                                                                                                                                                                                                        |
 | Consent and privacy | Verbal consent to take part and to audio recording; participants identified by code only; recordings deleted after submission                                                                                                                                                                                                                                                                                           |
 
 **Why these two.** Think-aloud was chosen because the main risk in a multi-screen flow is people getting lost or misreading a screen, and verbalised thought shows where and why that happens at the moment it happens. It is simple to run reliably in the time available. Its weaknesses are that it is subjective, that speaking slows people down, and that five people can disagree. The questionnaire complements it in two ways: SUS gives a comparable usability score rather than opinions, and the custom items measure the social constructs that watching someone click cannot reach, such as whether they would actually join a session with strangers or speak on the voice channel. We deliberately did not pair think-aloud with interviews because both would yield the same kind of qualitative, in-the-moment data.
 
 **Synchronous behaviour in a single-user prototype.** The prototype cannot connect real participants, so the other people in a session are staged: the rally fills, the host's callout arrives, the radar updates. Participants were told this in the task briefing and asked to treat the staged people as real, which is the approach the lecturer recommended for synchronous systems.
 
-**Analysis.** Problems from the five think-aloud sessions were logged with screen, evidence, number of participants affected and severity, then ranked by frequency and severity. SUS was scored per the standard method (0–100) and reported with the per-item pattern. Open answers were grouped into themes. Changes were made where a problem was frequent or severe and the fix was within scope; others were recorded as deferred with a reason (§3.5).
+**Analysis.** Problems from the five think-aloud sessions were logged with screen, evidence, number of participants affected and severity, then ranked by frequency and severity. SUS was scored per the standard method (0-100) and reported with the per-item pattern. Open answers were grouped into themes. Changes were made where a problem was frequent or severe and the fix was within scope; others were recorded as deferred with a reason (§3.5).
 
 ---
 
@@ -183,7 +183,7 @@ In these rounds a session was a shared time window and each participant pressed 
 
 #### 3.2.2 High-fidelity prototype, version 1
 
-_Source: earlier A3 draft §3.1 and decision log #24–#31. Status: drafted; verify the inventory against the Figma file and export the missing screenshots._
+_Source: earlier A3 draft §3.1 and decision log #24-#31. Status: drafted; verify the inventory against the Figma file and export the missing screenshots._
 
 The first high-fidelity version was built in Figma (Page 1) as a click-through prototype. Figure 7 shows the canvas with screens grouped by flow. `[FILL: export of the Figma canvas.]`
 
@@ -253,26 +253,26 @@ The first high-fidelity pass (navy and amber) was functionally complete but look
 
 ### 3.3 Features and how they support social behaviour
 
-_Rubric: Creativity and Complexity, System Design ("explain in detail the different features and how they support social behaviours, and justify the design decisions"). Source: earlier draft §3.2–3.4 and §5, A2 §3.3. Status: drafted; add screenshots and your own wording. ~600 words._
+_Rubric: Creativity and Complexity, System Design ("explain in detail the different features and how they support social behaviours, and justify the design decisions"). Source: earlier draft §3.2-3.4 and §5, A2 §3.3. Status: drafted; add screenshots and your own wording. ~600 words._
 
 Table `[n]` summarises the mapping; the subsections explain the main decisions.
 
 | Feature                                        | Social behaviour supported (3C)   | Community heuristic                                      | Screens     |
 | ---------------------------------------------- | --------------------------------- | -------------------------------------------------------- | ----------- |
-| Onboarding that states purpose first           | –                                 | Purpose: clarity, visibility; Platform: motive           | 01          |
+| Onboarding that states purpose first           | -                                 | Purpose: clarity, visibility; Platform: motive           | 01          |
 | Nearby sessions, QR and four-letter code       | Coordination (finding each other) | Members: recruitment                                     | 02, 09      |
 | Request board with votes and conditions        | Cooperation (crowd decides where) | Contribution: request list, targeted requests, threshold | 03, 05      |
 | Events tab                                     | Coordination (strangers plan)     | Common ground: events                                    | 04          |
 | Condition-based requests (golden hour, rain)   | Cooperation                       | Common ground: subgroups                                 | 03, 08      |
-| Rules with explicit agreement                  | –                                 | Moderation: regulation                                   | 07          |
+| Rules with explicit agreement                  | -                                 | Moderation: regulation                                   | 07          |
 | Quorum before capture                          | Coordination                      | Contribution: threshold                                  | 08, 09      |
 | Coverage radar with assigned stations          | Coordination                      | Platform: virtual co-presence, tools                     | 10, 11, 14  |
 | Voice channel, muted by default                | Communication                     | Platform: virtual co-presence                            | 13, 14      |
 | Host callout with one-tap replies              | Communication, coordination       | Members: self-presentation (opt-out)                     | 15          |
 | Capture window with timer                      | Cooperation (shared instant)      | Platform: rituals                                        | 14          |
-| Artifact exhibit, badges, S-rank               | –                                 | Contribution: motivators; Platform: reputation           | 16, 18, 19  |
-| Share card with coordinates off, faces blurred | –                                 | Moderation: regulation                                   | 20          |
-| Report, flag participant, moderator queue      | –                                 | Moderation: monitoring, moderation                       | 14a, 23, 25 |
+| Artifact exhibit, badges, S-rank               | -                                 | Contribution: motivators; Platform: reputation           | 16, 18, 19  |
+| Share card with coordinates off, faces blurred | -                                 | Moderation: regulation                                   | 20          |
+| Report, flag participant, moderator queue      | -                                 | Moderation: monitoring, moderation                       | 14a, 23, 25 |
 
 #### 3.3.1 Finding a session and forming a group (crowdsourcing, recruitment)
 
@@ -286,7 +286,7 @@ Assignment 2 assumed participants would "talk to each other". The prototype desi
 
 `[DECIDE: which capture model the report presents. A2 and the Figma prototype use a free capture window with a manual shutter and a timer; the exploratory app used a synchronised shutter with a sync score. Recommended: present the window model, consistent with A2 and the prototype, and mention the synchronised shutter as an alternative considered and why it was not chosen (harder to coordinate, more failure cases).]`
 
-`[FILL / rewrite from A2 §3.3.2–3.3.3: the window keeps every photo close in time; redundancy across participants handles moving pedestrians and blocked views; the radar divides the site into stations and marks thin sides; window length trades consistency against coverage.]`
+`[FILL / rewrite from A2 §3.3.2-3.3.3: the window keeps every photo close in time; redundancy across participants handles moving pedestrians and blocked views; the radar divides the site into stations and marks thin sides; window length trades consistency against coverage.]`
 
 #### 3.3.4 After capture: artifact, badges and sharing (motivators)
 
@@ -305,8 +305,8 @@ _Rubric: System Evaluation, "results well-presented", "meaningful and interestin
 | Code  | Method        | Role / background | Familiar with 3D capture? | Device   | Date     |
 | ----- | ------------- | ----------------- | ------------------------- | -------- | -------- |
 | P1    | Think-aloud   | `[FILL]`          | `[FILL]`                  | `[FILL]` | `[FILL]` |
-| P2–P5 | Think-aloud   | …                 |                           |          |          |
-| Q1–Q5 | Questionnaire | …                 |                           |          |          |
+| P2-P5 | Think-aloud   | …                 |                           |          |          |
+| Q1-Q5 | Questionnaire | …                 |                           |          |          |
 
 #### 3.4.2 Task performance (think-aloud group)
 
@@ -321,14 +321,14 @@ _Rubric: System Evaluation, "results well-presented", "meaningful and interestin
 #### 3.4.3 Questionnaire results
 
 - **SUS:** mean `[FILL]` (SD `[FILL]`), range `[FILL]`; benchmark average 68 [7]. Per-item pattern: `[FILL: which items scored lowest, e.g. "needed to learn a lot" or "complex"]`.
-- **Custom items (1–5):** willingness to join strangers `[FILL]`; comfort with voice `[FILL]`; radar clarity `[FILL]`; trust in privacy controls `[FILL]`; motivation of artifact and badges `[FILL]`; clarity of purpose `[FILL]`.
+- **Custom items (1-5):** willingness to join strangers `[FILL]`; comfort with voice `[FILL]`; radar clarity `[FILL]`; trust in privacy controls `[FILL]`; motivation of artifact and badges `[FILL]`; clarity of purpose `[FILL]`.
 - **Open answers, themes:** `[FILL]`
 
 #### 3.4.4 Findings
 
 _One row per problem. Keep the ones that matter; the lecturer wants "very specifically the problems that your users found"._
 
-| ID  | Finding  | Evidence (quote or observation) | Participants | Severity (0–4) | Heuristic violated | Decision (fix / defer / reject, with reason) |
+| ID  | Finding  | Evidence (quote or observation) | Participants | Severity (0-4) | Heuristic violated | Decision (fix / defer / reject, with reason) |
 | --- | -------- | ------------------------------- | ------------ | -------------- | ------------------ | -------------------------------------------- |
 | F1  | `[FILL]` | `[FILL]`                        | `[FILL]`     | `[FILL]`       | `[FILL]`           | `[FILL]`                                     |
 
@@ -401,7 +401,7 @@ Peer assessment is completed in FeedbackFruits (linked from the Canvas submissio
 
 ## AI Use Statement
 
-_Required: 50–300 words plus logs of prompts and outputs. The lecturer said to write first and use AI to improve, and that AI-first text is recognisable; the oral assessment asks you to explain what is written. Status: draft; the team must make it accurate._
+_Required: 50-300 words plus logs of prompts and outputs. The lecturer said to write first and use AI to improve, and that AI-first text is recognisable; the oral assessment asks you to explain what is written. Status: draft; the team must make it accurate._
 
 Yes. The group used AI tools in completing this assessment.
 
@@ -417,20 +417,20 @@ Logs: `[FILL: shareable links or an appendix PDF of the chat logs, including the
 
 _Verify every entry before submission; format consistently (the A2 report used numbered Vancouver style)._
 
-1. Schönberger JL, Frahm JM. Structure-from-motion revisited. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2016 Jun 27–30; Las Vegas, NV, USA. p. 4104–13.
+1. Schönberger JL, Frahm JM. Structure-from-motion revisited. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2016 Jun 27-30; Las Vegas, NV, USA. p. 4104-13.
 2. `[FILL: the community heuristics paper from the Week 5 reading, "Community Heuristics for User Interface Evaluation of Crowdsourcing Platforms"; take the full citation from Canvas.]`
 3. Nielsen J. 10 usability heuristics for user interface design. Nielsen Norman Group; 1994, updated 2024. https://www.nngroup.com/articles/ten-usability-heuristics/ `[VERIFY: access date]`
 4. `[FILL: the 3C collaboration model reading from Week 2; take the citation from Canvas.]`
 5. W3C. Web Content Accessibility Guidelines (WCAG) 2.1. W3C Recommendation; 2018. https://www.w3.org/TR/WCAG21/ `[VERIFY: access date]`
 6. `[FILL: Apple Human Interface Guidelines or Material Design 3, whichever §2.3 names, with URL and access date.]`
-7. Brooke J. SUS: a "quick and dirty" usability scale. In: Jordan PW, Thomas B, Weerdmeester BA, McClelland IL, editors. Usability evaluation in industry. London: Taylor & Francis; 1996. p. 189–94.
+7. Brooke J. SUS: a "quick and dirty" usability scale. In: Jordan PW, Thomas B, Weerdmeester BA, McClelland IL, editors. Usability evaluation in industry. London: Taylor & Francis; 1996. p. 189-94.
 8. `[FILL: any lecture or tutorial material cited, and any product documentation used in §4.3.]`
 
 ---
 
 ## Appendix A: Figma file and flows
 
-- File: _ChronoMap 3D — Low-Fi Prototype_ (the file keeps its A2 name). `Page 1 - Hi Fi` holds high-fidelity version 1 `[and version 2?]`; `Page 3 · Editorial` holds the editorial direction. Prototype flows: _ChronoMap · full journey_ (starts at 01) and _Home (skip onboarding)_.
+- File: _ChronoMap 3D - Low-Fi Prototype_ (the file keeps its A2 name). `Page 1 - Hi Fi` holds high-fidelity version 1 `[and version 2?]`; `Page 3 · Editorial` holds the editorial direction. Prototype flows: _ChronoMap · full journey_ (starts at 01) and _Home (skip onboarding)_.
 - `[FILL: Present-mode link for the final flow.]`
 
 ## Appendix B: Design decision log

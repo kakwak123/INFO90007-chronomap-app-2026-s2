@@ -10,7 +10,7 @@ const STEPS = [
   {
     icon: 'people-outline',
     title: 'Gather at a landmark',
-    body: 'Join people who are already at the same place — usually strangers. Find a live session nearby, scan the on-site QR code, or enter a four-letter code.',
+    body: 'Join people who are already at the same place - usually strangers. Find a live session nearby, scan the on-site QR code, or enter a four-letter code.',
   },
   {
     icon: 'navigate-outline',
@@ -25,7 +25,7 @@ const STEPS = [
   {
     icon: 'cube-outline',
     title: 'Keep your souvenir',
-    body: 'Photos become a 3D model. Every contributor is credited — and the landmark stays open, because it is not finished until every season and light is captured.',
+    body: 'Photos become a 3D model. Every contributor is credited - and the landmark stays open, because it is not finished until every season and light is captured.',
   },
 ] as const;
 

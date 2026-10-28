@@ -9,7 +9,7 @@ import { C, R } from '@/ui/theme';
  * A2 feedback, verbatim: "So there's a profile for users? The final iteration should contain
  * these, especially if it's outlined as important features of the product."
  *
- * Reputation is load-bearing here rather than decorative — it is what makes a stranger worth
+ * Reputation is load-bearing here rather than decorative - it is what makes a stranger worth
  * standing next to, and it is the app's answer to "why would I come back".
  */
 export default function Profile() {

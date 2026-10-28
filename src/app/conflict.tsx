@@ -7,7 +7,7 @@ import { C } from '@/ui/theme';
 
 /**
  * A2 feedback: "how is it decided if there are multiple groups taking pictures on [the same
- * landmark]?" — a question the report had no answer to. This is the answer.
+ * landmark]?" - a question the report had no answer to. This is the answer.
  */
 const OPTIONS: { icon: IconName; title: string; sub: string; body: string; tag: string; tone: Tone; best?: boolean }[] = [
   {

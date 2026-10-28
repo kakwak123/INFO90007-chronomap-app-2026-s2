@@ -1,4 +1,4 @@
-// Screens 19-22 — identity, archive and governance. Row y = 3480.
+// Screens 19-22 - identity, archive and governance. Row y = 3480.
 // RUN AS: cat _helpers.js screens-19-22.js   and pass the result as the use_figma `code` argument.
 //
 // Screen 20 (Profile) exists because the marker asked for it directly: "So there's a profile for
@@ -67,9 +67,9 @@ const NAV = (parent, active) => {
   created.push(s.id);
 }
 
-// ============ 20. PROFILE — REPUTATION & SOUVENIRS ============
+// ============ 20. PROFILE - REPUTATION & SOUVENIRS ============
 {
-  const s = SCREEN('20 · Profile — reputation & souvenirs', X(1), Y);
+  const s = SCREEN('20 · Profile - reputation & souvenirs', X(1), Y);
   APPBAR(s, '@you', 'Joined March 2026');
   const b = BODY(s, 12);
   const hd = AL('HORIZONTAL', { itemSpacing: 14 }); hd.counterAxisAlignItems = 'CENTER'; b.appendChild(hd); hd.layoutSizingHorizontal = 'FILL';
@@ -105,11 +105,11 @@ const NAV = (parent, active) => {
   created.push(s.id);
 }
 
-// ============ 21. LANDMARK — THE ARCHIVE OVER TIME ============
+// ============ 21. LANDMARK - THE ARCHIVE OVER TIME ============
 // Makes the "Chrono" in ChronoMap do work: a landmark is never finished, which is also the
 // structural reason the task needs a crowd rather than one group.
 {
-  const s = SCREEN('21 · Landmark — conditions & history', X(2), Y);
+  const s = SCREEN('21 · Landmark - conditions & history', X(2), Y);
   APPBAR(s, 'Royal Melbourne Hospital', 'Parkville · 3 captures');
   const b = BODY(s, 12);
   const hero = AL('VERTICAL', { itemSpacing: 6 }); hero.primaryAxisAlignItems = 'CENTER'; hero.counterAxisAlignItems = 'CENTER';
@@ -122,7 +122,7 @@ const NAV = (parent, active) => {
   TF(pr, 'ARCHIVE COMPLETENESS', 'Label', 'text/dim');
   pr.appendChild(PILL('2 of 6', 'Accent'));
   BAR(b, 2 / 6, 'accent/amber');
-  TF(b, 'A place is never "done". Each condition needs its own synchronised session — which is why no single group can finish a landmark alone.', 'BodySm', 'text/dim');
+  TF(b, 'A place is never "done". Each condition needs its own synchronised session - which is why no single group can finish a landmark alone.', 'BodySm', 'text/dim');
 
   LBL(b, 'CONDITIONS');
   const grid = AL('VERTICAL', { itemSpacing: 8 }); b.appendChild(grid); grid.layoutSizingHorizontal = 'FILL';

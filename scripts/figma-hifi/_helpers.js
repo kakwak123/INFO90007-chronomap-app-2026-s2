@@ -1,6 +1,6 @@
 // Shared preamble for the ChronoMap hi-fi Figma build scripts.
 //
-// use_figma scripts are self-contained — no state survives between calls — so this block is
+// use_figma scripts are self-contained - no state survives between calls - so this block is
 // pasted at the top of each screen script rather than imported. Keep this file as the source of
 // truth and copy it forward when editing.
 //
@@ -14,12 +14,12 @@ await Promise.all(['Regular', 'Medium', 'Semi Bold', 'Bold'].map(s => figma.load
 
 // Variable-bound paint. Never hardcode a hex in a screen script.
 const P = n => figma.variables.setBoundVariableForPaint({ type: 'SOLID', color: { r: 0, g: 0, b: 0 } }, 'color', V[n]);
-// Same, at partial opacity — opacity lives on the paint, not the color.
+// Same, at partial opacity - opacity lives on the paint, not the color.
 const PO = (n, o) => { const p = P(n); return { ...p, opacity: o }; };
 
 const T = (chars, style, color) => { const t = figma.createText(); t.fontName = { family: 'Inter', style: 'Regular' }; t.characters = chars; t.textStyleId = TS[style].id; t.fills = [P(color)]; return t; };
 
-// createAutoLayout returns a frame with a default WHITE fill — invisible on white cards, obvious
+// createAutoLayout returns a frame with a default WHITE fill - invisible on white cards, obvious
 // on tinted ones. Always clear it; deliberate fills are set explicitly and are variable-bound.
 const AL = (dir, props) => { const f = figma.createAutoLayout(dir, props || {}); f.fills = []; return f; };
 
@@ -38,7 +38,7 @@ const SPACER = p => { const r = figma.createFrame(); r.fills = []; r.resize(8, 1
 const LBL = (parent, s) => { const t = T(s, 'Label', 'text/dim'); parent.appendChild(t); return t; };
 const CENTER = (parent, child) => { const w = AL('HORIZONTAL'); w.primaryAxisAlignItems = 'CENTER'; w.counterAxisAlignItems = 'CENTER'; parent.appendChild(w); w.layoutSizingHorizontal = 'FILL'; w.appendChild(child); return w; };
 
-// 390x844 device frame. clipsContent is true, so overflowing content is silently CUT — audit each
+// 390x844 device frame. clipsContent is true, so overflowing content is silently CUT - audit each
 // screen visually after building.
 const SCREEN = (name, x, y, bg) => {
   const f = AL('VERTICAL', { name, itemSpacing: 0 });

@@ -128,9 +128,9 @@ Type pairs **Fraunces** (headings) with **Inter** (body and controls). Spacing f
 
 ### 4.3 Accessibility
 
-We audited every text and background pair against WCAG 2.1 AA (4.5:1 for body text, 3:1 for large text). On the original prototype, 16 colour pairs failed (about 80 text elements), mainly amber on cream (2.4:1), white on amber (2.7:1) and grey on tinted cards (4.1–4.4:1). We fixed these by darkening the foreground only, so the appearance is unchanged. After the fix the audit reports zero failures. The editorial pilot screens also pass. `[INSERT: re-run the audit on the final editorial screens and update this paragraph.]`
+We audited every text and background pair against WCAG 2.1 AA (4.5:1 for body text, 3:1 for large text). On the original prototype, 16 colour pairs failed (about 80 text elements), mainly amber on cream (2.4:1), white on amber (2.7:1) and grey on tinted cards (4.1-4.4:1). We fixed these by darkening the foreground only, so the appearance is unchanged. After the fix the audit reports zero failures. The editorial pilot screens also pass. `[INSERT: re-run the audit on the final editorial screens and update this paragraph.]`
 
-Colour is never the only signal: states carry text labels (for example "LIVE", "Thin — assign"), and primary buttons are 48–52 px tall. `[INSERT: confirm touch-target sizes for links and small controls.]`
+Colour is never the only signal: states carry text labels (for example "LIVE", "Thin - assign"), and primary buttons are 48-52 px tall. `[INSERT: confirm touch-target sizes for links and small controls.]`
 
 ### 4.4 Imagery
 
@@ -266,7 +266,7 @@ Yes. The group used AI tools during this assignment. Claude (Anthropic) was used
 
 ## References
 
-1. Schönberger JL, Frahm JM. Structure-from-motion revisited. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2016 Jun 27–30; Las Vegas, NV, USA. p. 4104–13.
+1. Schönberger JL, Frahm JM. Structure-from-motion revisited. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2016 Jun 27-30; Las Vegas, NV, USA. p. 4104-13.
 2. W3C. Web Content Accessibility Guidelines (WCAG) 2.1. `[INSERT: URL and access date]`
 3. `[INSERT: any further sources cited, such as the community heuristics framework from the subject materials.]`
 
@@ -274,7 +274,7 @@ Yes. The group used AI tools during this assignment. Claude (Anthropic) was used
 
 ## Appendix A: Figma and repository
 
-- Figma file: `ChronoMap 3D — Low-Fi Prototype`. `Page 1 - Hi Fi` holds the original prototype, and `Page 3 · Editorial` holds the editorial redesign. `[INSERT: shareable view link.]`
+- Figma file: `ChronoMap 3D - Low-Fi Prototype`. `Page 1 - Hi Fi` holds the original prototype, and `Page 3 · Editorial` holds the editorial redesign. `[INSERT: shareable view link.]`
 - Repository: `INFO90007-chronomap-app-2026-s2`. Start the app with `npx expo start`.
 - Assignment 2 report: `docs/INFO90007_Assignment_2___ChronoMap_3D.pdf`.
 

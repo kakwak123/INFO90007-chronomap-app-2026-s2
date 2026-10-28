@@ -25,7 +25,7 @@ export default function Processing() {
           <Ionicons name="cube-outline" size={58} color={C.ink} />
         </View>
         <H>Building your ChronoMap</H>
-        <P style={{ textAlign: 'center' }}>You can close the app — we will notify you.</P>
+        <P style={{ textAlign: 'center' }}>You can close the app - we will notify you.</P>
       </View>
 
       <Bar pct={0.62} />

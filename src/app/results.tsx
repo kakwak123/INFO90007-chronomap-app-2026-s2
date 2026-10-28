@@ -30,10 +30,10 @@ export default function Results() {
         <Stat value="5:00" label="window" />
       </View>
 
-      {/* Ties the session back to the archive — the reason to come back. */}
+      {/* Ties the session back to the archive - the reason to come back. */}
       <Card tone="good" style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
         <Ionicons name="partly-sunny-outline" size={20} color={C.success} />
-        <Text style={{ color: C.text, fontSize: 13, flex: 1 }}>Golden hour added — this landmark now has 2 of 6 conditions.</Text>
+        <Text style={{ color: C.text, fontSize: 13, flex: 1 }}>Golden hour added - this landmark now has 2 of 6 conditions.</Text>
       </Card>
 
       <Label>Contribution scores</Label>

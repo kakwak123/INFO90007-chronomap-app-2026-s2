@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Blocks commits that introduce em dashes or en dashes in authored text.
+# Enable once per clone:  git config core.hooksPath .githooks
+staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|tex|ts|tsx|js|sh|json|txt)$' || true)
+[ -z "$staged" ] && exit 0
+# shellcheck disable=SC2086
+bash scripts/check-dashes.sh $staged || {
+  echo
+  echo "Commit blocked. Fix with: python scripts/fix-dashes.py"
+  echo "To bypass deliberately (e.g. a verbatim quotation): git commit --no-verify"
+  exit 1
+}

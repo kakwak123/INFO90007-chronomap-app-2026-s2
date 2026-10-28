@@ -5,7 +5,7 @@
   await figma.setCurrentPageAsync(page);
 // Shared preamble for the ChronoMap hi-fi Figma build scripts.
 //
-// use_figma scripts are self-contained — no state survives between calls — so this block is
+// use_figma scripts are self-contained - no state survives between calls - so this block is
 // pasted at the top of each screen script rather than imported. Keep this file as the source of
 // truth and copy it forward when editing.
 //
@@ -19,12 +19,12 @@ await Promise.all(['Regular', 'Medium', 'Semi Bold', 'Bold'].map(s => figma.load
 
 // Variable-bound paint. Never hardcode a hex in a screen script.
 const P = n => figma.variables.setBoundVariableForPaint({ type: 'SOLID', color: { r: 0, g: 0, b: 0 } }, 'color', V[n]);
-// Same, at partial opacity — opacity lives on the paint, not the color.
+// Same, at partial opacity - opacity lives on the paint, not the color.
 const PO = (n, o) => { const p = P(n); return { ...p, opacity: o }; };
 
 const T = (chars, style, color) => { const t = figma.createText(); t.fontName = { family: 'Inter', style: 'Regular' }; t.characters = chars; t.textStyleId = TS[style].id; t.fills = [P(color)]; return t; };
 
-// createAutoLayout returns a frame with a default WHITE fill — invisible on white cards, obvious
+// createAutoLayout returns a frame with a default WHITE fill - invisible on white cards, obvious
 // on tinted ones. Always clear it; deliberate fills are set explicitly and are variable-bound.
 const AL = (dir, props) => { const f = figma.createAutoLayout(dir, props || {}); f.fills = []; return f; };
 
@@ -43,7 +43,7 @@ const SPACER = p => { const r = figma.createFrame(); r.fills = []; r.resize(8, 1
 const LBL = (parent, s) => { const t = T(s, 'Label', 'text/dim'); parent.appendChild(t); return t; };
 const CENTER = (parent, child) => { const w = AL('HORIZONTAL'); w.primaryAxisAlignItems = 'CENTER'; w.counterAxisAlignItems = 'CENTER'; parent.appendChild(w); w.layoutSizingHorizontal = 'FILL'; w.appendChild(child); return w; };
 
-// 390x844 device frame. clipsContent is true, so overflowing content is silently CUT — audit each
+// 390x844 device frame. clipsContent is true, so overflowing content is silently CUT - audit each
 // screen visually after building.
 const SCREEN = (name, x, y, bg) => {
   const f = AL('VERTICAL', { name, itemSpacing: 0 });
@@ -101,17 +101,17 @@ const X = i => i * 450;
 // Row origins: 600 (01-06), 1560 (07-12), 2520 (13-18), 3480 (19-22)
   const results = {};
   results['screens-13-18'] = await (async () => {
-// Screens 13-18 — capture and results flow. Row y = 2520.
+// Screens 13-18 - capture and results flow. Row y = 2520.
 // RUN AS: cat _helpers.js screens-13-18.js   and pass the result as the use_figma `code` argument.
 
 const created = [];
 const Y = 2520;
 
-// ============ 13. CAPTURE — YOUR STATION ============
+// ============ 13. CAPTURE - YOUR STATION ============
 // Dark viewfinder. The amber directive banner is the whole point: the participant is told where
 // to stand, so the host's briefing assignment stays visible during the window.
 {
-  const s = SCREEN('13 · Capture — your station', X(0), Y, 'text/primary');
+  const s = SCREEN('13 · Capture - your station', X(0), Y, 'text/primary');
   const top = AL('HORIZONTAL', { itemSpacing: 10, paddingLeft: 16, paddingRight: 16, paddingTop: 4, paddingBottom: 10 });
   top.counterAxisAlignItems = 'CENTER'; s.appendChild(top); top.layoutSizingHorizontal = 'FILL';
   top.appendChild(ICON('x', 24, 'text/onInk'));
@@ -138,7 +138,7 @@ const Y = 2520;
   toast.counterAxisAlignItems = 'CENTER'; toast.cornerRadius = 10; toast.fills = [P('bg/surface')];
   mid.appendChild(toast);
   toast.appendChild(ICON('users', 16, 'brand/ink'));
-  toast.appendChild(T('@dhiraj_s has this angle — try the pillar', 'Caption', 'text/primary'));
+  toast.appendChild(T('@dhiraj_s has this angle - try the pillar', 'Caption', 'text/primary'));
   const hint = T('Keep the arch filling the frame. Move a few steps between shots.', 'Caption', 'text/onInk');
   vf.appendChild(hint); hint.layoutSizingHorizontal = 'FILL'; hint.textAutoResize = 'HEIGHT'; hint.textAlignHorizontal = 'CENTER'; hint.opacity = 0.8;
 
@@ -164,9 +164,9 @@ const Y = 2520;
   created.push(s.id);
 }
 
-// ============ 14. COVERAGE GUIDE — PARTICIPANT ============
+// ============ 14. COVERAGE GUIDE - PARTICIPANT ============
 {
-  const s = SCREEN('14 · Coverage guide — participant', X(1), Y);
+  const s = SCREEN('14 · Coverage guide - participant', X(1), Y);
   APPBAR(s, 'Coverage guide', 'Window 3:42 remaining');
   const b = BODY(s, 14);
   const row = AL('HORIZONTAL', { itemSpacing: 10 }); row.primaryAxisAlignItems = 'CENTER'; b.appendChild(row); row.layoutSizingHorizontal = 'FILL';
@@ -185,11 +185,11 @@ const Y = 2520;
   created.push(s.id);
 }
 
-// ============ 15. COVERAGE — HOST LIVE CONTROL ============
-// The host screen that gives the role actual powers — answers the marker's "who is the host?
+// ============ 15. COVERAGE - HOST LIVE CONTROL ============
+// The host screen that gives the role actual powers - answers the marker's "who is the host?
 // is this person just there monitoring?"
 {
-  const s = SCREEN('15 · Coverage — host live control', X(2), Y);
+  const s = SCREEN('15 · Coverage - host live control', X(2), Y);
   APPBAR(s, 'Coverage · host', 'Window 3:42 remaining');
   const b = BODY(s, 12);
   const stats = AL('HORIZONTAL', { itemSpacing: 10 }); b.appendChild(stats); stats.layoutSizingHorizontal = 'FILL';
@@ -220,7 +220,7 @@ const Y = 2520;
 }
 
 // ============ 16. QUICK CALLOUTS ============
-// Designed around stranger awkwardness rather than assuming it away — one-tap messages so the
+// Designed around stranger awkwardness rather than assuming it away - one-tap messages so the
 // collaboration does not depend on people being willing to shout at strangers.
 {
   const s = SCREEN('16 · Quick callouts (no talking required)', X(3), Y, 'text/primary');
@@ -234,9 +234,9 @@ const Y = 2520;
   const grab = figma.createRectangle(); grab.resize(44, 5); grab.cornerRadius = 3; grab.fills = [P('line/strong')];
   const gw = AL('HORIZONTAL'); gw.primaryAxisAlignItems = 'CENTER'; sheet.appendChild(gw); gw.layoutSizingHorizontal = 'FILL'; gw.appendChild(grab);
   TF(sheet, 'Send a quick callout', 'H2', 'text/primary');
-  TF(sheet, 'Goes to everyone in the session. Most people will not speak up to strangers mid-capture — tap instead.', 'BodySm', 'text/dim');
+  TF(sheet, 'Goes to everyone in the session. Most people will not speak up to strangers mid-capture - tap instead.', 'BodySm', 'text/dim');
   [['navigation', 'I’m moving to the west side'], ['check-circle', 'My side is done'], ['users', 'Someone take the north arch'],
-   ['alert-triangle', 'Something is blocking my view'], ['clock', 'I need two more minutes'], ['walk', 'Watch out — bikes coming through']].forEach(([ic, m]) => {
+   ['alert-triangle', 'Something is blocking my view'], ['clock', 'I need two more minutes'], ['walk', 'Watch out - bikes coming through']].forEach(([ic, m]) => {
     const r = AL('HORIZONTAL', { itemSpacing: 12, paddingLeft: 14, paddingRight: 14, paddingTop: 11, paddingBottom: 11 });
     r.counterAxisAlignItems = 'CENTER'; r.cornerRadius = 12; r.fills = [P('bg/base')]; r.strokes = [P('line/border')]; r.strokeWeight = 1;
     sheet.appendChild(r); r.layoutSizingHorizontal = 'FILL';
@@ -263,7 +263,7 @@ const Y = 2520;
   ring.fills = [P('brand/inkSoft')]; ring.strokes = [P('brand/ink')]; ring.strokeWeight = 3;
   hero.appendChild(ring); ring.appendChild(ICON('box', 58, 'brand/ink'));
   hero.appendChild(T('Building your ChronoMap', 'H1', 'text/primary'));
-  const sub = T('You can close the app — we will notify you.', 'Body', 'text/dim'); hero.appendChild(sub); sub.textAlignHorizontal = 'CENTER';
+  const sub = T('You can close the app - we will notify you.', 'Body', 'text/dim'); hero.appendChild(sub); sub.textAlignHorizontal = 'CENTER';
   BAR(b, 0.62, 'brand/ink');
   const steps = CARD('VERTICAL', 14); b.appendChild(steps); steps.layoutSizingHorizontal = 'FILL'; steps.counterAxisAlignItems = 'MIN';
   [['Uploaded 128 photos from 4 people', true], ['Quality and overlap checks', true], ['Blurring faces and licence plates', true],
@@ -295,7 +295,7 @@ const Y = 2520;
   });
   const nc = TINT('HORIZONTAL', 10, 'state/successSoft'); b.appendChild(nc); nc.layoutSizingHorizontal = 'FILL'; nc.paddingTop = 11; nc.paddingBottom = 11;
   nc.appendChild(ICON('sun', 20, 'state/success'));
-  TF(nc, 'Golden hour added — this landmark now has 2 of 6 conditions.', 'BodySm', 'text/primary');
+  TF(nc, 'Golden hour added - this landmark now has 2 of 6 conditions.', 'BodySm', 'text/primary');
   LBL(b, 'CONTRIBUTION SCORES');
   [['M', '@mapfox', 42, 96, 'Host'], ['J', '@you', 35, 81, 'Unique angles'], ['D', '@dhiraj_s', 31, 74, 'Contributor']].forEach(([i2, n1, ph, sc, bd]) => {
     const c = CARD('VERTICAL', 7); b.appendChild(c); c.layoutSizingHorizontal = 'FILL'; c.counterAxisAlignItems = 'MIN'; c.paddingTop = 10; c.paddingBottom = 10;
@@ -316,7 +316,7 @@ const Y = 2520;
 return { createdNodeIds: created, screens: created.length };
   })();
   results['screens-19-22'] = await (async () => {
-// Screens 19-22 — identity, archive and governance. Row y = 3480.
+// Screens 19-22 - identity, archive and governance. Row y = 3480.
 // RUN AS: cat _helpers.js screens-19-22.js   and pass the result as the use_figma `code` argument.
 //
 // Screen 20 (Profile) exists because the marker asked for it directly: "So there's a profile for
@@ -385,9 +385,9 @@ const NAV = (parent, active) => {
   created.push(s.id);
 }
 
-// ============ 20. PROFILE — REPUTATION & SOUVENIRS ============
+// ============ 20. PROFILE - REPUTATION & SOUVENIRS ============
 {
-  const s = SCREEN('20 · Profile — reputation & souvenirs', X(1), Y);
+  const s = SCREEN('20 · Profile - reputation & souvenirs', X(1), Y);
   APPBAR(s, '@you', 'Joined March 2026');
   const b = BODY(s, 12);
   const hd = AL('HORIZONTAL', { itemSpacing: 14 }); hd.counterAxisAlignItems = 'CENTER'; b.appendChild(hd); hd.layoutSizingHorizontal = 'FILL';
@@ -423,11 +423,11 @@ const NAV = (parent, active) => {
   created.push(s.id);
 }
 
-// ============ 21. LANDMARK — THE ARCHIVE OVER TIME ============
+// ============ 21. LANDMARK - THE ARCHIVE OVER TIME ============
 // Makes the "Chrono" in ChronoMap do work: a landmark is never finished, which is also the
 // structural reason the task needs a crowd rather than one group.
 {
-  const s = SCREEN('21 · Landmark — conditions & history', X(2), Y);
+  const s = SCREEN('21 · Landmark - conditions & history', X(2), Y);
   APPBAR(s, 'Royal Melbourne Hospital', 'Parkville · 3 captures');
   const b = BODY(s, 12);
   const hero = AL('VERTICAL', { itemSpacing: 6 }); hero.primaryAxisAlignItems = 'CENTER'; hero.counterAxisAlignItems = 'CENTER';
@@ -440,7 +440,7 @@ const NAV = (parent, active) => {
   TF(pr, 'ARCHIVE COMPLETENESS', 'Label', 'text/dim');
   pr.appendChild(PILL('2 of 6', 'Accent'));
   BAR(b, 2 / 6, 'accent/amber');
-  TF(b, 'A place is never "done". Each condition needs its own synchronised session — which is why no single group can finish a landmark alone.', 'BodySm', 'text/dim');
+  TF(b, 'A place is never "done". Each condition needs its own synchronised session - which is why no single group can finish a landmark alone.', 'BodySm', 'text/dim');
 
   LBL(b, 'CONDITIONS');
   const grid = AL('VERTICAL', { itemSpacing: 8 }); b.appendChild(grid); grid.layoutSizingHorizontal = 'FILL';
@@ -499,9 +499,9 @@ return { createdNodeIds: created, screens: created.length };
 //
 // The device frame is 390x844 with clipsContent = true, so content taller than the frame is
 // silently CUT rather than throwing. Each of these three screens lost its last row:
-//   09 Rally          — the "@ashlesha on the way" row
-//   10 Host briefing  — the "@ashlesha unassigned" station row
-//   12 Two groups     — the "Queue yours for 3:10" option body
+//   09 Rally          - the "@ashlesha on the way" row
+//   10 Host briefing  - the "@ashlesha unassigned" station row
+//   12 Two groups     - the "Queue yours for 3:10" option body
 //
 // Strategy: measure first, apply the targeted reduction, measure again, then fall back to a
 // generic gap/padding shrink only if the screen still overflows.
@@ -538,7 +538,7 @@ const mutated = [];
 
 // ---- 09 Rally: shorten the geofence illustration ----
 {
-  const s = byName('09 · Rally — gathering quorum');
+  const s = byName('09 · Rally - gathering quorum');
   if (s) {
     const b = bodyOf(s);
     report.rallyBefore = measure(b);
@@ -554,7 +554,7 @@ const mutated = [];
 
 // ---- 10 Host briefing: smaller radar ----
 {
-  const s = byName('10 · Briefing — host assigns stations');
+  const s = byName('10 · Briefing - host assigns stations');
   if (s) {
     const b = bodyOf(s);
     report.briefingBefore = measure(b);

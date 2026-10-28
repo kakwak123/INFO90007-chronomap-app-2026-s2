@@ -254,7 +254,7 @@ export type Who = { a: number; r: number; i: string; host?: boolean };
 
 /**
  * Coverage radar. Angles are degrees clockwise from north, radii are 0..1 of the outer ring.
- * Deliberately approximate — see the "this is a guide, not proof" note on the coverage screen.
+ * Deliberately approximate - see the "this is a guide, not proof" note on the coverage screen.
  */
 export function Radar({ size = 230, dots = [], people = [] }: { size?: number; dots?: Dot[]; people?: Who[] }) {
   const rad = size / 2;

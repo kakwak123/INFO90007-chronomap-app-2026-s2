@@ -53,14 +53,14 @@ export const SCORES = [
   { initial: 'A', handle: '@ashlesha', photos: 20, score: 58, badge: 'Contributor' },
 ];
 
-/** One-tap messages. Strangers will not shout at strangers — see the callouts screen. */
+/** One-tap messages. Strangers will not shout at strangers - see the callouts screen. */
 export const CALLOUTS: { icon: 'navigate-outline' | 'checkmark-circle-outline' | 'people-outline' | 'warning-outline' | 'time-outline' | 'walk-outline'; text: string }[] = [
   { icon: 'navigate-outline', text: 'I’m moving to the west side' },
   { icon: 'checkmark-circle-outline', text: 'My side is done' },
   { icon: 'people-outline', text: 'Someone take the north arch' },
   { icon: 'warning-outline', text: 'Something is blocking my view' },
   { icon: 'time-outline', text: 'I need two more minutes' },
-  { icon: 'walk-outline', text: 'Watch out — bikes coming through' },
+  { icon: 'walk-outline', text: 'Watch out - bikes coming through' },
 ];
 
 export const CONDITIONS: { icon: 'sunny-outline' | 'rainy-outline' | 'moon-outline' | 'partly-sunny-outline'; name: string; detail: string; done: boolean }[] = [

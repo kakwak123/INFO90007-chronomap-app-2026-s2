@@ -45,7 +45,7 @@ export default function Capture() {
           <Ionicons name="cube-outline" size={110} color="rgba(255,255,255,0.45)" />
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: C.surface, paddingHorizontal: 12, paddingVertical: 8, borderRadius: R.sm + 2 }}>
             <Ionicons name="people-outline" size={16} color={C.ink} />
-            <Text style={{ color: C.text, fontSize: 12, fontWeight: '600' }}>@dhiraj_s has this angle — try the pillar</Text>
+            <Text style={{ color: C.text, fontSize: 12, fontWeight: '600' }}>@dhiraj_s has this angle - try the pillar</Text>
           </View>
         </View>
 

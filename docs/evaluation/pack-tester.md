@@ -1,4 +1,4 @@
-# ChronoMap 3D — thanks for helping us test
+# ChronoMap 3D - thanks for helping us test
 
 This is the sheet you hand to a participant. Print it, or send it as a link.
 
@@ -7,7 +7,7 @@ This is the sheet you hand to a participant. Print it, or send it as a link.
 ## Before we start
 
 We are testing a **design**, not you. If something is confusing or you get stuck, that is exactly
-what we need to find out — it tells us the design has a problem, not that you did anything wrong.
+what we need to find out - it tells us the design has a problem, not that you did anything wrong.
 There are no right answers and nothing you do here is scored.
 
 It takes about **25 minutes in person**, or about **15 minutes on your own**.
@@ -25,7 +25,7 @@ Imagine you are standing at the University of Melbourne clock tower on a sunny a
 other people you have never met are there with the app, doing the same thing.
 
 **One important thing:** this is a prototype, so the other people are staged. Things will sometimes
-happen on their own — the group filling up, or the host sending you an instruction. Please treat
+happen on their own - the group filling up, or the host sending you an instruction. Please treat
 those as if a real person did them.
 
 Some buttons are not wired up yet. If something does not respond, just say so and move on. That is
@@ -40,7 +40,7 @@ Someone will sit with you and give you one task at a time.
 **Please think out loud as you go.** Say what you are looking at, what you expect to happen, and
 what you are trying to do. It feels strange for the first minute and then it stops feeling strange.
 
-If you go quiet, we will nudge you with "what are you thinking?" — we are not hurrying you, we just
+If you go quiet, we will nudge you with "what are you thinking?" - we are not hurrying you, we just
 cannot see inside your head.
 
 We will not help unless you are completely stuck, and that is on purpose. Watching where people get
@@ -66,7 +66,7 @@ ChronoMap, and two short written answers. It takes about five minutes.
 
 ## The tasks
 
-Work through these in order. If you cannot finish one after a few minutes, move on — that is a
+Work through these in order. If you cannot finish one after a few minutes, move on - that is a
 useful result, not a failure.
 
 ---
@@ -124,5 +124,5 @@ tell us it annoyed you.
 
 ---
 
-**Thank you.** Genuinely — ten people doing this is the difference between us guessing and us
+**Thank you.** Genuinely - ten people doing this is the difference between us guessing and us
 knowing.

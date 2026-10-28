@@ -11,8 +11,8 @@ import { C, R } from '@/ui/theme';
  * Canned, one-tap messages.
  *
  * The honest problem with a co-located session full of strangers is that most people will not
- * speak up to people they have not met. Designing around that — rather than assuming everyone
- * chats freely — is what keeps the collaboration claim credible.
+ * speak up to people they have not met. Designing around that - rather than assuming everyone
+ * chats freely - is what keeps the collaboration claim credible.
  */
 export default function Callouts() {
   const insets = useSafeAreaInsets();
@@ -27,7 +27,7 @@ export default function Callouts() {
         <View style={{ alignSelf: 'center', width: 44, height: 5, borderRadius: 3, backgroundColor: C.borderStrong }} />
         <H2>Send a quick callout</H2>
         <Text style={{ color: C.textDim, fontSize: 13, lineHeight: 19 }}>
-          Goes to everyone in the session. Most people will not speak up to strangers mid-capture — tap instead.
+          Goes to everyone in the session. Most people will not speak up to strangers mid-capture - tap instead.
         </Text>
 
         {CALLOUTS.map((c) => (

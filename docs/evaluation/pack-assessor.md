@@ -1,9 +1,9 @@
-# Assessor pack — running a ChronoMap evaluation session
+# Assessor pack - running a ChronoMap evaluation session
 
 For the team member running a session. Covers both techniques: the in-person **think-aloud**
-(participants P1–P5) and the remote **questionnaire** (participants Q1–Q5).
+(participants P1-P5) and the remote **questionnaire** (participants Q1-Q5).
 
-Do not give this file to a participant. Hand them `pack-tester.md` instead — it deliberately leaves
+Do not give this file to a participant. Hand them `pack-tester.md` instead - it deliberately leaves
 out the success criteria so they are not led to the answer.
 
 The underlying decisions and the full instrument live in `study-kit.md`. This pack is the practical
@@ -14,7 +14,7 @@ run-sheet; where the two disagree, the study kit wins.
 ## Before you start (once, ~15 minutes)
 
 - [ ] Open the Figma prototype on the test phone and run the whole journey end to end.
-- [ ] Attempt all five tasks yourself. Note the exact tap path for each — you need to know the
+- [ ] Attempt all five tasks yourself. Note the exact tap path for each - you need to know the
       intended route to recognise when someone has gone off it.
 - [ ] Fix any dead link **now**. A broken link discovered mid-session wastes a participant you
       cannot replace.
@@ -24,7 +24,7 @@ run-sheet; where the two disagree, the study kit wins.
 
 ---
 
-## Part 1 — Think-aloud sessions (P1–P5, in person, ~25 min each)
+## Part 1 - Think-aloud sessions (P1-P5, in person, ~25 min each)
 
 ### Timing
 
@@ -45,7 +45,7 @@ run-sheet; where the two disagree, the study kit wins.
 3. **If they are stuck for 60 seconds**, give the smallest possible hint, write it down as an
    **assist**, and move on. A task completed after an assist is scored P, not C.
 4. **Never explain why something is designed the way it is.** If they ask, say *"I'll explain
-   after we finish — what would you expect it to do?"* Defending the design mid-session contaminates
+   after we finish - what would you expect it to do?"* Defending the design mid-session contaminates
    everything after it.
 
 ### Scoring each task
@@ -58,7 +58,7 @@ run-sheet; where the two disagree, the study kit wins.
 
 Stop a task at 5 minutes and record F. Do not let one task eat the session.
 
-### Success criteria — what counts as done
+### Success criteria - what counts as done
 
 Keep these to yourself during the session.
 
@@ -82,14 +82,14 @@ Ask all four, in this order, and write the answers verbatim:
 3. Would you use the voice channel, or the quick replies?
 4. Anything you would change?
 
-### Immediately after — before the next participant
+### Immediately after - before the next participant
 
 Write down **your top three problems from this session** while it is fresh. Five sessions blur
 together fast, and a problem you cannot remember at analysis time may as well not have happened.
 
 ---
 
-## Part 2 — Questionnaire (Q1–Q5, remote, ~15 min each)
+## Part 2 - Questionnaire (Q1-Q5, remote, ~15 min each)
 
 These must be **five different people** from the think-aloud five. The handout requires ten
 participants, five per technique.
@@ -99,7 +99,7 @@ participants, five per technique.
 Send three things together:
 
 1. The prototype link (the shareable Figma link, verified it opens when logged out).
-2. The tester pack — the context briefing and the five tasks.
+2. The tester pack - the context briefing and the five tasks.
 3. The form link.
 
 Ask them to do the tasks alone, in order, and fill the form **straight afterwards** while it is
@@ -107,16 +107,16 @@ fresh. Ask them to note roughly how long the tasks took.
 
 ### Building the form
 
-Google Forms is fine. Four parts, in this order — the full item list is in `study-kit.md` §7:
+Google Forms is fine. Four parts, in this order - the full item list is in `study-kit.md` §7:
 
 | Part | Contents | Scale |
 | --- | --- | --- |
-| A | The ten standard System Usability Scale statements | 1–5, strongly disagree to strongly agree |
-| B | Six ChronoMap items (C1–C6): purpose, joining strangers, voice comfort, radar clarity, privacy trust, motivation | same 1–5 |
+| A | The ten standard System Usability Scale statements | 1-5, strongly disagree to strongly agree |
+| B | Six ChronoMap items (C1-C6): purpose, joining strangers, voice comfort, radar clarity, privacy trust, motivation | same 1-5 |
 | C | Two open questions (O1, O2) | free text |
 | D | Participant code, device used, rough time taken, any task not completed | short answer |
 
-Add the participant code field as the **first** question, not the last — people abandon forms at the
+Add the participant code field as the **first** question, not the last - people abandon forms at the
 end, and a response you cannot attribute is hard to use.
 
 ### Scoring the usability scale
@@ -125,7 +125,7 @@ For the odd-numbered statements, subtract 1 from the rating. For the even-number
 the rating from 5. Add the ten results and multiply by 2.5. That gives a score from 0 to 100.
 
 Report the mean, the spread, and the per-item means across your five participants. Around 68 is the
-published average — treat it as a point of reference, not a pass mark, and do not claim statistical
+published average - treat it as a point of reference, not a pass mark, and do not claim statistical
 significance from five people.
 
 ---
@@ -150,11 +150,11 @@ significance from five people.
 
 | Problem | What to do |
 | --- | --- |
-| A link is dead mid-session | Note the screen number, say *"that one isn't wired up — let's move on"*, continue. Record it as a finding. |
-| They ask whether they did it right | *"There's no right answer — I'm interested in what you expected."* |
+| A link is dead mid-session | Note the screen number, say *"that one isn't wired up - let's move on"*, continue. Record it as a finding. |
+| They ask whether they did it right | *"There's no right answer - I'm interested in what you expected."* |
 | They refuse audio recording | Fine. Take written notes only. Record the refusal on the notes sheet. |
 | They finish very early | Use the optional sixth task in `study-kit.md` §5, or go deeper in the debrief. |
-| They want to talk about the idea, not the interface | Let them — briefly. Willingness to join strangers is one of the things you are trying to learn. Then steer back. |
+| They want to talk about the idea, not the interface | Let them - briefly. Willingness to join strangers is one of the things you are trying to learn. Then steer back. |
 
 ---
 

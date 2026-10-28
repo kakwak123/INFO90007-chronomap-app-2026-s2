@@ -7,7 +7,7 @@ import { HOST_DOTS, HOST_PEOPLE, STATIONS } from '@/ui/mock';
 import { C } from '@/ui/theme';
 
 /**
- * Host briefing — the screen that gives the host role actual powers.
+ * Host briefing - the screen that gives the host role actual powers.
  * A2 feedback: "Who is the host? Is this person just there monitoring the entire session?"
  */
 export default function Briefing() {
@@ -32,7 +32,7 @@ export default function Briefing() {
 
       <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 18 }}>
         <LegendDot color={C.success} text="Covered" />
-        <LegendDot color={C.borderStrong} text="Thin — assign" hollow />
+        <LegendDot color={C.borderStrong} text="Thin - assign" hollow />
         <LegendDot color={C.amber} text="Host" />
       </View>
 

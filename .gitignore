@@ -46,3 +46,10 @@ example
 .env
 .env.*
 !.env.example
+
+# Participant recordings - personal data, never commit (repo is public)
+*.m4a
+*.mp3
+*.wav
+*.mp4
+docs/evaluation/sessions/audio/

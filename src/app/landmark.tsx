@@ -7,7 +7,7 @@ import { CONDITIONS } from '@/ui/mock';
 import { C, R } from '@/ui/theme';
 
 /**
- * The archive view — what makes the "Chrono" in ChronoMap do any work.
+ * The archive view - what makes the "Chrono" in ChronoMap do any work.
  *
  * It is also the structural reason the task needs a crowd: each condition requires its own
  * synchronised, co-located session, so no single group can ever finish a landmark alone.
@@ -38,7 +38,7 @@ export default function Landmark() {
       </View>
       <Bar pct={done / total} color={C.amber} />
       <P style={{ fontSize: 13 }}>
-        A place is never “done”. Each condition needs its own synchronised session — which is why no single group can finish a
+        A place is never “done”. Each condition needs its own synchronised session - which is why no single group can finish a
         landmark alone.
       </P>
 

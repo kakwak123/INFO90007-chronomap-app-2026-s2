@@ -14,7 +14,7 @@ export default function Rules() {
       footer={<Btn label="I agree and continue" onPress={() => router.replace((next ?? '/rally') as '/rally')} />}>
       <P>
         ChronoMap 3D is a community record of public places. These apply every time you host or join a session, and to everyone in
-        it — including people you have never met.
+        it - including people you have never met.
       </P>
       <Note icon="walk-outline" title="Mind your surroundings">
         Stay aware of traffic and other people. Never step onto roads or into restricted areas for a better angle.

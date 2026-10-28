@@ -9,7 +9,7 @@ import { C, R } from '@/ui/theme';
 /**
  * The quorum gate. This screen is the crowdsourcing argument made visual: the session is not a
  * group of friends who arrived together, it is strangers accumulating until there are enough of
- * them — and the capture clock does not exist yet.
+ * them - and the capture clock does not exist yet.
  */
 export default function Rally() {
   const onSite = ON_SITE.length;
@@ -21,7 +21,7 @@ export default function Rally() {
       subtitle="Rally forming · golden hour"
       footer={
         <>
-          <Btn label={`Start capture — needs ${needed} on site`} disabled onPress={() => router.replace('/briefing')} />
+          <Btn label={`Start capture - needs ${needed} on site`} disabled onPress={() => router.replace('/briefing')} />
           <Btn label="Share rally link" icon="share-outline" variant="secondary" onPress={() => router.push('/share')} />
         </>
       }>
