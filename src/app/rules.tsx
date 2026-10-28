@@ -11,19 +11,22 @@ export default function Rules() {
     <Screen
       title="Before you start"
       subtitle="Community rules & safety"
-      footer={<Btn label="I agree and continue" onPress={() => router.replace((next ?? '/lobby') as '/lobby')} />}>
-      <P>ChronoMap 3D is a community record of public places. Please follow these guidelines every time you create or join a session.</P>
-      <Note icon="walk-outline" title="Mind your safety">
-        Stay aware of your surroundings. Don't wander onto roads or into restricted areas to get a better angle.
+      footer={<Btn label="I agree and continue" onPress={() => router.replace((next ?? '/rally') as '/rally')} />}>
+      <P>
+        ChronoMap 3D is a community record of public places. These apply every time you host or join a session, and to everyone in
+        it — including people you have never met.
+      </P>
+      <Note icon="walk-outline" title="Mind your surroundings">
+        Stay aware of traffic and other people. Never step onto roads or into restricted areas for a better angle.
       </Note>
       <Note icon="eye-off-outline" title="Respect privacy">
-        Don't target people or private property. Faces and licence plates are automatically detected and blurred, and removed from the model where possible.
+        Do not target people or private property. Faces and licence plates are detected and blurred before reconstruction.
       </Note>
-      <Note icon="people-outline" title="Don't obstruct others">
-        Keep footpaths, entrances and ramps clear while you capture.
+      <Note icon="people-outline" title="Treat strangers well">
+        Sessions mix people who have not met. Harassment removes you from the platform. You can report or block anyone, mid-session.
       </Note>
       <Note icon="location-outline" title="Be on site">
-        Sessions need you to be at the location, and an internet connection to sync and upload photos.
+        Sessions verify your location. You cannot join a capture window from outside the landmark radius.
       </Note>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
         <Ionicons name="checkbox" size={24} color={C.ink} />

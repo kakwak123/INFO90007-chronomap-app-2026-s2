@@ -1,43 +1,55 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Text, View } from 'react-native';
 
-import { Btn, Card, H, Label, P, Screen } from '@/ui/kit';
-import { C } from '@/ui/theme';
+import { Btn, Card, H2, Label, Screen, Toggle, type IconName } from '@/ui/kit';
+import { C, R } from '@/ui/theme';
 
-const APPS = [
-  { name: 'Facebook', icon: 'logo-facebook' },
-  { name: 'X', icon: 'logo-twitter' },
+const APPS: { name: string; icon: IconName }[] = [
   { name: 'Instagram', icon: 'logo-instagram' },
   { name: 'WhatsApp', icon: 'logo-whatsapp' },
-] as const;
+  { name: 'Link', icon: 'link-outline' },
+  { name: 'QR', icon: 'qr-code-outline' },
+];
+
+const OPTIONS = [
+  { label: 'Include my contributor name', on: true },
+  { label: 'Credit the other 3 contributors', on: true },
+  { label: 'Allow reuse under CC BY-SA', on: false },
+];
 
 export default function Share() {
   return (
-    <Screen title="Share to Social Media" footer={<Btn label="Copy link" icon="link-outline" />}>
+    <Screen title="Share" subtitle="Royal Melbourne Hospital" footer={<Btn label="Copy link" icon="link-outline" />}>
       <Label>Post preview</Label>
       <Card style={{ gap: 12 }}>
-        <View style={{ height: 150, borderRadius: 10, backgroundColor: C.placeholder, alignItems: 'center', justifyContent: 'center' }}>
-          <Ionicons name="cube-outline" size={64} color={C.textDim} />
+        <View style={{ height: 150, borderRadius: R.sm + 2, backgroundColor: C.placeholder, alignItems: 'center', justifyContent: 'center' }}>
+          <Ionicons name="cube-outline" size={58} color={C.textDim} />
         </View>
-        <H style={{ fontSize: 18 }}>I helped create this!</H>
-        <P style={{ fontSize: 14 }}>Royal Melbourne Hospital Precinct, captured with 3 others on ChronoMap 3D.</P>
+        <H2>I helped build this</H2>
+        <Text style={{ color: C.textDim, fontSize: 13, lineHeight: 19 }}>
+          Royal Melbourne Hospital at golden hour, captured with 3 strangers in a 5 minute window.
+        </Text>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
           <Ionicons name="link-outline" size={16} color={C.ink} />
-          <Text style={{ color: C.ink, fontSize: 13, textDecorationLine: 'underline' }}>https://link.chronomap.app/3d/merf</Text>
+          <Text style={{ color: C.ink, fontSize: 13, textDecorationLine: 'underline' }}>link.chronomap.app/3d/merf</Text>
         </View>
       </Card>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: C.surface, borderRadius: 10, borderWidth: 1, borderColor: C.border, padding: 14 }}>
-        <Text style={{ color: C.text, fontSize: 15 }}>Include my contributor name</Text>
-        <View style={{ width: 44, height: 26, borderRadius: 13, backgroundColor: C.ink, padding: 3, alignItems: 'flex-end' }}>
-          <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: C.surface }} />
+
+      {OPTIONS.map((o) => (
+        <View
+          key={o.label}
+          style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface, borderRadius: R.md, borderWidth: 1, borderColor: C.border, padding: 14 }}>
+          <Text style={{ color: C.text, fontSize: 15, flex: 1 }}>{o.label}</Text>
+          <Toggle on={o.on} />
         </View>
-      </View>
+      ))}
+
       <Label>Share via</Label>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
         {APPS.map((a) => (
           <View key={a.name} style={{ alignItems: 'center', gap: 6 }}>
-            <View style={{ width: 60, height: 60, borderRadius: 30, backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.ink, alignItems: 'center', justifyContent: 'center' }}>
-              <Ionicons name={a.icon} size={26} color={C.ink} />
+            <View style={{ width: 56, height: 56, borderRadius: 28, backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.ink, alignItems: 'center', justifyContent: 'center' }}>
+              <Ionicons name={a.icon} size={24} color={C.ink} />
             </View>
             <Text style={{ color: C.textDim, fontSize: 12 }}>{a.name}</Text>
           </View>

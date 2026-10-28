@@ -1,0 +1,95 @@
+% Target ~950 words. Rubric: System Design + System Evaluation.
+% Top band: multiple prototyping techniques, JUSTIFIED. A2 lost marks here for
+% not explaining why each technique was chosen - do not repeat that.
+
+\section{Methods}
+
+\subsection{Ideation and design}
+
+\FILL{Brainstorming and ideation process, ported from the A2 report and the design decision log.
+Keep it short; the marks here are for justification, not narration.}
+
+\subsection{Prototyping techniques, and why each was used}
+
+The project used three prototyping techniques in sequence, each chosen for what it could reveal at
+that stage.
+
+\begin{description}
+  \item[Paper sketches.] Used first because they are fast to produce and easy to discard, which
+  suits a stage where the concept itself was still moving. \FILL{what the sketches revealed that
+  justified moving on}
+  \item[Storyboard.] Used to test the sequence of events across a whole session rather than
+  individual screens, because the system's difficulty is coordination over time, not any single
+  interface. \FILL{what it revealed}
+  \item[Low- then high-fidelity Figma prototypes.] Low fidelity to settle layout and flow cheaply;
+  high fidelity because the evaluation needed participants to react to something that behaves like
+  a real application, including transitions and live state. \FILL{what changed between them}
+\end{description}
+
+\VERIFY{The A2 feedback said the appropriateness of the prototyping techniques was not adequately
+explained. Each bullet above must say \emph{why that technique and not another}, not just what was
+made.}
+
+\subsection{Design guidance used}
+
+\FILL{Which heuristics and guidelines informed the design --- the community heuristics card deck
+from Week 5, Nielsen's heuristics, and the platform design guidelines. Cite them properly; A2 was
+marked down for references being too few or arbitrary.}
+
+\subsection{Evaluation design}
+
+The Assignment 3 brief requires at least one querying technique and one observation technique, with
+a minimum of ten participants, five per technique. The study used \textbf{think-aloud} as the
+observation technique and a \textbf{questionnaire} as the querying technique, with ten participants
+in total and no overlap between the two groups.
+
+\paragraph{Why think-aloud.} Observation was needed to find where people hesitate, misread the
+interface or abandon a task, and think-aloud surfaces the reasoning behind those moments as they
+happen rather than reconstructing it afterwards.
+
+\paragraph{Why a questionnaire.} The questionnaire was chosen to measure what observation cannot:
+whether a person would be willing to join a session with strangers, whether they would speak on a
+voice channel, and whether they trust the privacy controls. These are dispositions rather than
+behaviours, and a watched session cannot establish them. It also yields a System Usability Scale
+score, giving a comparable number alongside the qualitative findings. A questionnaire can be
+completed remotely, which allowed both halves of the study to run in parallel.
+
+\paragraph{Instrument.} The questionnaire comprised the ten standard SUS items, six custom items
+covering purpose comprehension, willingness to join strangers, comfort with voice, radar clarity,
+trust in privacy controls and motivation, and two open questions.
+
+\paragraph{Participants.} \FILL{How many were recruited, how they were found, relevant background
+(whether they had used any 3D scanning application, whether they study the subject), and the age
+spread. Do not name anyone; use the codes P1--P5 and Q1--Q5.}
+
+\paragraph{Setting and procedure.} \FILL{Where and when sessions were run, on what device, who
+moderated, and how long a session took. State that participants were briefed that the other
+participants in the prototype are staged, since the system is synchronous and the prototype cannot
+provide real co-present users.}
+
+\paragraph{Tasks.} Both groups attempted the same five tasks, summarised in
+Table~\ref{tab:tasks}.
+
+\begin{table}[htbp]
+\centering
+\caption{Evaluation tasks, start screen and success criteria.}
+\label{tab:tasks}
+\small
+\begin{tabularx}{\textwidth}{@{}lXl@{}}
+\toprule
+\textbf{\#} & \textbf{Task as read to the participant} & \textbf{Success criterion} \\
+\midrule
+T1 & Join the capture session happening now at the landmark. & Reaches the rally screen \\
+T2 & Find which station you have been given, then tell the host you are ready without speaking. & Names station; uses a one-tap reply \\
+T3 & Respond to the host's instruction to move, then say which side still needs photos. & Uses quick reply; reads the radar \\
+T4 & Find the finished model and share it without revealing the exact location. & Reaches share with location off \\
+T5 & A participant is photographing strangers' faces. Do something about it. & Opens participant menu and flags \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Analysis.} Observations and open answers were consolidated into a single findings table,
+with each problem rated for severity and assigned a decision to fix, defer or reject. SUS responses
+were scored in the standard way.
+
+\paragraph{Ethics.} \FILL{Consent, audio recording and deletion, anonymity. One short paragraph.}

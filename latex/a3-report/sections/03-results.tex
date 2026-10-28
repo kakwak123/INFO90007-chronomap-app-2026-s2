@@ -1,0 +1,215 @@
+% Target ~1900 words. Rubric: System Design + System Evaluation (25 of 50 marks).
+% This is the section that decides the grade. Every [FILL] below needs real data.
+
+\section{Results: prototypes and evaluation findings}
+
+\subsection{Response to Assignment 2 feedback}
+\label{sec:a2response}
+
+Feedback on Assignment 2 was received on 2 October 2026. The summary comment was that the report was
+well structured but that much of the content rested on assumptions, and that mid-fidelity wireframes
+were lacking for important features and user flows. Table~\ref{tab:a2response} records each point of
+feedback and what was changed in response.
+
+\begin{table}[htbp]
+\centering
+\caption{Assignment 2 feedback and the response made in this iteration.}
+\label{tab:a2response}
+\small
+\begin{tabularx}{\textwidth}{@{}lXX@{}}
+\toprule
+\textbf{\#} & \textbf{Feedback} & \textbf{Our response} \\
+\midrule
+1 & Content rested on assumptions rather than evidence &
+Claims about usability and motivation are now tested with ten participants (Section~\ref{sec:findings}). \\
+2 & Wireframes lacking for important features and flows &
+The prototype now covers the whole journey in \VERIFY{number} linked screens, including flows that A2 only described: voice coordination, moderation, and the community view. \\
+3 & Unclear how heuristics were applied to improve the design &
+Section~\ref{sec:changes} records each change with the heuristic or finding that motivated it. \\
+4 & The host role was undefined (``is this person just there monitoring?'') &
+The host now has defined powers and a screen: reading the coverage radar and assigning stations. \\
+5 & Collaboration was thin (``is it just taking photos?'') &
+\FILL{what changed --- shared radar state, assignments, quick callouts} \\
+6 & Session governance unspecified (which places, who decides, time limits, clashes) &
+\FILL{what changed --- quorum, geofence, the two-groups-one-landmark flow} \\
+7 & Weak user motivation and engagement &
+\FILL{what changed --- profile, reputation, condition sets} \\
+8 & Premise under-evidenced; references too few or arbitrary &
+\FILL{what changed --- citations added in Sections 1, 2 and 4} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\VERIFY{Rows 4--8 come from the marker's annotated comments, transcribed in
+\texttt{docs/A2-FEEDBACK.md}. Quote each comment briefly in the Feedback column rather than
+paraphrasing, and make sure every row has a real response. Appendix~\ref{app:a2feedback} holds the
+full set.}
+
+\subsection{Prototype evolution}
+
+\subsubsection{Initial prototypes (Assignment 2)}
+
+The handout requires images of all initial prototypes. Figures~\ref{fig:sketch1}
+to~\ref{fig:lofi} reproduce the paper sketches, storyboard and low-fidelity wireframes produced
+during Assignment 2.
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.78\textwidth]{fig1-scenario1-join-session.png}
+\caption{Paper sketch, scenario 1: joining a session by code, seeing the shared start time,
+capturing, receiving the model and sharing it.}
+\label{fig:sketch1}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.78\textwidth]{fig2-scenario2-qr-recruitment.png}
+\caption{Scenario 2: recruiting passers-by on the spot with a QR code on a poster.}
+\label{fig:sketch2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.78\textwidth]{fig3-scenario3-create-session.png}
+\caption{Scenario 3: creating a session with date, time, location and duration, then sharing the
+code.}
+\label{fig:sketch3}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.46\textwidth]{fig4a-home-and-create-sketch.png}\hfill
+\safeincludegraphics[width=0.46\textwidth]{fig4b-camera-and-share-sketch.png}
+\caption{Paper sketches of the four main screens: home and create session (left); camera and share
+(right).}
+\label{fig:sketch4}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.9\textwidth]{fig5-storyboard.png}
+\caption{Scenario storyboard: three strangers discover ChronoMap through a QR poster, form a
+session, coordinate angles through coverage prompts, and receive contribution scores.}
+\label{fig:storyboard}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\safeincludegraphics[width=0.95\textwidth]{fig6-lofi-figma-wireframes.png}
+\caption{Low-fidelity Figma wireframes of the four core screens: discovery and lobby, coverage
+guide, capture window, and result and sharing.}
+\label{fig:lofi}
+\end{figure}
+
+In these early rounds a session was simply a shared time window and each participant pressed the
+shutter freely. Reviewing the sketches exposed that nothing told people where to stand and nothing
+showed how much of the site had been covered, which is the problem the high-fidelity design sets out
+to solve.
+
+\subsubsection{High-fidelity prototype, version 1}
+
+Version 1 translated the low-fidelity wireframes into a complete, linked journey. It is the build
+that was put in front of participants.
+
+\FILL{Describe version 1: the screens, the journey, and what changed from the low-fidelity round
+and why. Reference the design decision log. This is the ``several iterations with motivated changes'' the rubric asks for, so each change
+needs a stated reason rather than a description alone.}
+
+\begin{table}[htbp]
+\centering
+\caption{Changes between prototype rounds, and what motivated each.}
+\label{tab:iterations}
+\small
+\begin{tabularx}{\textwidth}{@{}llXX@{}}
+\toprule
+\textbf{Round} & \textbf{Change} & \textbf{Motivation} & \textbf{Source} \\
+\midrule
+Sketch $\rightarrow$ storyboard & \FILL{} & \FILL{} & Sketch review \\
+Storyboard $\rightarrow$ low-fi & \FILL{} & \FILL{} & Storyboard walkthrough \\
+Low-fi $\rightarrow$ hi-fi v1 & \FILL{} & \FILL{} & A2 feedback \\
+Within hi-fi v1 & \FILL{} & \FILL{} & Heuristic review \\
+Hi-fi v1 $\rightarrow$ v2 & \FILL{each change made after the evaluation} & \FILL{finding ID} & Evaluation \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Features and the social behaviours they support}
+
+\FILL{Walk the main journey and explain how each feature supports social behaviour. The rubric
+rewards explaining \emph{how} features support social behaviour, not just listing them. Cover at
+minimum: the quorum gate, station assignment, the shared coverage radar, quick callouts, moderation,
+and the community view.}
+
+\subsection{Evaluation findings}
+\label{sec:findings}
+
+\subsubsection{Task performance}
+
+\begin{table}[htbp]
+\centering
+\caption{Task completion by participant (think-aloud group).}
+\label{tab:taskperf}
+\small
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Task} & \textbf{Completed} & \textbf{Assists} & \textbf{Median time} & \textbf{Notes} \\
+\midrule
+T1 & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+T2 & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+T3 & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+T4 & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+T5 & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Questionnaire results}
+
+\FILL{SUS mean, standard deviation and range, against the published average of 68~\cite{brooke1996}.
+Say which items scored lowest and what that implies.}
+
+\FILL{The six custom items: willingness to join strangers, comfort with voice, radar clarity, trust
+in privacy controls, motivation, purpose comprehension. Report means and note any item where the
+spread matters more than the average.}
+
+\FILL{Themes from the two open questions, with a short representative quote for each.}
+
+\subsubsection{Consolidated findings}
+
+\begin{table}[htbp]
+\centering
+\caption{Usability problems found, with severity and the decision taken.}
+\label{tab:findings}
+\small
+\begin{tabularx}{\textwidth}{@{}llXlll@{}}
+\toprule
+\textbf{ID} & \textbf{Screen} & \textbf{Problem} & \textbf{P's} & \textbf{Sev.} & \textbf{Decision} \\
+\midrule
+F1 & \FILL{} & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+F2 & \FILL{} & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+F3 & \FILL{} & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+F4 & \FILL{} & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+F5 & \FILL{} & \FILL{} & \FILL{} & \FILL{} & \FILL{} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Severity follows Nielsen's scale~\cite{nielsen1994}, from 0 (not a problem) to 4 (prevents task
+completion). A finding marked \emph{defer} or \emph{reject} carries a stated reason; an honest
+deferral is more defensible than a silently ignored problem.
+
+\subsection{Changes made in response to the evaluation (version 2)}
+\label{sec:changes}
+
+Version 2 is the prototype submitted with this report. \FILL{For each change: what was altered,
+which finding drove it, and a before/after figure pair.
+This subsection is what the handout means by ``make improvements to your high-fidelity prototype
+based on lessons learned'', and it is the difference between a described evaluation and a used one.}
+
+% Template for each before/after pair - duplicate as needed.
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=0.45\textwidth]{before-XX.png}\hfill
+% \includegraphics[width=0.45\textwidth]{after-XX.png}
+% \caption{Finding F\#: before (left) and after (right). \FILL{what changed and why}}
+% \end{figure}

@@ -3,55 +3,69 @@ import { router } from 'expo-router';
 import { Pressable, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { C } from '@/ui/theme';
+import { type IconName } from '@/ui/kit';
+import { C, R } from '@/ui/theme';
 
-function Corner({ style }: { style: object }) {
-  return <View style={[{ position: 'absolute', width: 30, height: 30, borderColor: C.ink }, style]} />;
+function SideBtn({ icon, label, onPress }: { icon: IconName; label: string; onPress?: () => void }) {
+  return (
+    <Pressable onPress={onPress} style={{ alignItems: 'center', gap: 5, width: 72 }}>
+      <View style={{ width: 50, height: 50, borderRadius: R.md, backgroundColor: 'rgba(255,255,255,0.16)', alignItems: 'center', justifyContent: 'center' }}>
+        <Ionicons name={icon} size={24} color={C.onInk} />
+      </View>
+      <Text style={{ color: C.onInk, fontSize: 12 }}>{label}</Text>
+    </Pressable>
+  );
 }
 
 export default function Capture() {
   const insets = useSafeAreaInsets();
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg, paddingTop: insets.top }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 10 }}>
+    <View style={{ flex: 1, backgroundColor: C.text, paddingTop: insets.top }}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10 }}>
         <Pressable onPress={() => router.replace('/home')} hitSlop={12}>
-          <Ionicons name="close" size={26} color={C.text} />
+          <Ionicons name="close" size={26} color={C.onInk} />
         </Pressable>
-        <Text style={{ color: C.text, fontWeight: '700', fontSize: 14 }}>Session ends in 3:42</Text>
-        <Ionicons name="flash-off-outline" size={22} color={C.text} />
+        <View style={{ flex: 1 }} />
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: 'rgba(255,255,255,0.16)', paddingHorizontal: 12, paddingVertical: 5, borderRadius: R.pill }}>
+          <Ionicons name="time-outline" size={15} color={C.onInk} />
+          <Text style={{ color: C.onInk, fontSize: 12, fontWeight: '600' }}>Window 3:42</Text>
+        </View>
+        <View style={{ flex: 1 }} />
+        <Ionicons name="flash-off-outline" size={22} color={C.onInk} />
       </View>
 
-      <View style={{ flex: 1, marginHorizontal: 12, borderRadius: 14, backgroundColor: C.placeholder, alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
-        <Corner style={{ top: 14, left: 14, borderTopWidth: 3, borderLeftWidth: 3 }} />
-        <Corner style={{ top: 14, right: 14, borderTopWidth: 3, borderRightWidth: 3 }} />
-        <Corner style={{ bottom: 14, left: 14, borderBottomWidth: 3, borderLeftWidth: 3 }} />
-        <Corner style={{ bottom: 14, right: 14, borderBottomWidth: 3, borderRightWidth: 3 }} />
-        <Ionicons name="business-outline" size={130} color={C.textDim} />
-        <View style={{ position: 'absolute', top: 56, backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.ink, paddingHorizontal: 12, paddingVertical: 6, borderRadius: 10 }}>
-          <Text style={{ color: C.text, fontSize: 12, fontWeight: '700' }}>East side needs more photos</Text>
+      <View style={{ flex: 1, marginHorizontal: 12, borderRadius: R.lg, backgroundColor: '#3A3E46', padding: 14, overflow: 'hidden' }}>
+        {/* The host's assignment stays visible for the whole window. */}
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, alignSelf: 'flex-start', backgroundColor: C.amber, paddingHorizontal: 12, paddingVertical: 7, borderRadius: R.sm + 2 }}>
+          <Ionicons name="navigate" size={16} color={C.onInk} />
+          <Text style={{ color: C.onInk, fontSize: 11, fontWeight: '800', letterSpacing: 1 }}>YOU: NORTH-EAST ARCH</Text>
         </View>
-        <Text style={{ position: 'absolute', bottom: 48, color: C.text, fontSize: 13 }}>Take photos from different angles</Text>
+
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: 12 }}>
+          <Ionicons name="cube-outline" size={110} color="rgba(255,255,255,0.45)" />
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: C.surface, paddingHorizontal: 12, paddingVertical: 8, borderRadius: R.sm + 2 }}>
+            <Ionicons name="people-outline" size={16} color={C.ink} />
+            <Text style={{ color: C.text, fontSize: 12, fontWeight: '600' }}>@dhiraj_s has this angle — try the pillar</Text>
+          </View>
+        </View>
+
+        <Text style={{ color: 'rgba(255,255,255,0.8)', fontSize: 12, textAlign: 'center' }}>
+          Keep the arch filling the frame. Move a few steps between shots.
+        </Text>
       </View>
 
-      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around', paddingVertical: 14 }}>
-        <Pressable onPress={() => router.push('/coverage')} style={{ alignItems: 'center', gap: 4, width: 72 }}>
-          <View style={{ width: 48, height: 48, borderRadius: 10, backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.ink, alignItems: 'center', justifyContent: 'center' }}>
-            <Ionicons name="radio-outline" size={24} color={C.ink} />
-          </View>
-          <Text style={{ color: C.textDim, fontSize: 11 }}>Coverage</Text>
+      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around', paddingVertical: 16 }}>
+        <SideBtn icon="radio-outline" label="Coverage" onPress={() => router.push('/coverage')} />
+        <Pressable
+          onPress={() => router.replace('/processing')}
+          style={{ width: 82, height: 82, borderRadius: 41, borderWidth: 4, borderColor: C.onInk, alignItems: 'center', justifyContent: 'center' }}>
+          <View style={{ width: 62, height: 62, borderRadius: 31, backgroundColor: C.onInk }} />
         </Pressable>
-        <View style={{ width: 80, height: 80, borderRadius: 40, borderWidth: 4, borderColor: C.ink, alignItems: 'center', justifyContent: 'center' }}>
-          <View style={{ width: 62, height: 62, borderRadius: 31, backgroundColor: C.ink }} />
-        </View>
-        <Pressable onPress={() => router.replace('/processing')} style={{ alignItems: 'center', gap: 4, width: 72 }}>
-          <View style={{ width: 48, height: 48, borderRadius: 10, backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.ink, alignItems: 'center', justifyContent: 'center' }}>
-            <Ionicons name="stop" size={20} color={C.ink} />
-          </View>
-          <Text style={{ color: C.textDim, fontSize: 11 }}>End</Text>
-        </Pressable>
+        <SideBtn icon="chatbubble-ellipses-outline" label="Callout" onPress={() => router.push('/callouts')} />
       </View>
-      <Text style={{ color: C.textDim, textAlign: 'center', fontSize: 13, paddingBottom: Math.max(insets.bottom, 12) }}>
-        4 people capturing · 128 photos
+
+      <Text style={{ color: 'rgba(255,255,255,0.75)', textAlign: 'center', fontSize: 12, paddingBottom: Math.max(insets.bottom, 14) }}>
+        4 capturing · 128 photos · your 31
       </Text>
     </View>
   );
