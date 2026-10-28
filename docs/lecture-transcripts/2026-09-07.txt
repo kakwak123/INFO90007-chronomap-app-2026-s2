@@ -1,0 +1,1451 @@
+SPEAKER 0
+After. Yeah It would be Even The What. Come to that you Who knows. You OK. To. Um Yeah. I Oh. this is why. Of the All right, everyone.
+
+SPEAKER 2
+Let's get started. So today, as promised. It's a feedback uh session. Uh, so hopefully, uh, you are able to provide me with that at least your ideas, hopefully some sketches so I can give a look and give you some feedback. Otherwise, uh, do work on the assignment, work with your groups if you're here by yourself, just try to progress a little bit of the work that you need to do for the assignment. And I'll go around. I'll, I'll, I'll get to everyone, so don't worries. So I'll try not to, uh, spend more than 10 minutes on each group. So don't have, please don't tell me 10 different ideas that you have. Keep it to a couple, um, of the more promising ones, and we can focus on that to give feedback. Um, other than that, so next week, uh, we're gonna be talking about recommender systems and reputation systems which might be very important for the next stage of your assignment. And then the week after that we're gonna talk about user evaluation which is a requirement for assignment number 3, so it's 22 very important lecture lectures coming up. That will provide you a lot of context and information for assignment number 3, which is a continuation of assignment number 2, and I will be announcing assignment 3 in the, in the, uh, next couple of weeks as well for those of you that are advanced with assignment 2 that you can get started with assignment 3. I think it's a good thing just so you, so groups that are very eager can get that started so that you're not, uh, panicking too much towards the end of the semester when you have other exams and other assignments. OK, with that being said, um, uh, do work with your groups. I'll get to you eventually. Don't worry, uh, and yeah, as you're, as you're done working or you're satisfied with feedback, feel free to, to, to leave. That's no problem, but while you have things to do or need feedback, please stick around. I'll, we'll do the whole 2 hour session if you need, uh, and yeah, I'll let you start working whenever any, any group is ready for any feedback. Just raise your hand. I'll make my way around the room. Spend some time talking first before you put your hands up.
+
+SPEAKER 0
+OK Let a Because like it's like. that I. OK. Uh OK. I'm not sure you're in charge. I think I tried to go to like, but I've never felt like. Oh yeah, now we just need some raw sketches so. Uh It's very. Good. I guess we just wait till the But I can maybe explain to you that, um, yeah, yeah, I think like. It is um have you ever done. That's so cute. I, um, you know, they usually they just give you the, um, and then you have like some. I think my idea is that like the case study is essentially an important degree and then each person kind of has their own pen like online digital um and they can always write down their um um highlight stuff and new features so that um it's something to do like like to my maps together um. Yeah, what is it called like I think it also like the ability to do like Because I feel like a lot of like. Um, so like you can look at that database through it and like and I think it is you and you have your like um yeah so like yeah I it's. To It's I think what you can see is basically. Yeah. Coming up like new ideas like I didn't see if you guys can others I think. And I have one so which one are you I'm actually and that'll be our so.
+
+SPEAKER 1
+So what, what I have to do to you, uh,
+
+SPEAKER 0
+my friends to have I think as well stop, uh, we start writing like the so yeah, the, uh, doesn't require the uh. I think as well you know because everyone has to be uh I don't know if that's. Yeah, and then maybe other people might have a. comments so it's like the moment for the officials to consider going to. Yeah, that's, that's an idea. And then once like you need to take one discussions between the and the official.
+
+SPEAKER 1
+So it's like ideas in the spirit of what we're
+
+SPEAKER 0
+going for, right?
+
+SPEAKER 1
+So, you know, so don't, don't do this, don't go through all this what makes sense for this kind of,
+
+SPEAKER 2
+it doesn't have to be, but it's, it's easier to.
+
+SPEAKER 1
+A few general advice to you, but, uh, I think you said that you were already working.
+
+SPEAKER 2
+So what's stopping me based on what you said? What's, why does it need to right?
+
+SPEAKER 0
+I like it.
+
+SPEAKER 1
+Why can't I just go, uh, and do it and then we'll decide uh what to do. but yeah, but that justifies the con, uh, yeah, for
+
+SPEAKER 0
+me, my one is just uh I think about this like I can just like. Um, I had to join.
+
+SPEAKER 2
+OK, so that's what I think that's, well, maybe, maybe it was the way, you know, we describe it, but then the that I come across what we're doing you
+
+SPEAKER 0
+have to be.
+
+SPEAKER 2
+So right now the way you described it was, OK,
+
+SPEAKER 1
+someone puts then, and then it should be just 3
+
+SPEAKER 0
+hours later, yeah, puts another what are they doing collaborative
+
+SPEAKER 1
+and yeah she's fine what what can you do?
+
+SPEAKER 2
+I don't know, move things around, bos, whatever, and then you do that, and that's fine. And then, and then it needs the emphasis, uh, so
+
+SPEAKER 1
+it doesn't come across the, I know 90% I use
+
+SPEAKER 2
+I use asynchronous, right, so just be a bit careful. The idea is right.
+
+SPEAKER 1
+It's just about making sure that, uh.
+
+SPEAKER 2
+The crowdsourcing part is clear.
+
+SPEAKER 1
+The colo part is clear.
+
+SPEAKER 0
+Um, the, uh, tablets to be careful because are they
+
+SPEAKER 2
+all working on the same thing at the same? So yeah, so how do you manage that?
+
+SPEAKER 0
+So are we going with like how are you managing?
+
+SPEAKER 1
+Maybe, maybe it could be less.
+
+SPEAKER 2
+I'm not sure, so just think a little bit about that and yeah just make sure that um and in particular it is fine to have more individuals and asymulous
+
+SPEAKER 0
+speech that's not a problem and it's clear what you
+
+SPEAKER 1
+you can easily think about a couple of features.
+
+SPEAKER 0
+Anything else, uh, also for the, for those like, yeah,
+
+SPEAKER 2
+yeah, yeah. So, so when you describe the pre uh the preconditions which is crowdsourcing or go ahead explain why. Yes, yeah, yeah, just be very clear, right, because there might be a feature in my eyes when I read
+
+SPEAKER 1
+it. It is not simple, but you can envision it as
+
+SPEAKER 0
+synch for some specific reason because I have to do
+
+SPEAKER 2
+it by the way.
+
+SPEAKER 1
+The other thing I would say as well is that
+
+SPEAKER 2
+right now you're only doing, right, like doing a route to go back to it, right? The other thing that the other feature you would have here that would make it more synchronous thing would be. Uh, to suggest changes to make a better ro movement.
+
+SPEAKER 1
+For example, there's this thing over here, yeah, maybe you can walk this, there's a better route. Right, instead of this, oh this one is the best
+
+SPEAKER 2
+it's just valuable, of course, but can you make that and maybe that part of the speech should be more
+
+SPEAKER 1
+of the same. This is an idea, yeah, like makes sense, but but
+
+SPEAKER 2
+the idea in general it's just about kind of.
+
+SPEAKER 1
+At all, at least 2, at least 2 variations, but
+
+SPEAKER 2
+you could, for example, have 22 iterations of sketches and
+
+SPEAKER 1
+then something else.
+
+SPEAKER 2
+We need to do just don't do just sketches and then you do and you have the one that makes the most sense to have multi generations with these sketches, the is actually takes quite a lot and they're going
+
+SPEAKER 0
+to. It's important. No. Yeah, I don't like it, but what she says is like. Uh, serving. the Yeah. You get the website. I go. All at once. I Yeah, but then like burn down like we're not they're not going down at all. it's like yeah yeah pretty much and then not sure because he can, yeah, I actually found out you can actually assign people like role and the in the. Yeah, you have to draw it individually, yeah, OK, I
+
+SPEAKER 1
+mean I think you'll go for it.
+
+SPEAKER 0
+Uh, let's go to see right away and then the people in the group.
+
+SPEAKER 2
+OK, so a couple of things I would say.
+
+SPEAKER 0
+Like a lot. And I know.
+
+SPEAKER 2
+And then if I ask you why do we need
+
+SPEAKER 1
+to be. Yeah, I mean This is the original one, but this
+
+SPEAKER 0
+is not like the one here it should be like doesn't make this one. on the side. OK, that, that's what I'm getting. One thing that I want to encourage as part of
+
+SPEAKER 2
+it, you know, it's you can make an argument that this discussion for us, so that part I think is. Pretty obvious as well, right by other people.
+
+SPEAKER 0
+It's up to you, uh, the, uh, restrict that is
+
+SPEAKER 2
+a bit more tricky right now. I mean you need to be a bit careful but like.
+
+SPEAKER 0
+It's like some stuff that I work on like right now the learning design that I do more.
+
+SPEAKER 1
+I'm not sure I'm not sure what it turned into yes yes yes.
+
+SPEAKER 0
+So is the aim of it's entirely for me I'm
+
+SPEAKER 2
+at some point. Our outlooks need to come together, shared workspace, and we
+
+SPEAKER 1
+need to and that can be done, but because this
+
+SPEAKER 2
+is the design itself increasingly important I don't know, yeah,
+
+SPEAKER 0
+you can think about synchronize if you think that they
+
+SPEAKER 2
+might not apply.
+
+SPEAKER 1
+Uh, going in agreement or maybe someone buying something and someone go and say, oh, let me move this here.
+
+SPEAKER 2
+Some stuff on here and, and don't depend on people
+
+SPEAKER 0
+like that, but don't, don't do it forever, come in. But then we need to move and then the one is that that one that one. Every place I go to um.
+
+SPEAKER 1
+I guess, I guess the only argument you could make here is that if someone already knows the then what
+
+SPEAKER 0
+is the. so awkward. Yeah, yeah, yeah, but what I'm, what I'm getting at
+
+SPEAKER 2
+is that someone's already know, I think there's no actual.
+
+SPEAKER 0
+I know it's not a box you know so you're trying to make then you will. And also you are trying to get a data. No, no, that, yeah, yeah, so that's, that's to get
+
+SPEAKER 1
+to the point. Uh, so we can get.
+
+SPEAKER 0
+Yeah, why? Why do they make it's not that.
+
+SPEAKER 2
+And if they know the answer, why do we keep
+
+SPEAKER 1
+the other people then it's just, it's just a game,
+
+SPEAKER 2
+right? And then I don't you.
+
+SPEAKER 1
+There's no knowledge that we, but you can make it.
+
+SPEAKER 0
+I can work on the. Why do they do because they're like.
+
+SPEAKER 1
+This is an expert and the other people are benefiting from the fact that this person is an expert and that's why why is there one person that knows. Why is this this one person that goes and what do they do it to be something simple. You can't be something like oh they get shown the
+
+SPEAKER 0
+image and then, right, because that's not actual we can just like that that's not that's just be showing.
+
+SPEAKER 2
+Yeah, but if you come if this person is knowledge knows about something, it's an expert understand. And then based on that knowledge they're kind of like helping me to get you didn't do with that knowledge
+
+SPEAKER 0
+so they didn't and then and then it works and
+
+SPEAKER 1
+then be very careful how you.
+
+SPEAKER 2
+Um, and as I was saying before, you can say
+
+SPEAKER 0
+it's, but at some point, but they were very exactly the same. Things on the Uh So he'll ask me like. OK, something like. Oh. Yeah, and also like it's very hard to make it also because like you using that you know using the uh I'm not sure that's. Yeah, yeah, well you just said, OK, I'm using it
+
+SPEAKER 1
+for 20 minutes.
+
+SPEAKER 0
+So now you have to, OK, I have time on
+
+SPEAKER 1
+the screen, maybe like listen that doesn't make sense.
+
+SPEAKER 0
+I think for like I think this one meets the requirements but it's just hard to design it's very hard to design like this person they're being told to play.
+
+SPEAKER 2
+So what is the? What is like what, what are we finished the game.
+
+SPEAKER 1
+And they produce benefits from that.
+
+SPEAKER 0
+Yeah, we, I don't like this. So you think uh one thing.
+
+SPEAKER 1
+I was thinking, but I mean like it's like one that is like outsourcing and we all have we're all like at the stage right now it's likely we can
+
+SPEAKER 0
+do it like to see what different and because everyone has like their own friends.
+
+SPEAKER 1
+I don't see what it is. What is the knowledge it's just being told that we
+
+SPEAKER 0
+don't know what's sure, sure, it's like you make something
+
+SPEAKER 2
+like you have like but then you have like.
+
+SPEAKER 0
+like the relational database, but still, I would need to
+
+SPEAKER 1
+show it's not relying on and the other thing, the
+
+SPEAKER 0
+other as well. Separate like like right now it just looks like I
+
+SPEAKER 2
+don't you write a platform and at no point collaborating is so at some point you would need a statement where you put everything together and then in the same
+
+SPEAKER 1
+as a.
+
+SPEAKER 0
+You know what I mean, and then it's OK, right?
+
+SPEAKER 2
+I think both like this it's possible and the two main things is ensuring that it's resources by making it a bit more normal space and second will make we
+
+SPEAKER 1
+go so there's more. is about the same for Wednesday I thought, I thought.
+
+SPEAKER 0
+questioning everyone's like all the groups. I remember. Yeah So the history would be very I mean that. I have. OK. And we have. interactive that will be and the idea is that. all like um. OK, OK, so, so this is kind of like, uh,
+
+SPEAKER 1
+went in the direction, yeah, so the description fundamental this is.
+
+SPEAKER 0
+So I just let it out and this what maybe
+
+SPEAKER 2
+you're gonna show me, OK, and then I'm gonna, I
+
+SPEAKER 1
+will if you don't tell me what the fuck out,
+
+SPEAKER 2
+and then it gets put together. Is that what that, but, but is it just getting
+
+SPEAKER 0
+involved in a few days something happen.
+
+SPEAKER 1
+that's it.
+
+SPEAKER 0
+Yeah, if we, if we, when you say that they are. but then no one would lie for that because it's like like like like the main.
+
+SPEAKER 1
+Yeah this is.
+
+SPEAKER 0
+I don't mind like I really make sense. That is OK. I practice like you do have to sing.
+
+SPEAKER 1
+Oh, there's a thing.
+
+SPEAKER 0
+Oh, this is. what they prefer, uh, once you advocate everyone's uh.
+
+SPEAKER 1
+It's after you do the layer of features on both
+
+SPEAKER 0
+of you. and that's probably rare to realize so she wonder why like my students and some of the building and then it's like is going on but I was wondering if that collaborated. It is, it can be if you make to establish
+
+SPEAKER 2
+that you say, OK, I, I do it from the
+
+SPEAKER 1
+left that's what I want.
+
+SPEAKER 2
+That's OK, but you need to add that layer of top which is.
+
+SPEAKER 0
+And that's just I'm just trying to let you say
+
+SPEAKER 1
+it's a bit more this one would be like would be presented as a single.
+
+SPEAKER 2
+Maybe I see the strategy of what you're doing. I'm not sure, uh, so normally it will like like
+
+SPEAKER 1
+different companies want to advertise and then you try to,
+
+SPEAKER 0
+yeah, yeah, yeah, so it's not.
+
+SPEAKER 1
+I guess for me, but as far as I, but
+
+SPEAKER 2
+I can stop you you just you just put the
+
+SPEAKER 0
+things in the real yeah I think so. that. good.
+
+SPEAKER 1
+Yeah, especially be careful because they can just open the
+
+SPEAKER 2
+discussion alotation coping or like changing stuff I think that's the flag that you have.
+
+SPEAKER 0
+It might be, it might be, it might because I
+
+SPEAKER 1
+know OK, OK, OK.
+
+SPEAKER 2
+My understanding was that each one of you and then, so that clarify that just because that.
+
+SPEAKER 1
+And then.
+
+SPEAKER 0
+It's OK. We'll show him. So my advice to you think doesn't have the other
+
+SPEAKER 2
+you can make it very clear in your arguments, which
+
+SPEAKER 1
+was clear and why why is it that we cannot.
+
+SPEAKER 0
+I mean it's.
+
+SPEAKER 1
+Yeah, I mean other than.
+
+SPEAKER 0
+Yes. Alright. Yeah. I think differenti that can be, yeah, that's, that's something that I can do that, OK, I also, um, for example. There's nothing happening on the other side, but it doesn't mean that we have to be. Sit at the front and then you like sit on his chest so we can. I think like right now like let's say he's have a lot of like interfaces with our guys but the
+
+SPEAKER 1
+collaborators don't think there's.
+
+SPEAKER 0
+Uh, but, and then the one that I suggested is like, uh, it like has to be, it's like meets the requirements, but then we can't go too many different things yeah.
+
+SPEAKER 1
+Have you, because we have.
+
+SPEAKER 0
+They're like maybe like one of us. some places you like this like um and as a group you need to like you. And come up with this so like the idea was like maybe a screen that had like the writing and like someone just to annotate and like and then like like slam some writing things like that or you can also like do like one of these things. I like the design is. we have. Yeah. So you, so for example we're at the stadium you're
+
+SPEAKER 1
+over there. I'm over here. We're making.
+
+SPEAKER 0
+Yeah, yeah, this is interesting because normally when you, uh,
+
+SPEAKER 1
+a lot of the projects when we think about coated
+
+SPEAKER 2
+the army always, uh they they can just go right but this you can make an argument that it's still complicated but it can go to some of the show,
+
+SPEAKER 0
+uh, so you, you do need a live chapter, uh. didn't mention. I think. How, how do you know we already done but how
+
+SPEAKER 1
+can you predict.
+
+SPEAKER 0
+if you, if you look at the quality, but it isn't that's like the the half time walk up an experience because you can. I think that's gonna happens make sense anyway. Yeah, yeah, sure, I'm I was just curious if I
+
+SPEAKER 1
+think I think it's I don't really remember.
+
+SPEAKER 0
+Big space can I uh part of what I'm not
+
+SPEAKER 2
+really part of the is the how that information.
+
+SPEAKER 1
+So I've only been, yeah, so let's say there was
+
+SPEAKER 2
+a goal, uh, I took a photo from my side.
+
+SPEAKER 1
+We all the inside.
+
+SPEAKER 0
+What, what people are interested in because I actually. Yeah So that's it's OK, so what I'm getting at
+
+SPEAKER 1
+is you probably heard me say.
+
+SPEAKER 0
+It's my own.
+
+SPEAKER 1
+If you're just like I have like something you need
+
+SPEAKER 0
+to actually do something like that let's say there was
+
+SPEAKER 1
+a no and then he, he, he goes to some
+
+SPEAKER 0
+email and then it's like, you know, I was like you didn't know I think that's the number, you know, like the window blinds. Yeah, it took them, yeah, like they're, you know, I'll give you an example.
+
+SPEAKER 1
+Well, let's say we're putting these 4 photos, and then maybe you. or maybe we just actually bring together or whatever.
+
+SPEAKER 0
+of the last chapter that, that's a fairly that one
+
+SPEAKER 2
+is of course you can just uh chapter is required for what kind of saying like what, what is the
+
+SPEAKER 0
+end part of what the first one I'm I'm not. So this is from the perspective of just trying to
+
+SPEAKER 1
+think they're chatting about how to make their photo compilation
+
+SPEAKER 2
+or whatever kind of that that.
+
+SPEAKER 1
+And then something in the interface where they can be the reason make sense for us to share and share the challenge for all their philosophy and like big big
+
+SPEAKER 0
+problem. Bigger it would be very um um you know you
+
+SPEAKER 2
+take a photo on Twitter and then people vote for
+
+SPEAKER 1
+the one that they prefer to and then they they they can installation sequence, you know, do it on the
+
+SPEAKER 0
+like what what what kind of.
+
+SPEAKER 1
+No, no. Well, think about it like this I'm doing something and then, and then we would like I don't know yeah.
+
+SPEAKER 0
+yeah. that would just for this like. And the moderation and do you guys have the final goal. I guess like we can just like ban keywords. I'll just try to find her ID I don't I
+
+SPEAKER 1
+don't.
+
+SPEAKER 0
+we call it. It feels like this is just there to put most
+
+SPEAKER 2
+of the interaction is happening.
+
+SPEAKER 0
+I think it's a lot. No, I think it's like yeah, like I'm not sure where we get. And yeah, yeah, sure, you know how it's kind of
+
+SPEAKER 1
+has like the picture like that features that we've highlighted
+
+SPEAKER 2
+I think like.
+
+SPEAKER 0
+people. this happens this is not like inspiration I think I can see why why I want to visit. 3. I go out. I. OK, it's a bit better, but it's still, I would
+
+SPEAKER 2
+still say it's lacking the interface features, but very normal.
+
+SPEAKER 1
+Like every year we get a lot of our start
+
+SPEAKER 2
+to take too much from the perspective and also the app is just not necessarily.
+
+SPEAKER 1
+really hard to like analyze what is like or like
+
+SPEAKER 0
+they can also like if they think in groups they
+
+SPEAKER 1
+can also like.
+
+SPEAKER 0
+What did they have like they can like basically play back the process I mean like one screen or something yeah yeah it's kind of like limit the I actually
+
+SPEAKER 1
+like this would be just like one.
+
+SPEAKER 2
+If you do something like that and you keep holding they need to, but you need to think about, OK, that's, let me, let me expand on that. The rob you want this, and then he says, I'm
+
+SPEAKER 1
+not too sure about. Is it like I think like someone doesn't do, I'll go then it starts getting to a point where maybe
+
+SPEAKER 2
+not justified, uh, just be careful. Like, as I go, I do like the, the sharing
+
+SPEAKER 1
+the notes in my mom and then 3 hours later someone comes to share. I think you, I'm offline part, but, but the app,
+
+SPEAKER 2
+but the app is good unless you have some like
+
+SPEAKER 1
+what did that say you have some, uh, check that. So at this time we go check the app, yeah,
+
+SPEAKER 2
+if you check, check our app. We have a life. We have a phone.
+
+SPEAKER 1
+That is what I do and it's like if you want to have to get the same check our book
+
+SPEAKER 2
+if I just and then hours later someone responds, then it's amazing.
+
+SPEAKER 0
+B Yeah, I also want to know that this guy they all be inside.
+
+SPEAKER 2
+Not necessarily. What I mean is we have to be paid enough to get do something in the at the same time
+
+SPEAKER 0
+because like I mean like. Like if like a restaurant chain owns another restaurant chain and they like the system they can recruit that way possible places but you can't really build a community with like how users which is yeah like how we're supposed to build community. If it's like, sure, but that, but how does the
+
+SPEAKER 2
+so, so, OK, so what brings all 5 of us go to this interface and see about then what? So you'll go there, then what, then what do we do at the end.
+
+SPEAKER 0
+You can each other and tell the others, but it's a bit different, but what I'm saying is for it
+
+SPEAKER 2
+to be synchronous you need to then in the the same time.
+
+SPEAKER 0
+Because Yeah, so it's in this time period you need
+
+SPEAKER 2
+to make this very clear that that, OK, as I send my message or whatever or my team or whatever is that I'm doing the expectations. That everyone else in the group goes immediately there and does something that reacts to that to that anger with and then it's all right but you need to just.
+
+SPEAKER 1
+It doesn't make sense for a lot of, but, but,
+
+SPEAKER 2
+but if you make it something like it's a scavenger hunt, scavenger hunt, you know what a scavenger hunt is when you have to go, it's when, it's when you hide, it's when you hide something, uh, somewhere, and you have to find it. Like they do this in Melbourne a lot where they hide something in the city and then you have to go around the city.
+
+SPEAKER 1
+They give you clues and you have to try to
+
+SPEAKER 2
+find this guy, right? So that. That's, yeah, they do this in the Easter as well where you hide the eggs and then you have to find the eggs so something like that for that it would make more sense for a lost is someone lost yeah yeah give them a shot. It, it, it can get there, but it's very challenging because you are putting a lot of emphasis on the
+
+SPEAKER 0
+tourist, I think it's just like a tourist because like
+
+SPEAKER 1
+this is not like, like the one. OK, if you're struggling to arrive at that point it
+
+SPEAKER 2
+becomes, you know, that's saying that maybe if you shift
+
+SPEAKER 1
+to something different the main tailored for an interface, but
+
+SPEAKER 0
+I guess we can also. Like, like you right so I think it's that's that's the thing, how, how much focus on each of the. So that's kind of. Try to get into the team as soon as possible and start. Yes Uh, it's like old, old members. It's like invites and yeah.
+
+SPEAKER 1
+But for the most part so we will be making a game for most time it's kind of easy though. I gave it to, yeah, you may be fine, yeah, it's fun to take a little bit more, OK, and
+
+SPEAKER 2
+then we can try again either today or send me
+
+SPEAKER 0
+an email and that's and then. Yeah, really, um, yeah, it wouldn't be the sickness part
+
+SPEAKER 1
+is really like because it's, it's too much of, of,
+
+SPEAKER 2
+of, but if you can show me that there's like a lot of these interface elements are happening in that
+
+SPEAKER 1
+it can like.
+
+SPEAKER 0
+group of people. Yeah, and I guess for like if a lot of HR events like this they can refer other in what
+
+SPEAKER 2
+we're working on you can make it the cave or not, and it's a bit easier to think about it. But it's still problematic because it, it is mostly applied but at least it's a bit, I think you can work with it a bit better than you go buy it.
+
+SPEAKER 0
+was to together.
+
+SPEAKER 2
+No, not definitely not a lot. Make sure that it's still located right because then it's not the box. You can't that. They need to make sense that they are in the same location doing something I don't think.
+
+SPEAKER 0
+It should be more like data or some more.
+
+SPEAKER 2
+It needs to be in the end because we cannot evaluate something that you don't have the intro. We are evaluating your, so make sure it is it's, it's definitely easier to fix something where most of the things that are happening are in a. It's easy. It's not the only way, but it's easy to look
+
+SPEAKER 1
+at it, I think.
+
+SPEAKER 0
+I thought this means is like you know how like um sometimes it's like but if you're looking for an
+
+SPEAKER 2
+item you can I'll be talking to you it's already
+
+SPEAKER 0
+like. Yes, yes, yes, yeah, so. OK I'm reading what this this is well. yeah. I think it is. Mhm. Yeah, but I mean. You Wait.
+
+SPEAKER 1
+Uh, I mean, maybe, but it, it, it is, it
+
+SPEAKER 2
+is hard I'm, so you have to say, you will have to say that it's not about the knowledge, it's about the process of generating the knowledge. Uh, what can you do with that process of generation?
+
+SPEAKER 1
+I'm not sure, but if you can come up with justification, I understand that it's like I understand what I'm
+
+SPEAKER 2
+saying, right, is that it's not like this. You're not generating knowledge for the love from the earth. you're generating knowledge from the interaction of ideas and asset. What's not clear is how you use that that that you're saying for leverage that that knowledge and interactions.
+
+SPEAKER 0
+No.
+
+SPEAKER 1
+Well, I think we do.
+
+SPEAKER 2
+What's that's the guy, the guy, that's why at the
+
+SPEAKER 0
+end of the day. So everybody is like, like I think what's important that we all I will say that I don't like too much meat. I feel bad. I think I crashed I think I think also because I I was getting like I couldn't do this because I was like. So maybe during the day you keep saying materials.
+
+SPEAKER 2
+What is, um, up to 7 p.m. historical materials, so
+
+SPEAKER 0
+that that section is so you know how people get angry like they haven't eaten and they get like angry. I don't see if I get angry.
+
+SPEAKER 1
+I think about 10. That's so complicated is important because they have, they kind
+
+SPEAKER 2
+of have to be looking at it to be a bit more important. It's crowdsourcing because you're arguing that your goods are high and that can be for other people that I like and you're arguing. Like they examine organize materials at the same time. This part is not clear to me. Is it they're examining in the uh in real life or they.
+
+SPEAKER 0
+The only thing I'm concerned about is that I have like 3 assignments that's the synch but outside the app
+
+SPEAKER 1
+so that's that's and then and then you are allowing
+
+SPEAKER 2
+them to discuss. I imagine this is happening.
+
+SPEAKER 1
+Fine as well, yeah, that's fine.
+
+SPEAKER 2
+And then we find, we find the position storage in real time. Whatever is the key part. How are they doing? Like we could you could be if each person has
+
+SPEAKER 0
+an apple phone that might not be.
+
+SPEAKER 2
+Yeah, I think, I think both ways would work that you have the basicness component that's a bit more soft with less, and then at some point you come together
+
+SPEAKER 1
+and work, or you could or you could do something
+
+SPEAKER 2
+where it's sequence from the get go, but I think for you, for you to satisfy the sys part. So, um, it, it this all hinges on that part because the other two are whatever because the other two are offline. They don't really matter. I mean, of course you should still discuss it more, but it's. We can't mark you on them mark yeah so yeah yeah you need to have a YouTube page that does this with you're saying it fine and I'm sorry.
+
+SPEAKER 0
+I that you just say.
+
+SPEAKER 1
+Words the interface will just, uh, be a means to
+
+SPEAKER 2
+that yeah, yeah, yeah, you don't, you don't need an interface for the out unless it makes sense that you have like a separate spinner you're showing the outgoing, but
+
+SPEAKER 1
+yeah, just make sure that this refinement thing is showing.
+
+SPEAKER 2
+So what are they doing there? They're OK. They're, they're, they have their materials or you said that they're moving it around. How are they moving them? Can I see that you're. about what can I do about the we're discussing. I'm moving stuff. You're moving stuff there and we're talking. What can I do with the interface to help this? For example, I can rotate. You can see, you cannot annotate something. You can mark something.
+
+SPEAKER 0
+I think my approach is I look around the room and I see it looks like they want to talk, yeah, yeah, yeah, that that would make the synchronous part
+
+SPEAKER 2
+quite a bit better, but I don't know how that
+
+SPEAKER 0
+so you can plan. No, I'm like, uh, you probably, I would probably my
+
+SPEAKER 2
+focus would focus just on generation part, yeah, facility, I,
+
+SPEAKER 0
+I wanna be somebody. I has qualified that a lot of them like they don't think that would be nice to have just like without like ideas ideas that they offer that means like we kind of I don't think you have to worry about. OK, I, I think there is this one.
+
+SPEAKER 1
+So this one is also fine exceptionally, but I think
+
+SPEAKER 2
+this one is harder to because this one's, oh, OK, let's read what you wrote to the 6.
+
+SPEAKER 0
+Expert, yeah, that's why I feel like because like we all improvis anxiety. So it doesn't help us to like generate.
+
+SPEAKER 2
+That's all you can I believe we'll have enough you
+
+SPEAKER 0
+don't you guys don't have enough a bit better, but
+
+SPEAKER 2
+this is also text based because looks like and is also gonna be hard.
+
+SPEAKER 1
+It's not, it's not an.
+
+SPEAKER 0
+the friendship you guys I mean uh and then.
+
+SPEAKER 1
+But then you would send it, uh, so how are
+
+SPEAKER 2
+you marking things for the AI, yeah, yeah, you said that the AI would generate.
+
+SPEAKER 1
+So how would you tell the AI, yeah, yeah, but how would you do that?
+
+SPEAKER 2
+Would you go there in the market, I guess, I
+
+SPEAKER 0
+guess you're like one person to change. Yeah, yeah, yeah, but this is why you need to
+
+SPEAKER 2
+be careful. I think if I can just say, do you agree and say yes, there's no point of me having doing anything in the interface. So the interface needs to have something that adds to that and that's why I'm saying that with the with
+
+SPEAKER 1
+the models that I don't know how it's easier to make that harder a visual.
+
+SPEAKER 2
+ED spatial task, uh, you can benefit more from visualizing interfaces. This is the actual one even with, uh, but, but they're both gone so it's just in what direction are
+
+SPEAKER 1
+you gonna go um yeah we were mentioning, let's see,
+
+SPEAKER 0
+let's see the structures. I think just show something, this is where to get
+
+SPEAKER 2
+something, what do you make it when you make the fidelity that you can show something, OK, this is the AI AI screen, and then you can show like the
+
+SPEAKER 1
+mobile, yeah.
+
+SPEAKER 0
+No, no, no, we don't know.
+
+SPEAKER 2
+I go wild because you don't need to implement including
+
+SPEAKER 0
+the, the memory I guess a bit easier to argue
+
+SPEAKER 2
+for why should the economyface versus the other one and easier in my opinion to make the features that are.
+
+SPEAKER 1
+That's the structure and then how you, how you make
+
+SPEAKER 2
+us refine whatever that the line you have there, then that's, that's gonna make us a good art work or not working but I'm not sure what that entails.
+
+SPEAKER 1
+I mean like this is literally like yeah, I know
+
+SPEAKER 2
+that's a lot of them should be pretty old I
+
+SPEAKER 0
+would say like. Yeah, yeah, the, the, the, the interface itself uh enhances
+
+SPEAKER 2
+the experience that you're trying to make.
+
+SPEAKER 0
+was that was the first thing.
+
+SPEAKER 1
+Oh.
+
+SPEAKER 0
+doesn't mean we don't have like we don't think we have two that have like one is like probably more solid for the one's more solid um in terms of future. OK, but do you have a good prescription, yeah, I think so. So let's see, I mean, the one, the menu, yeah you go through the, yeah, and we, we try to like. Was this the one with uh there was a point
+
+SPEAKER 2
+in the interface where we, we would, uh, freely create the ingredients, yeah, yeah, yeah, OK, yeah, OK, like it's
+
+SPEAKER 0
+like um it doesn't show. Yeah. OK. I think you probably need to come from if you're
+
+SPEAKER 2
+gonna stick with that idea, you probably need to come from the perspective of the restaurant itself is about that
+
+SPEAKER 1
+it's about mixing.
+
+SPEAKER 2
+So if you think about a lot more, yeah, yeah, exactly, exactly, so people go there and they, they talk combinations, right, uh. And then they use this application to put the creation
+
+SPEAKER 1
+of this thing and other people and then they can
+
+SPEAKER 2
+make a little description about it. Oh this tastes salty or this one is a little bit of tang sweet, and then the next people that come like, oh, I like these maybe I'll do some of this right now and then it can work, right?
+
+SPEAKER 1
+um, and what other things like the the.
+
+SPEAKER 0
+But restaurants like restaurants, so I guess the other issue
+
+SPEAKER 1
+you have to think about is how are you doing.
+
+SPEAKER 2
+People, how are you asking people to? What's happening? They go there and then you pick one. I pick one. How are we? How are we collaboratively arriving at the final problem?
+
+SPEAKER 0
+Yeah, I think it's they're going to and disadvantage. I make my version. I don't know. and but the original one is maybe maybe like it's like the original menu uh the restaurant menu for example the restaurant you would make recommendations on that, yeah, different region maybe they have like for example I think it's I think like the premise is more like you know how. has like different so it's basically like you know people being invited by those and then reviewing their menu and like how do you do this that's it's a question
+
+SPEAKER 2
+is this.
+
+SPEAKER 0
+Uh, you know, discuss it maybe maybe maybe like, you know, um, choices.
+
+SPEAKER 1
+Yes, but you see what I like.
+
+SPEAKER 2
+So what is it the interface, this is the interface making suggest like, oh, if you want it to be
+
+SPEAKER 1
+more sweet and then people like what is happening in
+
+SPEAKER 2
+the interface that that they have that's I think.
+
+SPEAKER 1
+Sure.
+
+SPEAKER 0
+Should we, should we do like a, OK, so this
+
+SPEAKER 2
+would be what the house and then 11 person.
+
+SPEAKER 0
+You have to work together.
+
+SPEAKER 1
+So walk, walk through one session. One session and tell me what, what exactly what, and
+
+SPEAKER 2
+then people will rate it based on that so far
+
+SPEAKER 1
+and then people will do like little voting.
+
+SPEAKER 2
+They would discuss in person and and then they would suggest playroving or not. I don't think I think is a good example.
+
+SPEAKER 1
+Uh, but, but I see what, I see what you
+
+SPEAKER 2
+mean. The issue with the, the lava cake or any other cake would be it's a cake, right, so you can't really mess with it. But if you think about dishes that are a bit more, uh, I mean, it'll be done by modular, open
+
+SPEAKER 1
+to interpretation, then it, it's, it's a stronger argument, right?
+
+SPEAKER 2
+Uh, but yeah, this is, this is the part that people to think about. Other, what, what else, what can we do about it?
+
+SPEAKER 1
+Like what else?
+
+SPEAKER 0
+What else? I think it's exactly, exactly.
+
+SPEAKER 2
+So that one is, that one is where people would, uh, and you can make this even more dynamic but it's not just a percentage of stuff I think up to a bit, um, more synchronous in real time. There's a salt meter here so something a bit, but what else? What else on this so what else were y'all showing.
+
+SPEAKER 0
+So also, OK, this is about the right way you're
+
+SPEAKER 2
+showing, uh, what everyone else has voted.
+
+SPEAKER 0
+But what's, how do you arrive at the right time
+
+SPEAKER 1
+as a group on just average, do you, do you
+
+SPEAKER 2
+try to discuss it and agree?
+
+SPEAKER 1
+Who agrees? Who picks? Is that one thing?
+
+SPEAKER 2
+Right, so what's, what's the aggregate conclusion that was arrived through collaborative synchronized interactions that that's, that's, and, and you
+
+SPEAKER 1
+see.
+
+SPEAKER 2
+Like you can I think you need to think about the argument, and once you have the argument, then the interface should follow because yeah, it is. OK, so the interface is providing this information and then
+
+SPEAKER 1
+people could use to discuss it, yeah, but what I'm
+
+SPEAKER 0
+asking is that there's too many collaboration is happening.
+
+SPEAKER 2
+What, what you could argue is that if, if, if you just focus on the algorithm saying there's no collaboration, but if the algorithm is just there before and you still have, so maybe after that people can vote that something like, OK, this is the. Or oh this is the media like both of this
+
+SPEAKER 1
+discuss it. And then that's that's a lot of very, very hard.
+
+SPEAKER 0
+Uh, I think it's, I think it's there, it's there,
+
+SPEAKER 2
+but it just, um, needs an extra step. of synchronism is what I would say. The complicated is obvious, right? You can always make the argument. You have to be there to try it, it, whatever, uh, the courtsourcing part, the conourcing part is, it could be. I mean, you are to make the best argument based on the puristic part, but it's about, you know, meeting different dishes that people have different tastes or whatever. There's a building argument. The synchronous part of work.
+
+SPEAKER 0
+Do you have any recommendations?
+
+SPEAKER 1
+Let us know when you finish. Yeah, I think, I think a good example is the
+
+SPEAKER 2
+price one.
+
+SPEAKER 1
+I'll make it so that beyond just see what everyone
+
+SPEAKER 2
+voted that that can collide with me on the on
+
+SPEAKER 1
+the price one, and this can be on look at the assistant.
+
+SPEAKER 2
+And that's just follow what the algorithm said. The other ones could be, um, as you're mix and matching, uh, ingredients, you could have people drag through the ingredients and then we would say, oh this is going
+
+SPEAKER 1
+more towards, uh, I don't know, cars or candy or whatever, and they need to pull to go.
+
+SPEAKER 2
+In that the broccoli and put this and oh yeah, yeah, that kind of stuff is what needs to be and you can make the app have certain features that facilitate this like maybe say, oh, because you're adding the steak it's making the dish more or less something and then you could collaboratively you can and if you do this suddenly you can make multiple of these. You can make a, I don't know, a saltier version. You can make a tangier version. You can make a umami, but that's like you think at that point, right. And then you can make many variations and suddenly the cross-sourcing part is also this uh time to time.
+
+SPEAKER 1
+Yeah, I think also like for both ideas.
+
+SPEAKER 0
+We kind of considering the heuristics of it um. And just concerned about. your estimated like so sorry the the what like like an event hosted by the company um there's none that. You. That like really promotes. Like people aren't gonna reuse it, but restaurants make you,
+
+SPEAKER 2
+you could, I mean you can think about the food. I wanna get you people, uh, that have different. Pass or whatever or preferences and and you need to make the interface in a way that it kind of appeals to different people diverse opinions that's fine even even the life cycle you could argue that you could. If you want to be profiling, probably not some presentation, uh, yeah, yeah, yeah, yeah, yeah, yeah, you would have assumed that you would be making like promarks here like
+
+SPEAKER 1
+the members one is like one of the members of yeah, yeah, but, but recruitment. Yeah, because you want more people coming, yeah.
+
+SPEAKER 0
+But yeah. And the With the arrangements. That's the Is it more like we are making, for example, two versions of like. So User journey. So you're starting this sketches and maybe walk grabbing the
+
+SPEAKER 2
+initial do that it should be with, right? So if, if the initial sketches was just handed the screen and then you added stuff later, that's fine. So the initial sketches could be something and then on the defined version of the sketches, then you have more screens and more detail and then you have a, uh, uh, another, uh, method that you use for something and
+
+SPEAKER 0
+that's.
+
+SPEAKER 2
+We just wanna see the progress, right?
+
+SPEAKER 1
+That's, that's what matters.
+
+SPEAKER 2
+So at least, at least two methods, um, but I would always recommend that you have at least 2 iterations of the same sketches is what makes the most sense.
+
+SPEAKER 0
+Is there a recommended structure?
+
+SPEAKER 2
+Not particularly. I think I, I, in the handout there's like some sections you expect.
+
+SPEAKER 1
+How many words would you like 3000 words is quite
+
+SPEAKER 0
+a bit.
+
+SPEAKER 1
+Uh, yeah, I mean, the, the part we care about
+
+SPEAKER 2
+the most is, is, is, of course, the results for, right, the description of your prototype, you. The justification of these things in terms of uh the
+
+SPEAKER 1
+design space uh introduction I can't see you being on
+
+SPEAKER 2
+that page yeah right and then the method is just
+
+SPEAKER 1
+a very simple description of which um it would be
+
+SPEAKER 2
+about the uh the the card which one to take and then here is where you would have, you know, the screenshots and then it kind of. Like what you learn in the post as well like good annotations and good descriptions of what's happening and then the discussion can be very brief as well. You can just be, OK, OK, these things were tough, you know, there's these problems, um, you can discuss this members thing, for example, over our app a lot of the works that's the kind of stuff you can do.
+
+SPEAKER 0
+References where would you, would you kind of want us to do like a literature or something like no, no,
+
+SPEAKER 2
+no, just, uh, no, it would just be like, OK, you're afraid to make a statement to make sure it's not just a statement about there and then you go find a reference, you put it there that's the kind of, uh, reference.
+
+SPEAKER 0
+So for the like introduction because like you know we have to talk about some problem that we're solving should we also kind of veer into like the restaurant like
+
+SPEAKER 2
+reviewing landscape a little bit but uh I. Be too worried about it, like you can just say, OK, there's these apps out there that do this, but there's this thing that nobody's doing, and we think that it's important for people to do that, and, uh, the this design space is also to do with.
+
+SPEAKER 0
+I Is there any requirements on these devices?
+
+SPEAKER 2
+Doesn't matter. It's up to you. At least to make sense to what you're doing. If you're doing like, it's like one of those things, right? Like if you're making a collaborative drawing, you probably shouldn't
+
+SPEAKER 1
+do it, yeah, right?
+
+SPEAKER 2
+It's like just be logical and what makes sense for what you're, uh, for what you say.
+
+SPEAKER 0
+Good luck. documents. I think that's a good idea. I think it has. OK. those words can be. I. Shall we, uh, create like a Google document like just note down the like different ideas we have. I And I think their own. Yeah. The machine to generate. Yeah, the results. To generate like the platform of Pokemon. I think this idea And what he said is like we have to I'm just yeah it makes sense um
+
+SPEAKER 2
+co-located so so this is happening during the.
+
+SPEAKER 1
+OK, and the idea, so everyone's told that what is
+
+SPEAKER 2
+happening when you say that they're sharing, uh, and you said that there's a review. What's happening that we do.
+
+SPEAKER 0
+collectively agree. OK, yeah, yeah, OK, OK, OK, it doesn't sink and
+
+SPEAKER 2
+because of that it's because of that it syncs, yeah,
+
+SPEAKER 0
+yeah, and then, and then it's it's synchronous because.
+
+SPEAKER 1
+Oh July but just for the top up for January, yeah. Yeah, that works, I guess.
+
+SPEAKER 0
+That's fine.
+
+SPEAKER 2
+I'm just thinking about like because right now it's very
+
+SPEAKER 0
+small we can do that.
+
+SPEAKER 2
+Is there anything you can say or think that that could be beneficial to others as well, maybe creating a pipeline that could be helpful for the next group of
+
+SPEAKER 0
+people that are doing this for the next how to
+
+SPEAKER 1
+structure the stories themselves will be veryion in some way that goes. So, is there any stuff that you might be creating
+
+SPEAKER 2
+that that could be beneficial to the next?
+
+SPEAKER 1
+Waiting, you, you see what I'm saying, so that would
+
+SPEAKER 2
+certainly outsourcing element way more because then it's suddenly, it's not just coming together as a prop to help these two people, but it's yes because they are the ones with the contextual knowledge from those two people, but they're also maybe creating, uh, new ideas about that information and
+
+SPEAKER 1
+then other. If we don't do it, it's like you're like agreeing about something and I haven't seen the teacher, the teacher and then you like refining the shared story is strong
+
+SPEAKER 2
+so that it doesn't come across as each individual person
+
+SPEAKER 1
+is to do their own thing. So when they come, what do they do?
+
+SPEAKER 2
+They bothmark so exactly they do it, um.
+
+SPEAKER 1
+And they're co-located in small groups. Yeah, that looks fine.
+
+SPEAKER 2
+I would like to see some sketches of the interfaces that you have just to give you a little more specific advice. I think for now it's improved the course of the
+
+SPEAKER 0
+part because it's, it's, it's something too specific specific it have to like. Analyze it reduces the like data analysis like either because
+
+SPEAKER 2
+they've already outline with sketches, but I think this is probably one of those ideas that the scenario a survey,
+
+SPEAKER 0
+right? You can say like oh this is way too salty, but maybe this person. You want I'll be right back, right? And also like. English. Yeah. On the whole PP viral reactor the text. Yes. What What Yeah girl, where are you? Oh, she, oh she texted me.
+
+SPEAKER 2
+I'll start here and I'll come right there, OK. It's. Sorry. So what is the conclusion?
+
+SPEAKER 1
+We totally fresh.
+
+SPEAKER 0
+All right, sure, let's, let's hear it's like. The describing the purpose of the system. So, um, like for example we can do the so and we can also if we want to do the students listening, they can. They can call it certain that they you just quite get it and they can sit and react to the lecture and but the you could be anonymous and all the methods we have pretty excited to to get the. Which one do you guys usually like to wait for your to, to see for example things like can you release some for um the picture the the image was very clear I wanna hear more about this. Um, or, um, how is this related to the top so they don't have to they have interaction with lecturer the lecture a lot of real-time people.
+
+SPEAKER 1
+Yeah, yeah, that, that's what I was about to say because it could, it could be the one you could
+
+SPEAKER 2
+take it from a perspective more of like it's just providing feedback from the slides that the lecture can take
+
+SPEAKER 0
+or improve the slide for the I think doing it
+
+SPEAKER 2
+might be tricky. What can be in real time is the students collaboratively.
+
+SPEAKER 0
+I just located because you're arguing that it's also not
+
+SPEAKER 2
+just because of the slide. because of the explanation of the electricity, the question is just a sequence, right? So what exactly do you go there and you mark the sentence and you say you didn't understand like.
+
+SPEAKER 0
+I think like what to do is is to come up with for the app that are like collaborative and
+
+SPEAKER 2
+like time or saying oh I disagree with you or something yeah if you do a bit more so that
+
+SPEAKER 0
+people collectively agree on edits and so this like helps
+
+SPEAKER 1
+guide. Each other's uh market and I guess that suddenly this
+
+SPEAKER 2
+makes sense and it's it just can't be that each student is individually just because if they are then it's not collaborative or it's, it's not explicitly collaborative plus it's
+
+SPEAKER 0
+not safe that maybe we'll do some sketches. Yeah, we can do or markings are. I'm not sure. Well, it would be, uh, yes, yeah, that's a good
+
+SPEAKER 1
+point. It would be from the perspective of, oh, but then you do stopping.
+
+SPEAKER 0
+To like kind of gather break time and at the
+
+SPEAKER 2
+end again that makes that would be an easier argument versus oh we're just doing it as that person or
+
+SPEAKER 0
+they can um. And so that everyone can see like all this and
+
+SPEAKER 1
+like some question and then have that yeah yeah yeah
+
+SPEAKER 0
+we can still that's that that's where you aggregate things
+
+SPEAKER 2
+and I get collate.
+
+SPEAKER 0
+That's a bad idea. Oh, it's good.
+
+SPEAKER 2
+It's, it's, it's, it's it's easier. It's easier to argue. You, you see how it's easier to argue compared to the other one, right. So now, now it's a part of the concrete features that you make to make a collaborative. I think the key points would be, uh, those breaks and what can you as students collaboratively do. To aggregate and define, uh, each of your comments, comments or highlights or emoji, whatever it is, right, and I think that whatever you're doing that generates we can just upload a body of knowledge and then the lecture other benefit from doesn't require whatever you did whatever you did
+
+SPEAKER 0
+for the descriptions of the. And then we can just talk about what we, yeah,
+
+SPEAKER 1
+yeah, there's, there's a couple of really good ones I would say.
+
+SPEAKER 2
+So I, I, what I say like whenever you pick something that's very contexual and localized tends to be like
+
+SPEAKER 0
+this what you just proposed local knowledge, some local knowledge
+
+SPEAKER 1
+is is important.
+
+SPEAKER 0
+S. I think the fact that you can really like how it makes it so much more sharing with you. So I guess we can also like assign certain.
+
+SPEAKER 1
+So why do you, what's the benefit of this telecom.
+
+SPEAKER 0
+you know, it's the understanding of your. What's the purpose. Would you guys say concept as we explain the large restaurants. Yeah, uh, feedback about uh.
+
+SPEAKER 1
+Uh, and, and then there's also building the company whether
+
+SPEAKER 0
+it's gonna be and it might even be the case
+
+SPEAKER 1
+it might be like good parts but you see, so you start making it now to make it a bit
+
+SPEAKER 2
+stronger your idea a bit stronger. And then the final one is the sinker. So this is the, actually the one that tricky, you're
+
+SPEAKER 0
+saying there, I think like where will it be used
+
+SPEAKER 1
+and they're sharing they they can see each other's quote,
+
+SPEAKER 2
+right.
+
+SPEAKER 1
+Where and what can they do so it will be
+
+SPEAKER 0
+inside a restaurant. And I think when it's important it will be during. Events hosted that's that it doesn't come he's by herself.
+
+SPEAKER 1
+She's going by herself. She posts by herself.
+
+SPEAKER 0
+OK.
+
+SPEAKER 1
+Yeah You will be like, like a, like a feedback
+
+SPEAKER 0
+session interface specifically the ring where you show each other's
+
+SPEAKER 2
+photos on there and you kind of like do the interface.
+
+SPEAKER 1
+Work together to design.
+
+SPEAKER 2
+I know these things.
+
+SPEAKER 1
+I love and then you Google stuff then you make a suggestion and then the other agree or not things
+
+SPEAKER 2
+like that that's, that's.
+
+SPEAKER 1
+I was also thinking like maybe like doing anything that
+
+SPEAKER 0
+they can make on that. Um, the motivation is freeing and like con content.
+
+SPEAKER 2
+It's fun. It's maybe like because you know how like a lot
+
+SPEAKER 0
+of places have like reward cards, maybe like someone who's a top client, yeah, like a top customer. It's this little cars that you've been moving. you know, the little car that Sherry showed you in the 6 categories, yeah, no, no, you just have to
+
+SPEAKER 1
+pick 11 in each category.
+
+SPEAKER 2
+You are applying your design and then you have to say we apply this art here and then you show that it's here this design that that's what and you need to justify why you pick that one and why is it the best one for and where does it
+
+SPEAKER 0
+manifest in maybe like. Oh like honestly like more like professional soccer. Because like these people already have like a passion for and they also have they also have like um. More credibility, so you're not gonna get like whacked here. Yeah. There is. Um, and I guess How it kind of they were making it did I think we should like to find that. I don't get. Yeah So we can. Which is that I think like collaborative features guide discussion that can be used to make 5, yeah, OK, collaborative features. I was 8. I like the feedback. That's me. make a joint manager final. Yeah. Define the concept where it will be happening, when it will be happening, who will be there, how it's collaborative, I guess like the who and why is like the same one I heard of it. and for the final one. Like what else do we think for us to like all come up with ideas that are the same. You just is Yeah, so that we like have so like that we can all do like the work and then understand what we're doing like what else do you think you need to like give her back. Yeah. Each member has an iPad, but there's also the shared. Right Big screen. Oh good. I. What won't. She. Yeah. I don't know.
+
+SPEAKER 1
+I'm trying to think from somebody.
+
+SPEAKER 0
+She. It. You better. Concerned about the feedback. Do Also emoji is not very, uh, informative, but you
+
+SPEAKER 1
+can use the emoji as just a a signpost if
+
+SPEAKER 0
+you like what kind of feedback.
+
+SPEAKER 2
+I would be just complete like things like oh this concept was too vague or you didn't spend enough time on this stuff like that and emojis wouldn't help you
+
+SPEAKER 1
+but you could still use an emoji you as a student very quickly to just.
+
+SPEAKER 2
+Mark something and then when you get, yeah, yeah, and then when you, when you get to the point where you're actually discussing with other students, then you can elaborate and that's something that you want to read, but the initial highlight and the emojis or whatever, that's collaborative but you you just highlight me, yeah, I think it's OK.
+
+SPEAKER 0
+We're still gonna get like majority of that is um we just need to make it not very, you know. uh, I think most lectures would be if they have
+
+SPEAKER 2
+time in the next because lectures they could also be just a post on camera saying, oh, this one thing
+
+SPEAKER 0
+I think it's a substance to make a idea that's like it's only. but the part that, the part that, I mean, yeah,
+
+SPEAKER 2
+the part that we do it is no longer a part of the interface. That's just the, just the result of what's happening, and that is a synchronous, but it's in your case it's irrelevant, so I guess that's part of the.
+
+SPEAKER 0
+We'll just like define what we need to do by next time and then. Easy or just chill. each person. To. You So just like I mean like as many features as you can well actually we should be very reflective about what we come up with to make sure that they're um. I think as well now like if we upload a picture of it into the chat as soon as we can we can be like, hey, this is like missing. I don't think this is very collaborative that would just save so much time yeah um. I will Does anyone else or writing? the sort of things. You can see. Should we go based on the on this one. I think, I think personally we can always like look at the titles. I think like for me it's just easier to look at like something, but I don't know that I I'll try, I'll try and make a recommendation. I think this is fine this is. No. Yeah So I think ideally like one person does. actually get we interact interactive. H Because it's gonna have some subsections I'll try to make a smaller option maybe just showing just showing the.

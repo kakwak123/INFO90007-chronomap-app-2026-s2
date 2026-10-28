@@ -1,0 +1,332 @@
+SPEAKER 0
+Alright everyone, let's, uh, let's get started. So welcome to the 2nd lecture of social computing. So today, as I said last week, we're gonna go start going into a bit more detail in terms of what we're actually gonna be talking about more concretely throughout the semester. And some content here is going to be very important for your first assignment, so. Gonna talk about applications, how to kind of like think about different applications and their functionality, and then at the end of uh today's lecture I'll be showing you uh the handout for the first assignment and we're gonna go through it and um answer any questions you might have. So before I do that just very briefly, so what we talked about last week, uh, so the one thing that I emphasize a lot was that. You know, social computing is not just social media and it's not just Twitter, Instagram, TikTok, whatever, it's very broad, it can be a lot of things. So basically any time you have two or more people that are interacting through a computer system of some sorts, that's social computing, right? So while this subject in specific will focus on the design, so how to design social computing systems well, just know that there's a very broad, uh, area of research on social computing if that's something you're so inclined to do when you do your, uh, capstone projects. Uh, then we talked about Maslow's hierarchy of needs. So us as humans, what we care about is do we have food, do we have water, security, safety, um, warmth, but after all of that is sorted, then we care about our social needs, and our social needs are having friends, having relationships, connecting with other people, connecting with other humans. So this is because it's an inherent thing for pretty much everyone. I know there's some exceptions. People don't, there are some people that don't want to interact with others, but the majority do. That's why social systems are so important and that's why the phone you have on your pocket has so many of these social systems is because you care so much about the the social connection that you will have different apps for different social purposes, right? And because of that, because it's such an important pervasive, uh, type of application that we interact on the daily basis and it's something that's only gonna. Improve and like increase uh it's very important for you to learn how to design for these specifically so I know a lot of you have some experience in designing systems 1 to 1 systems but not really social systems so the subject will be about that we'll be focusing on the challenges and uh and and providing you some tips on how to design the social systems properly. Anyway, as I said, uh, it's not just social media, it's not just, you know, designing social systems, there's also a lot of research that is done in social computing like for social good, human AI collaboration, all, all sorts of things, data mining with the user behavioral data. There's a broad field of research we're gonna talk a little bit about it over the semester just so you get a little bit of taste what is possible to research within the social computing domain. Uh, and then finally I, I touched upon very, very briefly on some of the challenges in designing social systems, uh, such as, you know, there's two people, motivation, things like this, but I'll leave a more in-depth, uh, class on this for next week. So next week, uh, we're gonna go very deep into how to design good social systems, what are the challenges, and what are the tips that I can provide you to make sure that those challenges are mitigated so that the interaction is good. Alright, so that was last week. Uh, today, uh, we're gonna talk about social computing applications, so SCA for the acronym, uh, and this will be the cornerstone topic for assignment number one. Of course the lessons that you learned with this assignment are gonna propagate to the other assignments too, so this is why this this assignment is individual. It's very important for you to kind of get the basic understanding of functionality purpose design of social computing applications so that you can then use these concepts this knowledge later on for the group assignments. So we're gonna talk about uh types of social computing applications. We're also gonna do a uh a categorization activity and as I said last week, um, we're gonna have a lot of these activities in lecture uh throughout the semester and and these activities will help you in um in getting a good mark for your assignments, right? So it's gonna be very much tailored for the assignment for you to clarify a few things and then of course in the tutorial there'll be even more depth in terms of that. After that we're gonna talk about the three C's, uh, model, so how social computing applications can have collaboration, communication, coordination. Do they have all of them? Not, not always, maybe they just have one, but they always have at least one, right? So there will be something that you can do with other people. You can maybe communicate with them, maybe you can collaborate, maybe you can coordinate. But there will be applications that only have one of those, 2 of those, 3 of those, but never zero, right? So we're gonna show you some examples, uh, of these different Cs for the 3 C's model. And again this is an important thing for you to contextualize your assignment number 1. So as you are presenting your assignment number 1, your findings, and we get to that later, it's gonna be important for you to. Show me and show your tutor that you understand the features and the design that you that these applications have within the context of the three C's model. This will become a bit more clear, uh, once we talk about it. And as with the, uh, categorization activity, we're also gonna have a 3 C's model activity. Where again is just to get you to start thinking that think a little bit more deeply about what it means. So why does Twitter have the features that it does? Why does it design it this way? Why does Instagram have it this way, right? It's probably something you never thought about or maybe you think it's very obvious or too simple, right? But there are certain decisions that are being made within these applications that have a very specific purpose. Sometimes it's for engagement, you know, to get you to spend a lot of time in it, but other times it's something that they've proven to that it's very. Uh, intuitive and something that they will lead to people actually enjoying the application. So we're gonna talk a little about that and making comparisons, uh, between different applications and how, so let's say there's two applications that are for the same purpose, but how do they design differently for that purpose and why and which one do you think is the best so that these lessons can then propagate later for when you're designing your own applications. And then as I said, uh, we're after that we're gonna do a little break, uh, and then at the end of the lecture I'll, uh, I'll show you the handout for assignment number one. We're basically gonna go through the whole thing, answer any questions, and that's the end of the lecture. All right, so. Just to push this across once again, there's been many, many, many, many, many, many types of social computing applications over the last few decades. Uh, some of these still exist, some of them don't anymore, uh, but you'll see that a lot of these are social media based, others are recommendation systems, so it kind of depends, right? Like there's a lot, a big variety of things, a big variety of types of applications that can be considered a social computing app, right. However, for it to be a social computing application, it has a very specific uh characteristics. So one of them is uh the functionality. So what exactly is the functionality that the application is offering, right? So what are, what are the features, right? Does it allow you to share photos or video or clips of voice? Is it anonymous? So you probably know like there's certain applications that you use that are you use your real name. Other ones that are anonymous. Other ones have a pseudonym, right? So why, why do you, why do you have these differences and then why is this design decision made? And we're gonna talk about that a fair bit next week. And also what sort of communication or coordination is possible? Can you chat directly? Can you can you send messages? How, how exactly do you interact? There's gonna be certain social computing applications where you don't directly chat to anyone. It's a bit indirect or it doesn't have communication at all, right? So how exactly, what exactly are the, the features, the functionality of that application? And I, uh, the second important characteristic is the purpose, right? So what is the application used for, right? So is it for socializing? or is it for advertising? Is it to sell stuff? It's for you to make decisions, something like, you know, TripAdvisor. So what exactly is the purpose? And the important thing here is of course an application can have more than one purpose, right? And sometimes the purpose of the application is not what you end up using it for, right? And we're gonna have some examples of that and how you can think a bit more outside the box when designing social systems, right, so let's start by going through some uh basic social computing application types. So typically they're independent of technology. So what do I, what do I mean by this? If you have Facebook on your computer or on your phone, it's, it's the same, right? It still has the same general purpose even though because it's on the phone you might have additional features because then you can use the sensors, the camera, whatever, right? But in essence the type is gonna be the same. You can, as I said, you can have multiple purposes, so Facebook can be used as a social network for you to connect with friends, but it can also be used as a way for you to send pictures, videos, memes, whatever, right? So it has multiple purposes. It can also just have one purpose. It kind of just depends on the application. And as I said, the audience of an application can sometimes find purposes that were not envisioned by the app creators, right? So an example of this is you've probably seen like Reddit and TikTok are increasingly being used for political activism, right? But when they first made that application, that was not in their minds, right? That was not the goal of the application. But what happens a lot of the times is that the users kind of like appropriate these applications for other purposes. And you kind of have to be mindful of this a little bit, right? So when you're making your own system, will it be appropriated for other things? And are these other things good or bad? Sometimes it can be bad. I'm sure if a lot of you know what 4chan is and those kinds of applications, you know how that can be misappropriated for really bad things that the original, uh, people that made the application did not think about. So now let's look at very concrete examples. So a social computing application can be for social networking. For microblogging Image sharing, instant messaging, video exchange, knowledge exchange, collaborative information sharing, recommender system, gaming, and professional networking. So now what I'm gonna ask is for each one of these. I want you to tell me one example. So social networking And pick one that it's the primary purpose. Social networking, what would you say? Yeah, I'd, I'd say so. I'd say Facebook is still the primary purpose is, um. is to provide social networking, microblogging. What what is micro bro? This this term kind of went out of use a little bit, but it's, it has a different name, I guess. So what is what is limited by 150 characters? It's a bit different. So Twitter would be an example of microblogging, right? So why is Twitter not a social network? Is it a social network? I guess is the question. You, you follow people, right? So is it a social network? Kinda right, I would say it's not the primary purpose, but it, I mean you wouldn't, yeah, you wouldn't have your grandma on Twitter. Maybe you would, maybe she has good tweets. I don't know, but you see the difference, right? So one, the specific purpose is for it to be able to, to chat on Twitter. I mean you can do DMs, but most of the time it's DMs are private. You can't really DM people, all sorts of things. You can put it private. There's all sorts of things. What about image sharing? Instagram sure is Instagram a social network? Yes, yes, Pinterest, yeah, yeah, yeah, I'd say Pinterest is more, uh, cleanly an image sharing compared to Instagram, but they're both, and this you're already noticing this is gonna be your main challenge for your assignment. Is actually figuring out thinking about things, what is the main purpose and comparing things, but I won't get too ahead of myself. Alright, so next one video exchange. YouTube, yeah, YouTube, TikTok, I guess if you wanna do short. So there's, there's, uh, there's one that every year someone brings up and it's, I think it's always a good discussion is Zoom. Video exchange. I see some nodding of hands, uh, why?
+
+SPEAKER 1
+You can turn off the camera, so.
+
+SPEAKER 0
+Fair enough, but your point is not to share. Your point is not to share a video, right? Your point is to communicate. Yes, it's a bit different, right? So. You can make an argument, but good luck making that argument for the assignment, right? So what about knowledge exchange?
+
+SPEAKER 1
+I You heard?
+
+SPEAKER 0
+Yeah, stack overflow. Not that that anyone, nobody uses that anymore, but stack overflow, true. And uh, what else? Anything else come to mind?
+
+SPEAKER 1
+Ready?
+
+SPEAKER 0
+Sure, yeah, yeah, Wikipedia is an interesting one, like, and, uh, I mean collaborative information sharing, which one would it be? So what is the difference between something that's collaborative information sharing versus knowledge exchange? What is the difference? What do you think is the difference? Yeah, yeah, for example, on Wikipedia you can go edit, you know, they approve it, so it's more of a collaborative, whereas knowledge exchange is more I'm gonna make a post and then someone else makes a post and then someone else makes a post, so it's less collaborative in nature, right? What about a recommender system? Yeah. For example, yes. So there's plenty of those gaming or any any multiplayer game pretty much has social computing elements, right, because they will have communication collaboration, whatever else. Professional networking. Is LinkedIn a a social network? It is, but it's not its main purpose. So it's just going back to what I said, multiple purposes, but for the sake of your assignment number one, it's very clear, it, it, it's, you need to be very clear in terms of what is your main purpose that you identify, and then you need to justify it to some extent. OK, most of them are pretty obvious. Other ones are not as obvious. You can make an argument sometimes for more than one. You can, it's just about how you present your um. Your argument So yeah, a few examples there. So as you can see there's um. Very concrete examples. There's, there's significant overlap though is what I really wanna emphasize. There's significant overlap and understanding where exactly are the features within that application that make it of that category will be the key thing in your assignment number one. So let's say you're doing assignment number one, which is gonna be comparing apps that are the same category. You should be comparing features that feed into that category. Not random features that are not the main purpose if that makes sense and we'll go through it again a bit more in detail once we go through the handle. All right. So now we're going to do a small activity just to um. Get your brain sticking a little bit, so I want each one of you, uh, to pick one of the categories. Doesn't matter which one, maybe make it challenging for yourself though, pick something that's a bit hard, not, not gaming, right? Uh, and then find 3 apps that fit that category. And then I want you to briefly explain why do you think they're the same type. But what makes them the same type of application? What exactly? What are the features? Why do they classify as the same type, right? So one category, 3 apps, uh, very brief explanation why you think they have, uh, the same. Uh, the same category and maybe you can also talk a little bit about how they differ, right? So what is the key differences between them? So I'll go back so that you. Remember, so just pick 13 apps, and then we'll give everyone like 5-ish, 5 to 10 minutes max, and then we'll hopefully have some volunteers to discuss. And this is uh pretty much 33% of your assignment already. To some extent, maybe 20. Uh, everyone, a couple more minutes and then we'll, we'll discuss. All right, who, who wants to go? Test out their, uh, Social computing app knowledge. Anyone, uh, what's the category?
+
+SPEAKER 2
+So I think the um I I chose was. OK, um, specifically I think. Uh, social portfolio, uh-huh, so the apps are.
+
+SPEAKER 0
+Interesting. So, so you can see how they're very different in how they achieve their goals, right? Would you say they are all. The main purpose is to share an image.
+
+SPEAKER 2
+I think their main purpose was to share your work and uh because I think what uh what's common between all these is uh their purpose or their target users are like creative workers like visual artists, photographers, designers, um. So I think that's the main purpose, but in general, yes, they are image sharing.
+
+SPEAKER 0
+OK, how would you, what would you say you can pick just two, how would you say are the main is the main difference between two of them and how they achieve that?
+
+SPEAKER 2
+OK, I think that the, the main difference, let's say uh Drupal. Drupal is to showcase uh SE design but also um help you to gain more. Arrangement. Which Like a job offer to. Yeah. Mhm. Um, well I think the life is more of a Um, like a portfolio kind of thing because there's no like um. Job.
+
+SPEAKER 0
+There's no end goal. It's just no end goal. Well, the goal is the social aspect.
+
+SPEAKER 2
+Yeah, people, people can comment, uh, but there's no end goal of trying to get a job.
+
+SPEAKER 0
+That's good. So this is the kind of, um, argumentation that we wanna see in assignment number one where you go like, OK, there's this and this. They're both the same category, but the approach is very different, uh, and because for assignment number one it's gonna be like a visual poster, it's about you clearly highlighting within the interface how exactly that the apps do it and, and, and, and then you can make the argument as well, um. Would the, would one of these applications benefit from a feature that another one has? Most of the times the answer is no because it's like it's not the purpose, but maybe sometimes there's something in there that can make the interaction a bit better, yeah, very good. Anyone else wanna go?
+
+SPEAKER 3
+I go, but I also.
+
+SPEAKER 0
+Sure, that's, I'm sure it's different, uh, uh, I think.
+
+SPEAKER 3
+Three of them which are quite common Instagram, Snapchat, and
+
+SPEAKER 0
+Pinterest, uh, what are the.
+
+SPEAKER 3
+Why the same time is because they all provide like a platform for the user to share the images to their friends or public and what makes them different is that Instagram that you like build your character, your personal branding through your own page, while Snapchat is more like spontaneous. Uh, images like what you do in life and Pinterest is just like to show your work yeah, yeah, yeah,
+
+SPEAKER 0
+so, so yeah, so, so the, the core of what you're doing is the same but very different kind of uh. Goals that the user has, I mean, I remember when Snapshot first appeared they had the whole 6 seconds, the, the picture disappears, for example, that's, that's a key thing that Instagram was not doing and it kind of like shaped the market a little bit because it's kind of what you have to do these days to kind of like stand out, have some like bullets, like silver bullets like killer feature that will uh be better than um your competitors. Anyone else?
+
+SPEAKER 1
+No, so I got the video exchange, so I got 5. Uh, TikTok and basically musically since they are merged together YouTube and Snap video that video is basically a rip off of TikTok. So the difference between I guess we can categorize this into two types of videos for, uh, one is a long form video like YouTube, and the other is short form videos like TikTok.
+
+SPEAKER 0
+So what's the, what's the point? I, I, I guess you can go a bit deeper than that. What's the point of short form?
+
+SPEAKER 1
+Yeah, so the point is, uh, basically is to. Um, I guess, uh, to, because right now people have like a shorter attention span, I guess.
+
+SPEAKER 0
+And it comes with the time plus it's easier to make content, right? So the platform is a bit easier to create the content and uh and all of that. I, I, you said most musically, which is interesting. So would you say I, I know that it's integrated with TikTok, but would you say that that particular part is video exchange primarily?
+
+SPEAKER 1
+I would say so, yeah, because, uh, it's just like uh people singing with their, you know, they're recording themselves and they upload it, uh, to. Used to be uh a platform where you share your uh musical work, but right now it's it's all it
+
+SPEAKER 0
+is, so it's different from Spotify.
+
+SPEAKER 1
+It's different because Spotify is only audio, but basically it's mainly, but you see how there's overlap.
+
+SPEAKER 0
+So again, this is just when you go and write about this for your son and just be careful, right? If there's something that if I hear the word music in the name. Um, and I know, I know that it's video, but it's important that you didn't make the argument as to why, right? So this is the key thing that I'm trying to get out of this activity is that you have to be a bit careful, uh, when you're picking your categories, and, and make sure there's no ambiguity, right? So when you pick something, pick it, it can, it, it can have a little bit of it, but you need to argue against that ambiguity if there is one. Right, and again, like you can make an argument, and as long as I read it and I go like, yeah, makes sense, then all, all, no problem, OK. And at the same time someone else can pick the same application but make a bad argument and then it's like no, right? So it's about the argument and making sure that you, you do this, uh, well. Anyone else wanna go before we move on or no? Yep. Oh, you, uh, with instant, OK, and that's an interesting one.
+
+SPEAKER 4
+What's up for the graph and, OK, so I think, uh, all of this have. Uh, main function is for. Instants, but they uh actually have different like uh flagship features. So what's happened to be the CQUQ 3 and the telegram, uh, it stored the, the file in the cloud, so it's, uh, I think it's limitless the size of the data, but the line is, is more fun. They have a lot of speaker. Just like, uh, you can see the uh there's like timelines, yeah, and, and um.
+
+SPEAKER 0
+I think the type of people that use each one will be very different because of that because you care about different things. You can also make an argument that WhatsApp is also a social network. To some extent, but it's primarily instant messaging, right? Um, what about WeChat?
+
+SPEAKER 1
+Similar to what. still messaging.
+
+SPEAKER 0
+Yes, but it does so many things, right? You can pay. There's all sorts, so WeChat is a bit of a monster, right, in terms of how many things it it allows you to do, but I would say the primary purpose is still, uh, instant messaging. Yeah, on that note, the one thing that comes up every year as well is that people wanna use the apps from their country, right, which is because they use it and it makes sense, right? Just be careful that you're not providing us with screenshots of stuff in a different language that the tutor doesn't read. OK, so just be careful. I mean, if you do that translate or do something to make or or or use the English version of it to take the screenshots just to make it a bit easier. She does know Chinese, but uh I don't think she knows uh other languages besides English, so be careful. Alright, very good. All right, so let's move on. So now we're gonna, so now we talked about just very broadly, right? We just said it has these features for this purpose, that's it, right? So now let's try to contextualize things a little bit more concretely, right? So let's talk about the three C's model. So when you're thinking about these features, so I'll give you an example, when you have a random application. Let's say what's up? The pro and you're making your profile is that feature social? Not the photo, just you filling in whatever your country with whatever is that feature social. Candy. But it's not like this. So every time you choose an app of this sort, there's gonna be many features within the app that are not social in nature. So I want you to to kind of stay away from these when you're thinking about the assignment because that's not we're going. We're going for specifically the social features, right? So if you are unable to classify a feature within these three Cs, then it's probably not social. It can still be. But it's very unlikely, all right, so the first one is communication is you exchanging messages, information, or discussion. OK, so an example of this obvious, you send a message on WhatsApp. How about you, you sending the traffic data from your phone to Google Maps? Is that communication? It Yes, right, even though it's not explicit or direct, right, so that's one example. Another example would be, uh, sorry, cooperation. So it's you collaborating to do something together, right? What's an example of this? People Sure, if you share like a figma workspace and you do things together. If I take the Google Maps data from different people and I put it together to show the traffic, is that cooperation? Yes, right, so just to show you that it comes in in many different uh ways. All right. And then we have uh coordination. Any examples of a coordination? Feature in their social app. Conference. Yeah, sure, yeah, yeah, it would be things that help you colla communicate or collaborate, but they're not that they're just coordinating your social actions, right? So I'll show you a few examples so that it's very clear, uh, what we're talking about. Alright, so the 3C models comes from a really old model from 2008, and it was specifically for group work. It wasn't, it was not made for social systems. It was just made for like people on a table working together basically. And the whole idea was that you would, you would communicate to generate commitments of coordination. You would then use coordination to foster and mediate awareness going back and forth, and you would do the same thing with communication and then with that you, it will demand cooperation for you to kind of bring everything together, right? So when you work, so when, let's say when you go work with your colleagues for the group project for this assignment for the 2nd and 3rd assignment, right, you're gonna do all three things, right, because that's just a natural human communication. But then when you go to a social computing application, you might not need all of them, right? You might just have one. So let's look at the original Google Docs, the first iteration of Google Docs and the features it had, and let's see which, uh, which ones, which ones of the three C's does it have. So if you look at this picture right here, what would you say, first of all, is Google Docs social computing application? And this particular image is, what is it showing communication, coordination, or cooperation? Cooperation you're just working together to write a document. Right. What about this one? It's the same thing, it just has visual indicators, that's all, right? That's the only difference. What about this one? Coordination you're just you're just saying, OK, you can edit, you can only read, you're the owner, there's no. Shared workspace or anything or they're not communicating it's just you're just coordinating the social interaction. What about this Yeah, it's just a shot version of the thing. And this So basically the guy puts up a comment and then they discuss a little bit and then they can resolve it, say oh it's done. What would you say is happening? Yeah, a little bit above, a little bit above, so the, the textual part, of course that yeah let's do this communication, but the fact that you can lock it, close it, reopen it, that's more of a coordination, right? You can also collaborate from the sense of, OK, you did that you coordinate it, and then you go and do it, and that's collaboration, right? OK, so these are the three core, uh, foundations of, uh, a social computing application, as I said, they don't always exist. So when you go and you, you go find your applications for, um, for your assignments, uh, you even for even for the group assignments later, you don't need to have all of them. That's not the goal. The goal is to have the ones that make sense and not have the ones that don't make sense. All right, so let's now do an activity again, so specifically on the 3C mode. So I want you to pick three different social computing applications. They don't need to be the same category, pick whatever you want. After that, I want you to identify where exactly each of the three C's is, so you tell me, OK, this feature is for this. Right? You can also tell me that they don't exist, right? And then you can tell me like, is out of the tree that you picked, is there any that don't have all three, and do you think it's justified? Should it have all three? Right? Do you think it would benefit the application or not? Right, so how could you, and then here is where we're going a little bit more into the design, uh, side of things for later in the subject, but. Would there be anything that you, in your opinion, you could improve the how the C is manifested in the interface to make it a bit better? Maybe it can be copied from another app or something. That's fine, but think a little bit deeply about this, and then we'll have a discussion. Same thing, 5, 10-ish minutes. Doesn't seem, doesn't need to be the same type. And then once you finish with this, I'm gonna. Say a few random applications for us to talk about there. The type and the three Cs. Give everyone a few couple more minutes and then we'll.
+
+SPEAKER 5
+We'll discuss All right, um, Who wants to go? So, uh, uh, the first category I think is gaming, for example, tolerant or any games, uh, for the communication, uh, I put like the every game and every multiplayer game has the chat on first communication, right, and that's the communication.
+
+SPEAKER 0
+What else do they have for communication?
+
+SPEAKER 5
+Uh, you got like, uh, what is it called pings,
+
+SPEAKER 0
+s, yeah, something like that. Is a ping, is a ping communication or coordination?
+
+SPEAKER 5
+I must say it's communication, but it's only one way.
+
+SPEAKER 0
+Yeah, yeah, yeah, that's good, yeah, I'd agree, yes, and
+
+SPEAKER 5
+the cooperation, uh, I think like every of the game have the same objective, right? So they collaboratively to win the round or win the objective, something like that.
+
+SPEAKER 0
+It, it, it's the inherent gameplay that is the collaboration part, right? OK, yeah, the for the for the coordination part, uh.
+
+SPEAKER 5
+Uh, it's a party leader. You can like in impact people, keep people, something like that.
+
+SPEAKER 0
+So it, it's more on the management, yeah, yeah, like on the launcher or something, not necessarily in game. Well, can be in game, but in the menu. Yes, in the menu, OK, yeah, very good, very good. Would you say they, they all do it the same way? Of all of those games, I think if we're talking
+
+SPEAKER 5
+about the competitive game, most of them have the similar kind of style, so yeah, OK, but if you're talking about like role playing game or other stuff, yeah, yeah,
+
+SPEAKER 0
+so that's what I wanna get into like, so let's say uh that you do pick gaming or something that. To make your assignment more interesting, don't pick two things that are exactly the same. Try to pick something that you can make the contrast and you can show that they, they approach things a bit differently. That will, it will, it will look better, right? It means more critical thinking, right? Very good. Anyone else?
+
+SPEAKER 1
+Yeah, so I got the big 3 from the social media, which are Facebook, Instagram, and YouTube. OK, so for the communication part, well, I guess it's pretty standard, isn't it like, uh, commenting on a post, uh, live streams, commenting on a stream.
+
+SPEAKER 0
+I was, I was about to say because I was wondering if you're gonna say the messenger. Like Facebook Messenger, like, is that the, yeah, you can
+
+SPEAKER 1
+make a case about true, but I, I do think
+
+SPEAKER 0
+it's a separate app. OK, OK, so you would say just a common thing. Yeah and stuff like that, OK, uh, from that perspective,
+
+SPEAKER 1
+yeah, it's like comedy on a post, uh, interacting on the live stream so because three of them have the live stream features.
+
+SPEAKER 0
+There's still a live streaming on Facebook. I'm actually surprised it's still alive. OK. Oh, OK, OK.
+
+SPEAKER 1
+So, but, but, but I mean if you, if you
+
+SPEAKER 0
+look at the, uh, chat, uh, live stream experience between YouTube and Twitch, it's, for example, it's a massive difference. Right, so this is, this could be a good, this would be a good way for you to explain how the the different applications actually do it in a very different way and then kind of reflect a little bit which one is better, OK, and coordination, would you say there's anything? Yeah, so regarding the uh.
+
+SPEAKER 1
+The coordination I guess uh for Facebook and Instagram is pretty similar. It's about, uh, group chat management and for Facebook we also have group, uh, Facebook group management. So not only group chat and and events as well.
+
+SPEAKER 0
+Yeah, you can put like a calendar thing like on the 18th whatever let's go meet for this whatever OK
+
+SPEAKER 1
+for YouTube I guess it's more for like for example and what makes it unique about Instagram is uh one of the main features of Instagram is a close friend. Feature which Facebook and YouTube is not really known for
+
+SPEAKER 0
+Facebook Facebook has it, but it's like hidden away and nobody uses it. It's like lists you can do lists, but it's, yeah, nobody uses it it's Instagram, yeah, yeah, yeah, that's good. So you touched upon one thing that I think is interesting and we'll talk about it more next week, but about like how can we prevent bad actors. Right, so the good thing the social computing applications, what's gonna happen all the time is bad people trying to do bad things because whatever, right? And, and depending on the app this has different ramifications, right? So for example the way Facebook does it is very different from the way that Twitch does it or YouTube does it and so on. Some people have community tools which is like you, you, uh, you flag someone for inappropriate content, right? But for example something like Uber, you can't really do that, right? This is where you have to go things like OK, we actually need to do ID verifications all right so it's a bit different yeah good very nice anyone else wanna have a go? Sure.
+
+SPEAKER 3
+Uh, the category I think is actually me myself confused which category this fall into because I just strava.
+
+SPEAKER 4
+Yeah, uh, strava could be like social networking.
+
+SPEAKER 0
+It could be, yeah, it could be also image sharing
+
+SPEAKER 3
+because you can add images. You can also, uh, it can also be video exchange. Strava is interesting because would you say.
+
+SPEAKER 0
+And I'm not saying either way, right? I'm just saying first job, would you say what is it, what is its primary purpose? Is it a fitness exercise for yourself or is it the social features to share?
+
+SPEAKER 3
+It's to share your activity you would say that that's
+
+SPEAKER 0
+the primary goal, mhm, OK. So and in what and in any modality, right? Video picture text you can upload video images images, yeah, I would say that one is a fitness tracking, right? I don't think it would fit well in any of the categories so those are just examples of course there's there's many others, but just keep in mind that if you go into other categories that I didn't talk about, just make sure that it's, it makes sense and then there's a good argument, OK? What, which was the other one?
+
+SPEAKER 3
+Uh, the other one is heavy.
+
+SPEAKER 0
+Never heard of it, but tell me more.
+
+SPEAKER 3
+Weightlifting makes sense with that name.
+
+SPEAKER 0
+Is it the same concept like you take pictures it's
+
+SPEAKER 3
+less uh in terms of. Uh, communications platform because strava you can create events you can make groups you can even make your own thoughts,
+
+SPEAKER 0
+yeah, I mean have you what uh do you still have the social network stuff like do you get friends or is it just you you make friends you can
+
+SPEAKER 3
+comment you can follow share your progress, OK.
+
+SPEAKER 0
+OK, cool. And the last one, uh, I only, oh, you, yeah, yeah, that's fine, yeah, yeah, so again very different I would say they're both fitness tracking, but. I think the fitness tracking is very similar, but the way they approach the social features is very different, so you would have to like explain very concretely how, how do things differ. All right, very good. So now I'm just gonna spitball a few apps for us to discuss in terms of their type and the three C's, um, Airbnb. Is it the social? Is it a social app? Would it fit in any of the categories we talked about? Recommendation? Sorry, recommendation. Sort of. Yeah, it does have the stars and everything, um, and you can filter to some degree, yes, you can make an argument you can make an argument. I would say it's more on the like sharing economy type of apps, but yeah, yeah, that's fine. And where would you say is, so where's communication in Airbnb?
+
+SPEAKER 4
+We can leave the reviews there.
+
+SPEAKER 0
+Reviews you can message people, yeah. What about, uh, is there cooperation?
+
+SPEAKER 4
+Moving the star is cooperation sorry moving the star. Yeah, yeah, so yes, potentially, so if you, if you
+
+SPEAKER 0
+have, uh, multiple people giving stars and it's an aggregate of people, yeah, then yes, yeah, so that's called a reputation system and we're gonna talk about it more towards the end of the semester. So yes, and coordination. The obvious. All right, another one, Uber.
+
+SPEAKER 1
+You can message the driver, it's communication.
+
+SPEAKER 0
+Within certain conditions, yes, yes, true coordination.
+
+SPEAKER 1
+Again, the review, the travel review.
+
+SPEAKER 0
+And what else?
+
+SPEAKER 1
+Yeah.
+
+SPEAKER 0
+Yes, but what, what, what's, what's the core thing that you can see on the application that's coordination. This is where it shows where you are, right, and then the person. So it will just show a map of where you where you are right so that's not collaboration, it's just a coordination of how to meet. Right? And do you, would you say there's collaboration? Besides the stars. What about uh what's it called? Uber there's the one where you multiple people in the same sharing yeah, Uber sharing, is that, would you say that's collaboration? Or not really?
+
+SPEAKER 1
+I guess we are kind of like forced into, So it's not really like yeah, so this is a key
+
+SPEAKER 0
+thing that, uh, students have problems every year in terms of, uh, this assignment and the further ones. Anything that happens outside the app, I don't care. Right, because it's not, this is not what this is about. Right, if the app leads to collaboration, leads to coordination in the offline world, in the physical world, I don't care because it's not a, it's not the design. You can talk about it, right, but don't focus on it. The core that you should be focusing on is, uh, in-app design features that lead to these, uh, to these three C's or to it being a category of functionality of that app. OK, so be a bit careful with that. Basically think about it like this if you cannot take a screenshot of it. No, OK, it's, it's not. All right, so, Just a brief summary of what we've talked about today, and then we're gonna go and I'll, then I'll show you assignment number one. Uh, so, as I said, uh, uh, there are many different types of social computing applications. Um, the core thing that you have to kind of think about as you're completing your assignments is what is its functionality or what features does it have in app, and, and what is the purpose? So what is the goal? And a lot of the times whatever you do, it's gonna have multiple purposes. It's always about focusing on that what matters the most and what is the primary purpose. So yeah, there's multiple purposes, but they're also technology agnostic so you can also think about it from the perspective of, OK, am I gonna, am I gonna look at this from the phone or the desktop computer, a laptop, a tablet, it doesn't matter, right, as long as the comparison you're making is a fair one, it's all good. Phone versus phone, desktop versus desktop, that's all fine don't compare across technology because that gets a bit messy in terms of design features, of course. And then finally the 3 Cs model is a cornerstone of social computing applications. They don't always have to be there, so don't force it, right? So if you're, if you're going through the app trying to look at the features, uh, deciding what to say in your assignment or deciding what to design in your assignment 2 and 3 with your group later, don't force it if it's there. Great, talk about it. If you feel like adding it to your application makes sense. And it adds to the experience, great, do it, but don't feel like you have to have all three things. Sometimes it doesn't make sense. Sometimes having only one is fine, right? It just depends on the context. Cool, so now. Let me show you the assignment. And then I'll show you, besides the assignment, I'm also gonna show you some examples of last year's uh uh projects that people submitted just so you have an idea of what we're looking for, OK? All right. So first assignment, um, 20% of your mark, it's the only one that's individual. Uh, and the deadline is in 20 days, so about 3 weeks more or less should be plenty of time for this. You'll see quite simple, um, and yeah, completely individual, uh, this will be the only one that you're gonna be working independently at the same time, as I said, try, try getting your groups already because in a in a few weeks we'll be starting the group projects as well. So we'll start the group project after this has been submitted, so I try not to overlap too much because I don't want you to be like overwhelmed, but yeah, this 1, 23rd of August at 11:59 p.m. pretty sure that's a Sunday. Right, so give you an extra time instead of just doing it on, on Friday, so it should be plenty of time to complete. All right, so what are you doing? So the purpose. Of the assignment is to get you acquainted with the different types of social computing applications, so very much so what we just did here today with your activities is to get you to start critically thinking about social computing design and how do current apps do it, why do they do it that way? Do these comparisons so that you can be better informed when it's your turn to make the designs, OK? So what's the task? So in this assignment you will create a visual report. Right, so on different types of social computing applications, your goal is to choose 3 categories. So 3 of the types that I showed you can be other ones, but you, you need to make an argument if you pick other ones. And for each category choose 2 to compare and contrast. So 6, so 3 categories, 2 each, 6 applications total. So what does this mean? There's gonna be, you're gonna make 3 posters, 1 poster per category. OK, and within that poster you'll have 2 applicas within each poster you'll have 2 applications. Alright, so each, uh, so then you have to, uh, include very make it very clear within the poster what is the category that you picked. Uh, and, uh, and why did you group these two applications together? Provide an explanation of their functionality and purpose in a visual manner. What do I mean by a visual manner? Pictures, screenshots, arrows. You can have text, of course, to explain certain things, but make sure that it's upon them is like it's majorly visual that you show us, you show us the, the, the feature, and then you talk about it. Illustrate how applications of the same category differ in supporting social behaviors and activities. So this goes back to what I said before, try not to pick two applications that are almost the same because this is gonna be very boring, right? So use visual elements such as diagrams, screenshots, you can do little annotations, you know, little red box, an arrow, like all sorts of things to just highlight specific things that you wanna, you know, show to me and Sherry that you, you understood exactly the features and how the application functions. And then at the end we expect you to synthesize the insights across the applications within each category using individual examples to highlight broader patterns and trends related to social behaviors, right? So a little summary at the end explaining the differences between these apps and how, how the features kind of like come together and why does one application do it this way over the other. And then of course if you have any references feel free to put it at the bottom somewhere, right? Small is fine it's OK. Let's say for example you're trying to you find a different like a a blurb explaining what the app is sure, make a reference and then put it at the end. So your goal is to, to with this visual report is to give the reader in this case me and uh Sherry. A broad understanding of the various types of computing social computing applications and how they support social behaviors and activities in under 10 minutes. So if I can't go through your posters in under 10 minutes, then you probably have too much. And this goes back to what I was saying before, don't have stuff that's not social. Don't have stuff that's out of app. Focus on the primary features that are for that specific category of app. Right, don't need to have everything. You can pick a few things and focus on those, but just make sure you pick the, the more prominent important ones for the argument that you're making. Any questions? No, it's OK. I'll give you a bit more detail now and how. So that submission will be on canvas on the due date, so again, 23rd of August at 11:59 p.m. An issue we had last year was people were just having like all sorts of templates and all sorts of posters. One of them was like this, another one like that, like it would be, it was a bit of a nightmare because it's some people were cheating because it was too big and they had too much information, right? So this year we decided to make it, uh, um, very concrete so that you don't deviate too much, right? But within each poster you should have your, um, so you should have like a title page before the two posters where you just have your name, your ID, any other, any other information that you might want to put. Then you will have 33 sized posters, one for each category, and then you could have the references in a separate page if you prefer instead of putting it in the poster because you might not have space, and then you have to have an AI use statement which I'm gonna talk about in a second, right? And for each poster, landscape or portrait is fine. You pick whatever you feel is better. Uh, these dimensions more or less, try not to deviate too much, and for the fonts, more or less this. OK, so don't, don't deviate too much again because we wanna make sure it's readable and it's nice. Some people were having these massive fonts or like tiny that we couldn't read, so I think making it a bit more consistent will be better. And there's many tools out there that you can use for this, so you can use Miro, you can use Figma, you can use Canva, whatever, up to you. Just know that Figma, we're gonna use it for assignment 2 and 3. So if you want to start playing around with it, great. And it's very easy in any of these tools to define those uh sizes beforehand and then you just have to fill in the post. OK. Uh, so plagiarism and AI use, so yeah, don't copy stuff from the internet without attribution. Again, just make sure you have a reference if you're gonna use anything like that, and nothing between each other, of course. And in terms of AI use. So my view on AI is that it's inevitable we're all gonna be using it, we're all using it already, all right, it's fine, you can use it, just don't use it to do the thinking for you, that's all I'm asking, all right? You can use it to make it uh sound better. I don't mind. As long as you did the work first and you thought about it, don't, don't go to Chachipiti and say, make me a post. Don't do that, right? But if you make it and then go like Chachi PT, uh, help me fix the language a little bit, or do you have any recommendations in terms of blah blah blah, and whatever it says, it's on you. It might tell you something bad. It probably will because it's not really good with design stuff, right? But uh, it's entirely fine. The only thing we ask is that you tell us, did you use it? Which one did you use and then provide your um. Uh, provide your output, right? Open HFD it's easy. You just have the log, put the link, that's it. OK, and just for us to check that it's not unreasonable, OK? But feel free to use it, but use it responsibly. As for delays, so if you, for every, uh, for every day that you're, uh, from the deadline, you'll lose 2 points. So try to submit on time, so a 10 point reduction per day after the submission deadline. Any questions? No, that's great. Good, good, so pretty straightforward again, uh, use the, so as I said like this, this week's tutorial you're gonna do a bit more, uh, like activities to help you with this next week's tutorial again so make sure that you come to those tutorials because it's gonna be important for you to get in the right mindset of what we're asking for here and feel free to ask things on edge. Email, whatever, right? We're happy to clarify. All right, and now if there's no questions, I'm gonna show you some examples of some posters from last year. I'm gonna do a little uh disclaimer before I do. These are not the best posters. These are just posters, right? Just as an example. So don't just go copy this and think, oh, that's my 20 if I just copy that. No, I'm just showing you some examples. We can even do a little exercise here about you telling me what's wrong with the posters. Right, and then we can discuss. One second. All right. So here It's poster number one. So this one was landscape, right? So the, the category was um games. And the two games was uh King of Honor and League of Legend Wild Rift, so very niche, I guess. So you look at this. What's your thoughts? Good poster? OK poster, great poster? What's the, what, what would you say is the, the, uh, the main strength?
+
+SPEAKER 1
+Uh, many informations.
+
+SPEAKER 0
+Is that a strike? I, I think they, they, uh, the students used really good, uh, annotations. Like in colors and everything, but there's way too much text, right, way too much text, which way too much information, and the use of like the space is just not as good as it could be, OK, still OK, still a good poster, but improvements can be made, right? But I really like the way this is done here with the little things, the tabs and the screenshots with like pinpointing very specific. I don't know why this is so blurry, but you know, yeah, make sure the screenshots are not blurry. All right, let's look at another one. So this one was uh instant messaging. So line versus telegram. So this one is more on the portrait mode. So what would you say here? What's the, what's the main strength?
+
+SPEAKER 6
+I think like very few criteria that they are comparing.
+
+SPEAKER 0
+Yeah, I think there's good separation exactly so it's even color schemes, right? Like it's white here, it's a little beige over there over here at the bottom is the synthesis, so it's very kind of like um. Well separated because the other one had a little bit of you didn't at some point you didn't know which one was King of Honor, which one was League of Legends. This one is very obvious, right, very distinguished, yes, what would be a problem because of the uh.
+
+SPEAKER 3
+Center yeah, center alignment is a bit questionable, but, uh,
+
+SPEAKER 0
+yeah, and the font, of course I mean there's little issues like that. Would you say this still has too much text, but too much, right? Uh, maybe not enough annotation right? right now only thing that's happening is arrows shooting out of the text, right? There's better ways to do this, right? Boxes zooming in like things like this that make it much easier for us to kind of like uh see exactly what uh what you're thinking about, all right? And I mean, Yeah, think a little bit about contrast as well, OK, and we will talk a bit about that later in the subject, but for now, like, be reasonable, right? So there's so many of these like palette websites online that you can look at like, OK, what are colors that combine with each other to be pleasant, uh, right? So the, the purple kind of throws it off a little bit, but pretty good, pretty good poster. All right, let's look at another. So again instant messaging, so this one is uh WhatsApp versus WeChat. So, What's the strength?
+
+SPEAKER 3
+Easily differentiate the the features, uh-huh, so they went all
+
+SPEAKER 0
+in with the whole, you know, disambiguation between functionality purpose, primary use, stuff like that, right? But what's, what would you say is some other issue here?
+
+SPEAKER 3
+There is no graphics. Yeah, there's no graphics, so I'm just guessing.
+
+SPEAKER 0
+I don't have WeChat. I don't know. So you need to show me, right? And, I probably I would say 80% of the apps you're gonna put, I probably don't use, right? So you need to make sure that I understand and I see what's going on, right. What else? Is that uh where's the 3 any 3C mentionings? For example, right, sometimes it will make sense, but other times it will make sense, right? So would you, would you say which feature is the, which feature is communication, right? So right now it's just all come together, right, like all the functionality are just functionality. There's better ways to do this, right? It's not bad. But it could be better, OK? So yeah, so these are some examples, um, OK, be careful with, you know, it's like everything in life, right? Like if, if you look at something and it immediately you go like, uh, you already go like, uh, you already have a bad impression about it, so make sure not small font, not a like a 100,000 words of text. Make it look nice. I know some of you are not as, you know, artistically inclined as others. I understand this, right? That's fine. All I, I, I don't need to, to be like a beautiful like, but reasonable is all I'm asking. I like it's like good, good color scheme, font that I can read, um, and good use of visuals, good use of visuals. Really important that you highlight that and noting that you do have limited space, so you will have to make concessions and decisions in terms of what you keep, what you not keep, and that's fine. We don't expect you to talk about everything, but if something really important we feel is missing, then of course that's a problem, but think carefully about what you should include and make sure that that contrast, that comparison between the two is what's the main thing that you're going for here. OK, any questions? How many score? No, this one, this one was probably a 12, I think, 11 or 12. No visuals. So, that's us being nice, right? So because it we clearly say visuals. I think it was 11. But this is, uh, that was worse, right? I, there's always someone in every year that does it on Word or something, I swear, so or or PowerPoint, so it will look bad, right? But you're, you're in a design subject, right? So our expectation is, yeah, you go and you find these tools and you play around with it a little bit. Right, and there's even templates. To be honest, that you can leverage and that's fine. As long as it fits for purpose, right? Anything else?
+
+SPEAKER 1
+Uh, is there any good examples?
+
+SPEAKER 0
+Good examples, uh, I mean, I, I think the, the second one I showed you had a good mark, a reasonably good mark. I'm not gonna show you a 19, right? It's too easy. But the second one had a decent one. OK, it's just I I I think it's more important that I show you the pitfalls. Than the, the good things, right? So the things to stay away from. OK. Any, anything else? Alright, so yeah, get on it, right? Don't leave it for the last week to do this, get it on very early because the earlier you get it, the more likely you are to be able to show it to your tutor, even show it to me in one of the classes, and I can give you some general feedback on it as well. Happy to do so. And yeah, I hope everyone enjoyed today's lecture. Make sure you come to the tutorials, as I mentioned. And, uh, because in the tutorial, uh, there's gonna be content regarding the assignment, uh, again, so. So in the tutorial you're gonna be talking about uh different types of social computing apps and you're gonna do an activity about app goals which again is gonna be hopefully stimulating for you in terms of assignment number one and then next week's lecture we're gonna talk about challenges of designing social systems, tips about how to do it properly, and then we're gonna start talking about design space which is gonna be one of the cornerstone, uh, topics for, uh, the group project. OK, so see you everyone, uh, next week.
+
+SPEAKER 4
+OK. Hey George. Yep. I'm the one emailed you earlier.
+
+SPEAKER 0
+Yeah, so you're still having issues with the enrollment. I think it should be fine as long as they resolve it by the end of weeks, I think it's just like this, right? It should be fine, but do send that, uh, subject enrollment variation because I think they can do that independent of your degree.
+
+SPEAKER 4
+I can do the enrollment because, uh, currently. My, uh, campus is logged into AI specialization so I can find this subject in there.
+
+SPEAKER 0
+Oh yeah, you can't because you're not enrolled. Yeah, that is the issue. If I, I'll try to add you directly on campus even as like an auditor for now so that you can see the stuff and then later on when you do get enrolled, let me know so I remove your auditor role. So that you at least can see stuff, OK? OK. All right. And let, let, yeah, let me know. Let me know once you're enrolled. OK.
+
+SPEAKER 1
+Thank you. Yeah. Hello, uh, just, uh, wondering, uh, so my name is Timothy. I'm actually from Information Systems, so probably from IT, but I'm quite interested to do research on, especially on social computing on the subject. So I'm wondering whether I, yeah, yeah, yeah, yeah, yeah.
+
+SPEAKER 0
+So I think the best way is, um, so throughout the semester I'm going to show you a little bit of the research that we do and share we will as well. Uh, and then in towards the week maybe 8 or 9, you know, the project system, right? So there's a system where we put all the projects. What I would recommend is you go there, you see this, the project I'm putting up, and then you tell me if anything is of interest, but it's mostly gonna be like things like, um, misinformation, human AI interaction stuff, parasocial behaviors online, stuff like this. But we can talk more, uh, later in this semester once we present you a little bit more.
+
+SPEAKER 1
+Yeah, so right now I'm on the 2nd semester and next semester I'm, uh, thinking about taking the, uh, human AI subject.
+
+SPEAKER 0
+Yeah, yeah, yeah, so you should. It's, it's, I teach that with uh, with one. I highly recommend. I think it's, it's a new subject. We put a lot of effort and I think it's quite, quite good.
+
+SPEAKER 1
+All right, wonderful.
+
+SPEAKER 0
+Anything else?
+
+SPEAKER 1
+I'm also wondering because, uh, in my, uh, subject, the IS research, uh, one is actually divided into two parts, so the part one and two. So, um, I don't know whether I should take it
+
+SPEAKER 0
+in the same, so yours is the 50. 1, the 25, so it's 12.5. Yeah, 2.5. Yeah, that's fine. That's fine. What, what I'll need to check, so when I put the projects up, I, I need to put um. From each degrees people can apply. It's just a question of when the time comes. You tell me which one it is, and I add it so that you can apply. OK. It, it should be fine. It doesn't if it's one semester, two semesters, it shouldn't matter really. Well, I mean, having more time is probably a good thing, right, technically.
+
+SPEAKER 1
+I, I think that's all. Thank you very much. I'll see you again.
+
+SPEAKER 0
+Have a nice weekend. You too. Oh, weekend, week. Though it was Friday, if only. I Uh, just that goes through her knee.
+
+SPEAKER 7
+Yeah
