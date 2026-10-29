@@ -14,8 +14,8 @@ run-sheet; where the two disagree, the study kit wins.
 ## Before you start (once, ~15 minutes)
 
 - [ ] Open the Figma prototype on the test phone and run the whole journey end to end.
-- [ ] Attempt all five tasks yourself. Note the exact tap path for each - you need to know the
-      intended route to recognise when someone has gone off it.
+- [ ] Attempt all five tasks yourself from their reset screens (see the run cards in Part 1).
+      Wait for the two timed screens in T2 and T3. Confirm each ends on the screen the card names.
 - [ ] Fix any dead link **now**. A broken link discovered mid-session wastes a participant you
       cannot replace.
 - [ ] Print or open: the task cards (`pack-tester.md`), this pack, and a blank notes template
@@ -58,20 +58,115 @@ run-sheet; where the two disagree, the study kit wins.
 
 Stop a task at 5 minutes and record F. Do not let one task eat the session.
 
-### Success criteria - what counts as done
+### Run cards - one per task
 
-Keep these to yourself during the session.
+Keep this section to yourself. Before **every** task: reset the prototype to the start screen,
+read the task aloud, start the timer. The prototype moves on by itself in two places (see T2 and
+T3), so do not be surprised when a screen changes without a tap.
 
-| Task | Counts as complete when they… |
+For each task, tick what you see, write the time, then circle C, P or F. The stop time is 5 minutes.
+
+#### T1 - Join the clock tower session
+
+| Item | Detail |
 | --- | --- |
-| T1 | Reach the rally screen for the clock tower session |
-| T2 | Can say which position they have and where it is, **and** signal ready by any means. Record which method they chose; do not prompt rather than the mic |
-| T3 | Use a quick reply to respond, **and** correctly name the side that still needs photos |
-| T4 | Reach the share screen with exact location off and a story format selected |
-| T5 | Open the participant menu and flag the person |
+| Start screen | `02 Home: Nearby` |
+| Intended path | Clock Tower card in Live near you, Join, arrive at `09P Rally: participant view` |
+| Done when | They are on `09P` |
+| Watch for | Did they look in Community or Requests first (the pilot did)? Did they find the card without scrolling? |
+| Tick | [ ] found card unaided  [ ] went to another tab first  [ ] hesitated over Join |
+
+#### T2 - Find your position and tell the host you are ready
+
+| Item | Detail |
+| --- | --- |
+| Start screen | `09P Rally: participant view` |
+| Intended path | Wait about 8 s (the host "starts" by itself), arrive at `11 Briefing: your position`, tap I'm in position |
+| Done when | They say their position and roughly where it is, **and** signal ready |
+| Watch for | Which signal did they use: the I'm in position button, a quick reply, or speaking? Write it down, do not prompt. Did they tap Share rally link while waiting (it does nothing)? |
+| Tick | [ ] said position correctly  [ ] signalled by button  [ ] signalled by quick reply  [ ] signalled by voice  [ ] tapped Share rally link |
+| Note | `11` shows the position in its heading, so this tests reading it, not finding it |
+
+#### T3 - Respond to the host, then name the thin side
+
+| Item | Detail |
+| --- | --- |
+| Start screen | `14 Filming: live call` |
+| Intended path | About 5 s later the host callout appears (`15`), tap I'm in position or a quick reply, back on `14c`, read the coverage state |
+| Done when | They acknowledge the host **and** name a side that needs photos (south-west) |
+| Watch for | Did they read the side from the radar or from the written label? Say which. Did they react to the callout, or wait for you? |
+| Tick | [ ] acknowledged by button  [ ] acknowledged by quick reply  [ ] named side correctly  [ ] read from radar  [ ] read from label |
+
+#### T4 - Share the model without the exact location
+
+| Item | Detail |
+| --- | --- |
+| Start screen | `16 After filming: capture complete` |
+| Intended path | `16` uploads by itself and moves on after about 6 s, `17` moves on after about 6 s, `18 Artifact`, Share, `20 Share exhibit`, turn off Include exact coordinates (goes to `20b`), Share, arrive at `20c Shared: location hidden` |
+| Done when | They are on **`20c`**. If they are on `20d` they shared the exact location: score F |
+| Watch for | Did they notice the coordinates toggle before tapping Share? Did they share first, then try to undo? Did they tap View souvenir & score (goes to `18a`, a detour, record as a wrong turn) or Back to Explore (leaves the task)? |
+| Tick | [ ] waited through the automatic upload  [ ] found the toggle  [ ] turned it off before sharing  [ ] ended on 20c  [ ] ended on 20d |
+
+#### T5 - Flag the participant photographing strangers
+
+| Item | Detail |
+| --- | --- |
+| Start screen | `14c Filming: live call (no timer)` |
+| Intended path | Tap a participant, `14a` options, pick a reason, arrive at `14b Participant flagged` |
+| Done when | They are on `14b` |
+| Watch for | Which reason did they pick? Did they look for a report control elsewhere (flag icon, voice channel)? |
+| Tick | [ ] tapped the participant  [ ] picked Photographing strangers  [ ] used another route |
+
+**Reset screens** (in Present mode, jump to these frames by name, or open the prototype link at that frame):
+
+| Task | Reset to |
+| --- | --- |
+| T1 | `02 Home: Nearby` |
+| T2 | `09P Rally: participant view` |
+| T3 | `14 Filming: live call` |
+| T4 | `16 After filming: capture complete` |
+| T5 | `14c Filming: live call (no timer)` |
+
+There is no Hold steady button any more. If a participant asks about it, they have seen an old copy of the prototype.
 
 T2 and T3 are the ones to watch. They are the tasks that test whether the coordination design
 actually works, and they are where the host/radar concept either proves itself or does not.
+
+### Scoring sheet - one per participant
+
+Copy this block for each think-aloud participant. Fill it in during the session, in pen if printed.
+
+Participant: P__ | Date/time: ________ | Moderator: ________ | Note-taker: ________
+
+Audio consent: yes / no | Device: phone / laptop | Started on 02 Home: yes / no
+
+| Task | Start | End | Time | Assists | Wrong turns | Outcome | Route to record |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| T1 | | | | | | C / P / F | |
+| T2 | | | | | | C / P / F | button, reply or voice |
+| T3 | | | | | | C / P / F | radar or label |
+| T4 | | | | | | C / P / F | ended on 20c or 20d |
+| T5 | | | | | | C / P / F | reason picked |
+
+- Dead or broken screens met (screen number and what happened):
+- Best quote per task (verbatim, with the task number):
+- Top 3 problems (write straight after, before the next participant):
+  1. ________
+  2. ________
+  3. ________
+
+After the session, copy the outcomes into one row per participant here:
+
+| Participant | T1 | T2 | T3 | T4 | T5 | Total time | Assists |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P1 | | | | | | | |
+| P2 | | | | | | | |
+| P3 | | | | | | | |
+| P4 | | | | | | | |
+| P5 | | | | | | | |
+
+Questionnaire participants (Q1-Q5) have no moderator, so there is no outcome row for them: use the
+form's "any task you could not complete" answer instead.
 
 ### Debrief questions
 

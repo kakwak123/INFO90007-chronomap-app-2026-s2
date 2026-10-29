@@ -98,7 +98,7 @@ useful result, not a failure.
 
 > The capture is finished.
 >
-> Find the finished 3D model and share it to a story - but without revealing the exact location.
+> Find the finished 3D model and share it - but without revealing the exact location.
 
 ---
 
