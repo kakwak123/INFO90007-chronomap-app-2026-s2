@@ -51,19 +51,40 @@ The staged-peer wording follows the lecturer's advice for synchronous systems: m
 
 ## 5. Tasks (same five for both groups)
 
-Give one task at a time. Read it aloud and hand over the card. Start screen is stated; if the participant is elsewhere, reset the prototype to it.
+Give one task at a time. Read it aloud and hand over the card. **Reset the prototype to the start
+screen before each task**, so a participant who gets lost in T2 still begins T3 correctly.
 
-| #   | Task as read to the participant                                                                                                                                           | Start    | Success criteria                                                               | Expected path `[FILL after rehearsal]` | Screens           |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------ | -------------------------------------- | ----------------- |
-| T1  | "A capture session is happening right now at the clock tower. Join it."                                                                                                   | 02 Home  | Reaches the rally screen for the clock tower session                           |                                        | 02 → 09           |
-| T2  | "You are in the rally and the host has briefed everyone. Find out which position you have been given and where it is. Then tell the host you are ready, without speaking." | 09 or 10 | Names their position and where it is; uses a one-tap reply rather than the mic |                                        | 10/11             |
-| T3  | "Capture has started. The host asks you to move two metres to your left. Respond. Then tell me which side of the tower still needs photos."                               | 14       | Uses a quick reply; reads the radar and names the thin side                    |                                        | 14, 15            |
-| T4  | "The capture is finished. Find the finished 3D model and share it to a story, but do not reveal the exact location."                                                      | 16       | Reaches the share screen with exact coordinates off, story format selected     |                                        | 16 → 17 → 18 → 20 |
-| T5  | "During a session you notice another participant is photographing strangers' faces. Do something about it."                                                               | 14       | Opens the participant menu and flags the person                                |                                        | 14a → 14b         |
+Two tasks were reworded on 29 Oct after the draft review found them leading. The wording below is
+the one to use.
 
-Optional T6 if time allows: "Suggest a place you want captured and vote for one that is already listed." (02 → 03 → 05)
+| # | Task as read to the participant | Start screen | Expected path | Success criterion |
+| --- | --- | --- | --- | --- |
+| T1 | "A capture session is happening right now at the clock tower. Join it." | 02 Home: Nearby | 02 Home, tap the Clock Tower card in Live near you, arrive at 09P | Reaches **09P Rally: participant view** |
+| T2 | "You are in the session and the host has briefed everyone. Find out which position you have been given and where it is, then let the host know you are ready." | 09P Rally | 09P, continue to 11 Briefing: your position, use any reply control | States their position and roughly where it is, **and** signals ready by any means. **Record which method they chose.** |
+| T3 | "Capture has started. The host asks you to move two metres to your left. Respond to them, then tell me which side of the tower still needs photos." | 14 Filming: live call | 14, acknowledge the callout (15), read the coverage state | Acknowledges the host, **and** names a side that needs photos. **Record whether they read it from the radar or from the written label.** |
+| T4 | "The capture is finished. Find the finished 3D model and share it, but do not reveal the exact location." | 16 After filming | 16, 17, 18 Artifact, 20 Share, turn the location control off | Reaches **20 Share** with exact location off |
+| T5 | "During a session you notice another participant is photographing strangers' faces. Do something about it." | 14 Filming: live call | 14, tap the participant, 14a options, flag, 14b flagged | Opens the participant menu and flags the person |
 
-Timing guide: about 3 minutes per task; stop a task at 5 minutes and record it as failed.
+Optional T6 if time allows: "Suggest a place you want captured, and vote for one that is already
+listed." (02 to 03 to 05)
+
+Timing: about 3 minutes per task. Stop at 5 minutes and record the task as failed.
+
+### Why T2 and T3 were reworded
+
+**T2 previously ended "without speaking".** That states the success criterion inside the task. If
+a participant then uses a one-tap reply, it shows only that they followed an instruction, and the
+report cannot claim people preferred tapping to speaking. The phrase is removed, and **which
+method they choose unprompted is now the finding**. If most reach for a tap over the microphone
+without being told to, that is evidence; if they reach for the mic, that is a more interesting
+result and the design argument needs revisiting.
+
+**T3 is partly given away by the interface.** The capture screen prints the thin side as text and
+the host callout repeats it, so a participant can answer without reading the radar at all. We are
+not hiding the label, because changing the design to suit the test would make the result say less,
+not more. Instead the success criterion is "names a side", and the moderator records **how** they
+got there. If everyone reads the label and nobody reads the radar, that is a finding about the
+radar being redundant, and it belongs in the report as one.
 
 ---
 

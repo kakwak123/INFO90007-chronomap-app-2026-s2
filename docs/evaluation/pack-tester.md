@@ -81,8 +81,8 @@ useful result, not a failure.
 
 > You are in the session and the host has briefed everyone.
 >
-> Find out which position you have been given and where it is. Then tell the host you are ready
-> without speaking.
+> Find out which position you have been given and where it is, then let the host know you are
+> ready.
 
 ---
 

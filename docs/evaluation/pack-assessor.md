@@ -65,7 +65,7 @@ Keep these to yourself during the session.
 | Task | Counts as complete when they… |
 | --- | --- |
 | T1 | Reach the rally screen for the clock tower session |
-| T2 | Can say which position they have and where it is, **and** use a one-tap reply rather than the mic |
+| T2 | Can say which position they have and where it is, **and** signal ready by any means. Record which method they chose; do not prompt rather than the mic |
 | T3 | Use a quick reply to respond, **and** correctly name the side that still needs photos |
 | T4 | Reach the share screen with exact location off and a story format selected |
 | T5 | Open the participant menu and flag the person |
