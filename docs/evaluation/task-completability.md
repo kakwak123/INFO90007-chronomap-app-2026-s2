@@ -54,7 +54,7 @@ example "The host is sending instructions during capture. Find and respond to th
 **Fix, better version:** have `14` advance to `15` on a timed delay so the callout arrives on its
 own, which is what the design claims happens.
 
-Also note the radar label still prints the thin side as text, so this task tests reading a label
+Also note the radar label still prints the side that needs photos as text, so this task tests reading a label
 rather than reading the radar. That is recorded in the study kit and the moderator notes which
 route the participant used.
 
@@ -148,3 +148,15 @@ complete path from their start screen.
 - **Back to Explore** added to 18, 18a, 20c and 20d, so no end screen is a dead end.
 - **18a Souvenir & score** is new and View souvenir & score on 18 now links to it.
 - Frames added in total: 14c, 18a, 20b, 20c, 20d.
+
+### T3 rewritten (30 Oct)
+
+T3 asked for two things and said the host had already asked for a move before any callout appeared. It is
+now one goal: carry out the host's instruction and let them know. Naming the side that needs photos is a recorded
+probe after the task, not part of the score. Study kit, tester pack and assessor pack all match.
+
+### "Thin" removed from participant-facing text (30 Oct)
+
+"Thin" was our own jargon for the side of the tower with the fewest photos. Screens 14, 14a, 14b and 14c now
+say "3 of 4 sides covered · south-west needs photos", and the callout on 15 says "South-west needs more
+photos". The host briefing on 10 says "Tap a side that needs photos" and "Needs photos - assign".

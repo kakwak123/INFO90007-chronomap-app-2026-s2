@@ -88,9 +88,14 @@ useful result, not a failure.
 
 ### Task 3
 
-> Capture has started. The host asks you to move two metres to your left.
->
-> Respond to them. Then tell us which side of the tower still needs photos.
+**Background.** Capture has started. You are one of four people photographing the clock tower
+together, and you are all on a voice call. The host of the session is @mapfox.
+
+> Assume @mapfox has just told you on the call to move two metres to your left and aim at the clock
+> face. Do that, physically, then let them know.
+
+You will see the same instruction appear on the screen. If you are doing this on your own, really
+stand up and move.
 
 ---
 

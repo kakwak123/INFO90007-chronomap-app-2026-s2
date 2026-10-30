@@ -21,11 +21,11 @@ Decision: **fix** (made in version 2), **defer** (valid, not done, say why), **r
 
 | Participant | SUS score (0-100) | C1 purpose | C2 join strangers | C3 voice comfort | C4 radar clarity | C5 privacy trust | C6 motivation | Device | Tasks not completed |
 | ----------- | ----------------- | ---------- | ----------------- | ---------------- | ---------------- | ---------------- | ------------- | ------ | ------------------- |
-| Q1          |                   |            |                   |                  |                  |                  |               |        |                     |
-| Q2          |                   |            |                   |                  |                  |                  |               |        |                     |
-| Q3          |                   |            |                   |                  |                  |                  |               |        |                     |
-| Q4          |                   |            |                   |                  |                  |                  |               |        |                     |
-| Q5          |                   |            |                   |                  |                  |                  |               |        |                     |
+| PQ-1         |                   |            |                   |                  |                  |                  |               |        |                     |
+| PQ-2         |                   |            |                   |                  |                  |                  |               |        |                     |
+| PQ-3         |                   |            |                   |                  |                  |                  |               |        |                     |
+| PQ-4         |                   |            |                   |                  |                  |                  |               |        |                     |
+| PQ-5         |                   |            |                   |                  |                  |                  |               |        |                     |
 | **Mean**    |                   |            |                   |                  |                  |                  |               |        |                     |
 
 SUS per-item means (1-10):

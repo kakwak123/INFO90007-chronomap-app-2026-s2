@@ -31,8 +31,8 @@ That is the whole critical path. Everything else on this list is an hour or two 
 
 ### A. Evaluation (blocks the report)
 
-- [ ] 5 think-aloud participants (P1-P5), in person, ~25 min each
-- [ ] 5 questionnaire participants (Q1-Q5), remote, ~15 min each - **different people**
+- [ ] 5 think-aloud participants (PT-1 to PT-5), in person, ~25 min each
+- [ ] 5 questionnaire participants (PQ-1 to PQ-5), remote, ~15 min each - **different people**
 - [ ] `findings-log.md` filled: F1-F8 with Nielsen severity and fix/defer/reject decisions
 - [ ] SUS scores tallied, per-item means, open-answer themes
 - [ ] **Version 2 of the prototype**, changed in response to findings, with before/after figures
@@ -94,7 +94,7 @@ the iteration table exist solely to hold it.
 
 ### Friday 30 - data collection
 
-- Run P1-P5 think-aloud sessions. Two team members per session: one moderates, one takes notes
+- Run PT-1 to PT-5 think-aloud sessions. Two team members per session: one moderates, one takes notes
   using the §8 template. Do not let the moderator also take notes.
 - Chase questionnaire non-responders.
 - In parallel, whoever is free: embed the seven A2 figures, fill the four placeholder references,

@@ -37,7 +37,7 @@ under Live near you, so there is nothing to find.
 > "In section A, the discovery section, we need to actually make one of those the uni clock tower.
 > Since that seems to be our primary example."
 
-Right now the only route is through Community, which is not what T1 describes. P1 found this in the
+Right now the only route is through Community, which is not what T1 describes. The pilot found this in the
 pilot and reached it through Community instead.
 
 **Fix:** add the University Clock Tower to Live near you and make the card clickable.
@@ -101,7 +101,7 @@ measures, so both belong on this list:
 
 - **T2 is leading.** The wording "without speaking" gives away the success criterion. Either remove
   it, or stop treating avoidance of the microphone as a finding.
-- **T3 shows the answer.** The screen prints "south-west thin" and the callout repeats it, so the
+- **T3 shows the answer.** The screen printed "south-west thin" (now "south-west needs photos") and the callout repeats it, so the
   task does not test whether anyone can read the radar. Hide the label for T3, or report T3 as a
   test of the label rather than of the radar.
 

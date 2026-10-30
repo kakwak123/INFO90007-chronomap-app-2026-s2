@@ -15,7 +15,7 @@
 # Sample A - think-aloud session notes (in person)
 
 ```
-Participant: P1        Date/time: Fri 30 Oct, 2:10pm      Moderator: Yong En   Note-taker: John
+Participant: PT-1        Date/time: Fri 30 Oct, 2:10pm      Moderator: Yong En   Note-taker: John
 Background: Masters student, not in INFO90007      3D-scan apps used before: no
 Device: phone (own, iPhone)    Audio consent: yes     Recording file: p1-301025.m4a
 ```
@@ -31,7 +31,7 @@ Device: phone (own, iPhone)    Audio consent: yes     Recording file: p1-301025.
 | --- | --- | --- | --- | --- | --- | --- |
 | T1 | **C** | 0:40 | 0 | - | "Oh there it is, live now." | - |
 | T2 | **P** | 3:10 | 1 | Tapped the mic icon twice before finding the quick replies | "How do I tell them without talking? …Do I have to call them?" | Quick replies not discoverable; mic reads as the only way to respond - **screen 11** |
-| T3 | **P** | 2:45 | 0 | Read the radar backwards - said north was thin when north was covered | "Green means... done? Or green means go there?" | Radar legend ambiguous; colour meaning not self-evident - **screen 14** |
+| T3 | **P** | 2:45 | 0 | Read the radar backwards - said north needed photos when north was covered | "Green means... done? Or green means go there?" | Radar legend ambiguous; colour meaning not self-evident - **screen 14** |
 | T4 | **C** | 1:55 | 0 | - | "I'd definitely turn the location off, that's at my uni." | - |
 | T5 | **F** | 5:00 | 1 | Looked in Settings, then the host panel | "I'd probably just tell them in person, to be honest." | No obvious route to flag someone mid-session - **screen 14a** |
 
@@ -56,7 +56,7 @@ Device: phone (own, iPhone)    Audio consent: yes     Recording file: p1-301025.
 # Sample B - questionnaire response (remote)
 
 ```
-Participant code: Q1      Device: phone      Time taken: about 12 minutes
+Participant code: PQ-1      Device: phone      Time taken: about 12 minutes
 Tasks not completed: Task 5 - couldn't find how to report someone
 ```
 
@@ -96,7 +96,7 @@ Two participants above hit the same problem in different ways. That becomes **on
 
 | ID | Problem | Screen | Task | Evidence | Participants | Severity | Decision |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| F1 | Radar colour coding is ambiguous: participants cannot tell whether a colour marks a covered area or one needing coverage | 14 | T3 | P1 inverted the meaning out loud ("green means done? or green means go there?"); Q1 rated radar clarity 2 and said they "didn't know which gap was mine" | P1, Q1 | **3 - major** | **Fix:** add an explicit legend and change the thin-area marker from a hollow dot to a labelled chip |
+| F1 | Radar colour coding is ambiguous: participants cannot tell whether a colour marks a covered area or one needing coverage | 14 | T3 | PT-1 inverted the meaning out loud ("green means done? or green means go there?"); Q1 rated radar clarity 2 and said they "didn't know which gap was mine" | PT-1, Q1 | **3 - major** | **Fix:** add an explicit legend and change the thin-area marker from a hollow dot to a labelled chip |
 
 **Why severity 3:** it did not stop the task being completed, but it defeats the core coordination
 idea. If people cannot read the radar, the whole argument that the design makes a group behave like
@@ -108,7 +108,7 @@ a camera array falls over.
   with several participant codes, and that count is what makes it credible.
 - **Evidence means a quote or an observed action**, not "users found it confusing."
 - **Severity is about consequence**, not how loudly someone complained.
-- **Not everything becomes a fix.** P1's "I'd just tell them in person" is a real reaction but may
+- **Not everything becomes a fix.** PT-1's "I'd just tell them in person" is a real reaction but may
   be a *defer* - a prototype cannot test social dynamics that need real co-presence. Say so, with
   the reason. A deferral with an honest justification reads better than a silent omission.
 - **A score near the published average of ~68 is not a result on its own.** Five people cannot

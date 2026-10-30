@@ -14,8 +14,11 @@ audio is gitignored.
 """
 import io
 import os
+import subprocess
 import sys
 import time
+
+import numpy as np
 
 from faster_whisper import WhisperModel
 
@@ -33,7 +36,15 @@ t0 = time.time()
 model = WhisperModel(model_size, device="cpu", compute_type="int8")
 print("model loaded in %.0fs" % (time.time() - t0), flush=True)
 
-segments, info = model.transcribe(audio, vad_filter=True, beam_size=5)
+def load_audio(path):
+    """Decode with ffmpeg to 16 kHz mono float32, so no PyAV version issues."""
+    raw = subprocess.run(
+        ["ffmpeg", "-nostdin", "-i", path, "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
+        capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.float32)
+
+
+segments, info = model.transcribe(load_audio(audio), vad_filter=True, beam_size=5)
 print("detected language: %s (p=%.2f), duration %.0fs"
       % (info.language, info.language_probability, info.duration), flush=True)
 

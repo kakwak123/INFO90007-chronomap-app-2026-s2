@@ -1,7 +1,7 @@
 # Assessor pack - running a ChronoMap evaluation session
 
 For the team member running a session. Covers both techniques: the in-person **think-aloud**
-(participants P1-P5) and the remote **questionnaire** (participants Q1-Q5).
+(participants PT-1 to PT-5) and the remote **questionnaire** (participants PQ-1 to PQ-5).
 
 Do not give this file to a participant. Hand them `pack-tester.md` instead - it deliberately leaves
 out the success criteria so they are not led to the answer.
@@ -24,7 +24,7 @@ run-sheet; where the two disagree, the study kit wins.
 
 ---
 
-## Part 1 - Think-aloud sessions (P1-P5, in person, ~25 min each)
+## Part 1 - Think-aloud sessions (PT-1 to PT-5, in person, ~25 min each)
 
 ### Timing
 
@@ -87,15 +87,82 @@ For each task, tick what you see, write the time, then circle C, P or F. The sto
 | Tick | [ ] said position correctly  [ ] signalled by button  [ ] signalled by quick reply  [ ] signalled by voice  [ ] tapped Share rally link |
 | Note | `11` shows the position in its heading, so this tests reading it, not finding it |
 
-#### T3 - Respond to the host, then name the thin side
+#### T3 - Move when the host asks, and let them know
+
+**What this task tests.** Whether a participant who is mid-capture notices an instruction from the
+host, understands what it asks, does it, and tells the host. It is the main test of the coordination
+design: the host sees everyone on a radar and directs people by voice and callout. It is **not** a
+test of whether they can read the radar. That is the probe afterwards, and it is recorded, not scored.
 
 | Item | Detail |
 | --- | --- |
-| Start screen | `14 Filming: live call` |
-| Intended path | About 5 s later the host callout appears (`15`), tap I'm in position or a quick reply, back on `14c`, read the coverage state |
-| Done when | They acknowledge the host **and** name a side that needs photos (south-west) |
-| Watch for | Did they read the side from the radar or from the written label? Say which. Did they react to the callout, or wait for you? |
-| Tick | [ ] acknowledged by button  [ ] acknowledged by quick reply  [ ] named side correctly  [ ] read from radar  [ ] read from label |
+| Start screen | `14 Filming: live call` (reset here before reading the task) |
+| Background to read | "Capture has started. You are one of four people photographing the clock tower together, and you are all on a voice call. The host of the session is @mapfox." |
+| Task to read | "Assume @mapfox has just told you on the call to move two metres to your left and aim at the clock face. Do that, physically, then let them know." |
+| Intended path | `14`, callout appears (`15`), participant physically steps to their left and aims the phone, taps I'm in position or a quick reply, back on `14c` |
+| Done when | They physically make the move **and** acknowledge the host with any control |
+| Remote participants | They read the same background and task and see the same callout. Their form answer cannot confirm they moved |
+
+**What happens on screen, and when.** Start the timer when you say "go".
+
+| Time | Screen | What the participant sees |
+| --- | --- | --- |
+| 0 s | `14` | Live capture: radar, coverage line ("3 of 4 sides covered, south-west needs photos"), mic and Stop capture |
+| about 5 s | `15` | The screen changes by itself. A callout reads "Move 2 m left, aim at the clock face", with the one-tap replies On my way, Need a hand, Ready, and the buttons I'm in position and Mute mic |
+| after a reply | `14c` | Back on the live capture screen. This copy has no timer, so the callout does not come back |
+
+You do not speak as the host and you do not tap anything. If they ask "did that screen change by
+itself?", say "yes, that is part of the prototype" and note that they asked.
+
+**How to run it**
+
+1. Reset the prototype to `14`. Check the participant can see the whole phone screen.
+2. Read the background, pause, then read the task. Read both exactly as written.
+3. Say "go" and start the timer. Then stay quiet and watch their feet as well as their hands.
+4. When they have replied (you are on `14c`), stop the timer and write the time.
+5. Ask the probe: "Which side of the tower still needs photos, and how do you know?" Write the answer word for word and tick whether it came from the radar, the label or the callout text.
+6. Move on. Do not say whether they did it right.
+
+**Scoring T3**
+
+| Code | When to use it for T3 |
+| --- | --- |
+| **C** | They move as asked **and** acknowledge the host, with no help and no wrong turns |
+| **P** | They do both, but needed a hint, or went to another screen first (for example Mute mic, Stop capture or the flag icon) |
+| **F** | They never acknowledge the host, or reach 5 minutes, or only acknowledge without moving when you could see they did not move |
+
+Moving but not replying is **F**. Replying but not moving is **P** at best: write "replied without
+moving" in the notes, because it may mean they read the task as a screen task.
+
+**What to watch for and record**
+
+- Did they notice the callout on their own, or wait for you? Write the number of seconds between the callout appearing and their first reaction.
+- Did they move **before** they replied, **after**, or not at all? Which way did they go?
+- Which control did they use: I'm in position, a quick reply (which one), or speaking aloud?
+- Did they look at the radar at any point? Did they say anything about the south-west dot or the coloured dots?
+- Did they tap anything other than a reply? Mute mic also returns to `14c` without answering the host, so count it as a wrong turn.
+- Any verbatim comment about the host, for example "who is mapfox?" or "is that a real person?"
+
+**If something goes off script**
+
+| Situation | What to do |
+| --- | --- |
+| They ask "do I really have to move?" | "Do whatever you would do if you were really there." Record the question |
+| They move and wait for you to confirm | Stay quiet for 10 seconds, then prompt: "What are you thinking?" Never say "tap the button" |
+| The callout has not appeared after 10 seconds | The timer did not fire. Say "that one hasn't changed, let's move on", record a dead screen for `14`, and skip to `15` by hand so the task can continue. Note that you did |
+| They tapped something and ended on the wrong screen | Do not correct them. Record where they ended. T4 starts on `16`, so reset there before reading it |
+| They start the task before you finish reading it | Let them. Note it |
+| They ask what "the host" is | "The person running the session, @mapfox." That is background, not a hint |
+
+**Probe: what "needs photos" means.** The side of the tower with the least coverage so far. On screen
+14 it is the side named in the coverage line (south-west), and the radar shows it as the gap. A
+correct answer is south-west. Record the answer **and** where it came from. If they say "I don't
+know", that is a valid answer. Do not explain.
+
+| When | Tick |
+| --- | --- |
+| During | [ ] noticed callout unaided  [ ] moved left  [ ] moved before replying  [ ] replied by button  [ ] replied by quick reply  [ ] replied by voice  [ ] wrong turn |
+| Probe | [ ] said south-west  [ ] read from radar  [ ] read from label  [ ] read from callout  [ ] did not know |
 
 #### T4 - Share the model without the exact location
 
@@ -144,7 +211,7 @@ Audio consent: yes / no | Device: phone / laptop | Started on 02 Home: yes / no
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | T1 | | | | | | C / P / F | |
 | T2 | | | | | | C / P / F | button, reply or voice |
-| T3 | | | | | | C / P / F | radar or label |
+| T3 | | | | | | C / P / F | moved? button, reply or voice. Probe: radar, label or callout |
 | T4 | | | | | | C / P / F | ended on 20c or 20d |
 | T5 | | | | | | C / P / F | reason picked |
 
@@ -159,13 +226,13 @@ After the session, copy the outcomes into one row per participant here:
 
 | Participant | T1 | T2 | T3 | T4 | T5 | Total time | Assists |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| P1 | | | | | | | |
-| P2 | | | | | | | |
-| P3 | | | | | | | |
-| P4 | | | | | | | |
-| P5 | | | | | | | |
+| PT-1 | | | | | | | |
+| PT-2 | | | | | | | |
+| PT-3 | | | | | | | |
+| PT-4 | | | | | | | |
+| PT-5 | | | | | | | |
 
-Questionnaire participants (Q1-Q5) have no moderator, so there is no outcome row for them: use the
+Questionnaire participants (PQ-1 to PQ-5) have no moderator, so there is no outcome row for them: use the
 form's "any task you could not complete" answer instead.
 
 ### Debrief questions
@@ -184,7 +251,7 @@ together fast, and a problem you cannot remember at analysis time may as well no
 
 ---
 
-## Part 2 - Questionnaire (Q1-Q5, remote, ~15 min each)
+## Part 2 - Questionnaire (PQ-1 to PQ-5, remote, ~15 min each)
 
 These must be **five different people** from the think-aloud five. The handout requires ten
 participants, five per technique.

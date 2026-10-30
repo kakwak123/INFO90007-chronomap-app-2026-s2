@@ -304,9 +304,9 @@ _Rubric: System Evaluation, "results well-presented", "meaningful and interestin
 
 | Code  | Method        | Role / background | Familiar with 3D capture? | Device   | Date     |
 | ----- | ------------- | ----------------- | ------------------------- | -------- | -------- |
-| P1    | Think-aloud   | `[FILL]`          | `[FILL]`                  | `[FILL]` | `[FILL]` |
-| P2-P5 | Think-aloud   | …                 |                           |          |          |
-| Q1-Q5 | Questionnaire | …                 |                           |          |          |
+| PT-1    | Think-aloud   | `[FILL]`          | `[FILL]`                  | `[FILL]` | `[FILL]` |
+| PT-2 to PT-5 | Think-aloud   | …                 |                           |          |          |
+| PQ-1 to PQ-5 | Questionnaire | …                 |                           |          |          |
 
 #### 3.4.2 Task performance (think-aloud group)
 

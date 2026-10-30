@@ -21,7 +21,7 @@ Deadline logic: report due Mon 2 Nov. Sessions Mon 26 to Wed 28 Oct, analysis Th
 
 ## 2. Recruitment
 
-Target 10 to 12 people (two spares). Record for each: code (P1 to P5 think-aloud, Q1 to Q5 questionnaire), role or background, age band, whether they have used any 3D scanning or photogrammetry app, whether they are in INFO90007. Aim for a mix of classmates and non-classmates.
+Target 10 to 12 people (two spares). Record for each: code (PT-1 to PT-5 think-aloud, PQ-1 to PQ-5 questionnaire), role or background, age band, whether they have used any 3D scanning or photogrammetry app, whether they are in INFO90007. Aim for a mix of classmates and non-classmates.
 
 Message to send: _"We are testing a prototype of a student app for a university assignment. It takes about 25 minutes [think-aloud] / 15 minutes [questionnaire]. Nothing you do is a test of you; we are testing the design. Audio may be recorded for note-taking and deleted after the assignment. No names are published."_
 
@@ -61,7 +61,7 @@ the one to use.
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | T1  | "A capture session is happening right now at the clock tower. Join it."                                                                                        | 02 Home: Nearby       | 02 Home, tap the Clock Tower card in Live near you, arrive at 09P                                              | Reaches **09P Rally: participant view**                                                                                                                                                             |
 | T2  | "You are in the session and the host has briefed everyone. Find out which position you have been given and where it is, then let the host know you are ready." | 09P Rally             | 09P, wait about 8 s for the host to start (timed advance), 11 Briefing: your position, tap I'm in position     | Reads out their position and roughly where it is, **and** signals ready. **Record which method they chose.** Note 11 states the position in its heading, so this tests reading it, not locating it. |
-| T3  | "Capture has started. The host asks you to move two metres to your left. Respond to them, then tell me which side of the tower still needs photos."            | 14 Filming: live call | 14, the host callout (15) arrives by itself after about 5 s, tap I'm in position, read the coverage on 14c     | Acknowledges the host, **and** names a side that needs photos. **Record whether they read it from the radar or from the written label.**                                                            |
+| T3  | "Capture has started. You are one of four people photographing the clock tower together, and you are all on a voice call. The host of the session is @mapfox. Assume @mapfox has just told you on the call to move two metres to your left and aim at the clock face. Do that, physically, then let them know." | 14 Filming: live call | 14, host callout (15) arrives after about 5 s, participant physically moves, taps I'm in position or a quick reply, back on 14c | Physically makes the move **and** acknowledges the host with any control. **Record which control, and whether they moved before or after replying.** Not scored: ask afterwards "Which side of the tower still needs photos, and how do you know?" |
 | T4  | "The capture is finished. Find the finished 3D model and share it, but do not reveal the exact location."                                                      | 16 After filming      | 16 (upload is automatic, moves on after about 6 s), 17 (moves on after about 6 s), 18 Artifact, 20 Share (exact coordinates starts ON), tap the toggle to reach 20b, tap Share, reach 20c | Reaches **20c Shared: location hidden**. Reaching 20d means they shared the exact location, which is a fail.                                                                                        |
 | T5  | "During a session you notice another participant is photographing strangers' faces. Do something about it."                                                    | 14c Filming: live call (no timer) | 14c, tap the participant, 14a options, flag, 14b flagged                                                        | Opens the participant menu and flags the person                                                                                                                                                     |
 
@@ -79,16 +79,20 @@ method they choose unprompted is now the finding**. If most reach for a tap over
 without being told to, that is evidence; if they reach for the mic, that is a more interesting
 result and the design argument needs revisiting.
 
-**T3 is partly given away by the interface.** The capture screen prints the thin side as text and
-the host callout repeats it, so a participant can answer without reading the radar at all. We are
-not hiding the label, because changing the design to suit the test would make the result say less,
-not more. Instead the success criterion is "names a side", and the moderator records **how** they
-got there. If everyone reads the label and nobody reads the radar, that is a finding about the
-radar being redundant, and it belongs in the report as one.
+**T3 was two tasks and started before the cue.** It asked the participant to respond to the host and
+then name the side that needs photos, and it said the host had already asked for a move when no
+callout had appeared yet. It is now one goal with background: the participant is one of four
+photographing the tower, the host is @mapfox, and they are to assume @mapfox has told them to move two
+metres left and aim at the clock face. They physically make the move and let the host know. No one
+has to play the host, so the task works the same for remote participants. Naming the side that needs
+photos moved to a follow-up probe that is recorded, not scored. The interface still prints that side
+as text and the callout repeats it, so we are not hiding the label: the moderator records whether the
+answer came from the radar, the label or the callout. If nobody uses the radar, that is a finding
+about the radar being redundant, and it belongs in the report as one.
 
 ---
 
-## 6. Think-aloud protocol (P1 to P5, in person)
+## 6. Think-aloud protocol (PT-1 to PT-5, in person)
 
 From Tutorial 10: the participant works **alone**; make them comfortable; do not provide solutions; let them resolve problems. Record audio with consent.
 
@@ -106,7 +110,7 @@ From Tutorial 10: the participant works **alone**; make them comfortable; do not
 
 ---
 
-## 7. Questionnaire protocol (Q1 to Q5, can be remote)
+## 7. Questionnaire protocol (PQ-1 to PQ-5, can be remote)
 
 1. Send the prototype link, the context briefing (§4) and the five tasks (§5) as a task sheet. Ask them to complete the tasks alone, in order, then fill the form straight after. Ask them to note roughly how long the tasks took.
 2. The form, in this order:
