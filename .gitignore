@@ -54,3 +54,6 @@ example
 *.mp4
 docs/evaluation/sessions/audio/
 .artifact-deck/
+
+# Team chat exports contain names and phone numbers
+docs/team whatsapp.txt

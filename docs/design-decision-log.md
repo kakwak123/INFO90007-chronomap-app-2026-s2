@@ -97,3 +97,24 @@ This is the clearest evidence that decisions were human-led.
 - Add dates and the name of the team member who made each decision. `[TEAM TO CONFIRM]`
 - The clock tower and amphitheatre photographs were supplied by the team. `[TEAM TO CONFIRM: source and licence.]`
 - Placeholder AI imagery that remains (for example the Royal Exhibition Building photo and the map texture) is still to be replaced with real photographs.
+
+---
+
+## 6. Evaluation-phase decisions (29 to 31 Oct 2026)
+
+Decisions taken while preparing and running the evaluation. This log is still open: add a row for each new decision.
+
+| #   | Decision                                                                                                              | Source                      | Result                                                                                                                     |
+| --- | --------------------------------------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 33  | Fix the prototype's wiring before running any session: a wiring error is not a design finding                        | Team call, 29 Oct           | All five tasks made completable before the sessions                                                                        |
+| 34  | Split the flow into host and participant paths; joining must lead to a participant view, not the host's screen        | Team call, 29 Oct           | Participant rally view (09P) added; host-only controls removed from participant screens                                    |
+| 35  | Put the University Clock Tower in the discovery list and make it clickable, so task 1 can be completed              | Team call, 29 Oct           | Clock tower card under Live near you, linked to 09P                                                                        |
+| 36  | Rename "station" to "position", because the pilot participant confused it with a railway station name                 | Pilot session, 29 Oct       | Renamed across screens, task sheets and report; a landmark ending in "Station" removed from the discovery list             |
+| 37  | Remove the leading phrase "without speaking" from task 2; define the start screen and expected path for every task   | Draft review, 29 Oct        | Task sheet, tester pack and assessor pack updated                                                                          |
+| 38  | Make the prototype self-advancing where the task depends on a host action, so participants are not asked to trigger it | Completability audit, 30 Oct | Timed advances on 09P, 14, 16 and 17; no-timer copy of 14 (14c); location toggle and shared end states (20b to 20d)       |
+| 39  | Remove "Hold steady", make photo upload automatic, and add Back to Explore to the end screens                         | Teammate feedback, 29 to 30 Oct | Controls removed or replaced; no end screen is a dead end                                                              |
+| 40  | Build a souvenir and score screen, because the button that promised one led to the home screen                        | Teammate feedback, 29 to 30 Oct | Screen 18a added and linked                                                                                              |
+| 41  | Rewrite task 3 as a short scene with background and a physical move, and replace the word "thin" with plain wording   | Team review, 30 to 31 Oct   | Task rewritten; coverage line and host callout reworded                                                                    |
+| 42  | Use the codes PT-1 to PT-5 (think-aloud) and PQ-1 to PQ-5 (questionnaire); keep the 29 Oct session out as a pilot     | Team call, 31 Oct           | Codes applied across the study kit, packs, findings log and report                                                         |
+| 43  | Exclude two early questionnaire responses because they were not independent participant responses                     | Data check, 31 Oct          | Not counted; the form was left open for real participants                                                                  |
+| 44  | Freeze the evaluated prototype as a separate copy before any post-test change, and build version 2 in the working file | Team call, 31 Oct           | Frozen copy "ChronoMap 3D Prototype - v1 (evaluated)"                                                                      |
