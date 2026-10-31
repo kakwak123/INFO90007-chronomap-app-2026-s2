@@ -73,7 +73,7 @@ For each task, tick what you see, write the time, then circle C, P or F. The sto
 | Start screen | `02 Home: Nearby` |
 | Intended path | Clock Tower card in Live near you, Join, arrive at `09P Rally: participant view` |
 | Done when | They are on `09P` |
-| Watch for | Did they look in Community or Requests first (the pilot did)? Did they find the card without scrolling? |
+| Watch for | Did they look in Community or Requests first (PT-8 did)? Did they find the card without scrolling? |
 | Tick | [ ] found card unaided  [ ] went to another tab first  [ ] hesitated over Join |
 
 #### T2 - Find your position and tell the host you are ready

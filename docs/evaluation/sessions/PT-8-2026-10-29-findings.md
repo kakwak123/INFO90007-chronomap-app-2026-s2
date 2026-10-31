@@ -1,6 +1,6 @@
-# First-pass findings - Pilot, 29 Oct 2026
+# First-pass findings - PT-8, 29 Oct 2026
 
-Drawn from `PILOT-2026-10-29-transcript.md`. **Check the quotes against the audio before any of this
+Drawn from `PT-8-2026-10-29-transcript.md`. **Check the quotes against the audio before any of this
 reaches the report** - the transcript is machine-generated and garbles interface words.
 
 Merge the surviving rows into `../findings-log.md`, combining with other participants who hit the

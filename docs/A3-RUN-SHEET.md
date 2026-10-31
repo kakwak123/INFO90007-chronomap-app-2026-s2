@@ -27,11 +27,11 @@ Overleaf (see `../latex/README.md`); `INFO90007_Assignment_3_Report.md` is a dra
 - Figma v1 frozen as a separate copy ("ChronoMap 3D Prototype - v1 (evaluated)"); the original file is now
   the working file for v2. Links are in `PROJECT-LINKS.md`.
 - Participant codes agreed: PT-1 to PT-5 think-aloud, PQ-1 to PQ-5 questionnaire, PT-6 and PQ-6 spares, the 29 Oct
-  session kept out as Pilot. Allocation is in `evaluation/participants.md`.
+  session counted as PT-8 (earlier prototype, partial run). Allocation is in `evaluation/participants.md`.
 - Questionnaire built as a Google Form with a responses sheet (links in `PROJECT-LINKS.md`).
 - Task sheet, tester pack and assessor pack rewritten (T3 background scene, run cards, scoring sheet) and PDFs rebuilt.
 - Two think-aloud sessions recorded (PT-1, PT-2). Local transcripts are in `evaluation/sessions/`.
-- `evaluation/findings-log.md` filled with nine findings from the pilot, PT-1 and PT-2 (proposed severity and
+- `evaluation/findings-log.md` filled with findings from PT-8, PT-1, PT-2, PT3 and PT4, and the questionnaire (proposed severity and
   decisions, quotes not yet checked against the audio).
 
 **Not done**

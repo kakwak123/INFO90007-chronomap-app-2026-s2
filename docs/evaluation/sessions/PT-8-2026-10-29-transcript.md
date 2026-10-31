@@ -1,13 +1,13 @@
-# Session transcript - Pilot
+# Session transcript - PT-8
 
 | | |
 | --- | --- |
-| Participant | Pilot (not counted in PT-1 to PT-5 and PQ-1 to PQ-5) |
+| Participant | PT-8 |
 | Method | Think-aloud (observation) |
 | Date | 29 October 2026 |
 | Profile | 26, male, engineering student |
 | Device | Laptop |
-| Recording | `sessions/audio/PILOT-2026-10-29.m4a` (gitignored - personal data) |
+| Recording | `sessions/audio/PT-8-2026-10-29.m4a` (gitignored - personal data) |
 | Duration | 3:40 |
 | Transcribed | locally, faster-whisper `base`, language en |
 

@@ -37,8 +37,8 @@ under Live near you, so there is nothing to find.
 > "In section A, the discovery section, we need to actually make one of those the uni clock tower.
 > Since that seems to be our primary example."
 
-Right now the only route is through Community, which is not what T1 describes. The pilot found this in the
-pilot and reached it through Community instead.
+Right now the only route is through Community, which is not what T1 describes. PT-8 found this: they could not find the
+session under Nearby and reached it through Community instead.
 
 **Fix:** add the University Clock Tower to Live near you and make the card clickable.
 

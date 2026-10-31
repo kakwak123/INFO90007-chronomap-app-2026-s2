@@ -5,16 +5,16 @@ One folder per study. Audio stays local; transcripts and findings are committed.
 ```
 sessions/
   audio/                       gitignored - participant recordings, personal data
-    PILOT-2026-10-29.m4a
-  PILOT-2026-10-29-transcript.md  machine transcript, checked by hand before quoting
-  PILOT-2026-10-29-findings.md    first-pass findings from the pilot
+    PT-8-2026-10-29.m4a
+  PT-8-2026-10-29-transcript.md  machine transcript, checked by hand before quoting
+  PT-8-2026-10-29-findings.md    first-pass findings from PT-8
   PT-1-2026-10-30-transcript.md   task run plus debrief, one file per participant
   PT-2-2026-10-30-transcript.md   (audio is split into -a task run and -b debrief files)
 ```
 
 ## Naming
 
-`<code>-<yyyy-mm-dd>` where code is **PT-1 to PT-5** (think-aloud), **PQ-1 to PQ-5** (questionnaire) or **PILOT** (the 29 Oct session, not counted), per
+`<code>-<yyyy-mm-dd>` where code is **PT-1 to PT-5** (think-aloud), **PQ-1 to PQ-5** (questionnaire) or **PT-8** (the 29 Oct session, first run as a pilot), per
 `../study-kit.md`. Codes only - no participant names anywhere in this folder, including inside
 transcripts. If a name is spoken, replace it with the code when you check the transcript.
 
@@ -28,7 +28,7 @@ would break that. `.gitignore` excludes `*.m4a`, `*.mp3`, `*.wav`, `*.mp4` and t
 ## Transcribing
 
 ```bash
-python scripts/transcribe-session.py docs/evaluation/sessions/audio/PILOT-2026-10-29.m4a PILOT base
+python scripts/transcribe-session.py docs/evaluation/sessions/audio/PT-8-2026-10-29.m4a PT-8 base
 ```
 
 Runs **locally** via faster-whisper - nothing is uploaded. `base` is quick and adequate for a
