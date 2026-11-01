@@ -794,3 +794,93 @@ this point in the 29 October call and it still applies: "content errors can't be
 Item 1 is now the most serious. The completion rate exists, but the evaluation's qualitative
 weight rests almost entirely on PT-5, a 3:40 laptop session on an earlier prototype, while PT-1
 contributed to six of the nine findings with no surviving quote at all.
+
+---
+
+# Part 7. Accessibility remediation, 1 November
+
+Added after the main compilation above. This part is not participant feedback: it came from an
+audit of the prototype against the four design frameworks Section 2.3 of the report claims to
+have used. Two of the four held up. Two did not, and both are fixed here.
+
+## 7.1 The false claim: recognition rather than recall
+
+Section 2.3 cites Nielsen's sixth heuristic, **recognition rather than recall**, as a framework
+the design follows. On the filming screens it did not. A participant arriving at `14 Filming` was
+expected to remember which position the host had given them on screen `11`, two screens earlier,
+with nothing on the capture screen to remind them. That is recall, and the report was claiming the
+opposite.
+
+**Fixed.** `14 Filming` and `14 v2 Filming` now carry a position line as the first element of the
+body, above everything else:
+
+> Your position: the north east arch
+
+On `accent/amberSoft` at 8px radius, 12px horizontal padding, inserted at index 0 of the body
+stack. Amber is correct here under the existing rule, because the position is an instruction from
+the host and the host is what amber means. Verified on both screens: present, `clipped: false`,
+frame height unchanged at 844.
+
+**For the report.** This is the one place where the audit found Section 2.3 asserting something
+the artefact did not do. It is worth saying in 3.5 that the claim was checked rather than assumed,
+and that checking it produced a change. That is a stronger sentence than listing four frameworks
+and leaving a reader to verify them.
+
+## 7.2 WCAG 2.1 AA contrast
+
+Eleven foreground and ground pairs were measured against the thresholds that actually apply:
+**4.5:1 for normal text**, and **3:1 for non-text that carries meaning** (UI components, state
+indicators). Decorative colour has no threshold. Ten of the eleven now pass. The eleventh is a
+deliberate exception, recorded below with its reasoning.
+
+Each failing colour was walked toward black until it cleared its ratio, which keeps the hue and
+so keeps the design recognisable. No hue was changed and no new colour family was introduced.
+
+| Token | Before | After | Ground | Threshold | Ratio |
+| --- | --- | --- | --- | --- | --- |
+| `text/dim` | `#6B6F7A` | `#676B75` | `bg/surfaceAlt` | 4.5 text | 4.22 to **4.50** |
+| `state/live` | `#D94C3D` | `#C34437` | `bg/base` | 4.5 text | 3.81 to **4.56** |
+| `accent/location` | `#007AFF` | `#0071ED` | `bg/surface` | 4.5 text | 4.02 to **4.56** |
+| `accent/amberInk` | *(new)* | `#9F6121` | `bg/base` | 4.5 text | **4.57** |
+| `state/thin` | *(new)* | `#908D87` | `bg/base` | 3.0 non-text | **3.02** |
+| `line/strong` | `#C3BFB6` | *unchanged* | `bg/base` | none | 1.68 |
+
+Two of those rows are the interesting ones, because in both cases the obvious fix was wrong.
+
+**`line/strong` was nearly broken by fixing it.** The failing element was the "needs photos" dot
+on the coverage radar, which was bound to `line/strong`. Darkening the token would have cleared
+3:1, and it would also have darkened **25 borders** across the file, because the same token draws
+every hairline. The borders are decoration and WCAG sets no threshold for them; the dot carries
+meaning and does need 3:1. So the token was left alone and a second token, **`state/thin`**, was
+created for the meaning. The ten fills that were using `line/strong` to say something were
+rebound to it. Counted before the change: 25 stroke bindings, 10 fill bindings.
+
+**`accent/amber` was not darkened.** At 2.47:1 on the paper ground it fails as text by a wide
+margin. It is also the brand colour, it appears on every screen, and in every current use it is a
+*fill* sitting behind dark text, which WCAG does not govern. Darkening it would change the
+identity of the whole prototype to fix a problem it does not have. Instead **`accent/amberInk`**
+was added at 4.57:1, for the cases where amber itself has to be read: an icon, a word, a number.
+The token's description in Figma says so, so the next person does not have to rediscover it.
+
+## 7.3 Both sides of the mirror
+
+`CLAUDE.md` requires `src/ui/theme.ts` and the Figma `ChronoMap Tokens` collection to change
+together. Both were changed. In code: `textDim`, `live`, `location` and `locationSoft` took the
+new values, and `amberInk` and `thin` were added with the reasoning above as comments.
+`borderStrong` is untouched. The collection is now 36 variables.
+
+## 7.4 What this does not fix
+
+Stated plainly so it is not mistaken for a complete pass.
+
+- **Tap targets.** 114 of 161 controls measure under 44pt. Section 2.3 carries a
+  `[DECIDE: Apple HIG or Material 3]` marker on this, and neither standard can be claimed: 44pt
+  is Apple's floor and 48dp is Material's, and the prototype clears neither for most of its
+  controls. This is a wording problem in the report, not something to be fixed by resizing 114
+  controls. **The sentence should say what the measurement found.**
+- **The WCAG sentence in Section 2.3** currently says 16 failing pairs were corrected by
+  darkening the foreground only. That is not what happened: one pair was corrected by splitting a
+  token in two, one was deliberately left failing, and the audit that produced this part found
+  five more pairs after that sentence was written. It needs rewriting against the table above.
+- **`line/strong` still measures 1.68:1** and that is the intended end state, not an outstanding
+  item. If a future screen uses it to carry meaning, that use needs `state/thin`.
