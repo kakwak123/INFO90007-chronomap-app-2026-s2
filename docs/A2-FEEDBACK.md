@@ -1,6 +1,6 @@
 # Assignment 2 - Marker Feedback (ChronoMap 3D, Group 11)
 
-Marker: **Cherie Sew**. Returned 2 Oct 2026. Overall: **16 / 25 (64%)**.
+Marker: **Cherie Sew**. Returned 2 Oct 2026. Overall: **64%**.
 Source: LMS rubric panel + inline PDF comments on the submitted report.
 Transcribed verbatim from the feedback screenshots so A3 can be written against it directly.
 
@@ -10,7 +10,7 @@ Transcribed verbatim from the feedback screenshots so A3 can be written against 
 
 | Criterion | Score | Band |
 |---|---|---|
-| Problem & proposed solution | **4** / 5 | Very Good/Great |
+| Problem & proposed solution | **3** / 5 | Very Good/Great |
 | Developing user interfaces | **2.5** / 5 | Competent/Good |
 | Use of community heuristics | **3** / 5 | Very Good/Great |
 | Overall quality of the report | **4** / 5 | Very Good/Great |
@@ -25,7 +25,7 @@ Transcribed verbatim from the feedback screenshots so A3 can be written against 
 > Multiple prototyping techniques used, but their appropriateness in the design process is not adequately explained. A reasonable number of features proposed are clearly described using user interfaces. However, some interfaces are not suited for the solution. At least two iterations of prototypes presented. Meaningful changes between iterations are highlighted but are not adequately supported by clear justifications. A good proportion of the design decisions are well-justified based on literature or existing solutions.
 
 **Use of community heuristics - Very Good/Great**
-> A good set of heuristics has been used in the designing process. Demonstrates a very good understanding of the chosen heuristics. For the most part, applicability of the chosen heuristics to the proposed solution is well-justified. There is a clear link between application functionality and certain heuristics. Provides clear and detailed descriptions on how heuristics were used in the development process.
+> A good set of heuristics has been used in the designing process. Demonstrates a very good understanding of the chosen heuristics. For the most part, applicability of the chosen heuristics to the proposed solution is well-justified. There is a can youclear link between application functionality and certain heuristics. Provides clear and detailed descriptions on how heuristics were used in the development process.
 
 **Overall quality of the report - Very Good/Great**
 > Ideas and arguments are coherent, and generally the work fits together as a unit. Report structure is logical and formal, with small divergences from typical academic standards. Generally clear, with small disruptions in flow. References are suitably synthesised but are too few or chosen arbitrarily. Adequately concise and meets word limits.
