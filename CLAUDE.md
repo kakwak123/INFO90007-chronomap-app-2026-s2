@@ -97,6 +97,36 @@ These are bans, not preferences.
 - **Shape:** `R.pill` is for `Pill` and `Avatar` only. Buttons use `R.md`, cards use `R.lg - 2`.
   Do not round a button to a capsule.
 
+## Positive direction - what to reach for
+
+The section above says what not to do. These say what to do. They were distilled from a reference
+the team liked (Jhaanki, a 3D room planner) whose *surface* breaks the bans above - violet ground,
+capsule buttons, drop shadows - but whose *structure* is worth learning from. Take the structure,
+never the surface.
+
+- **The artifact is the hero.** This app exists to produce a 3D model of a place. The screen where
+  that model appears should give it the most space and the best treatment on any screen in the
+  app. Today `18 Artifact` shows a small box glyph where the finished model belongs, which makes
+  the emotional peak of the product look like a placeholder. Fix that before polishing anything
+  else.
+- **Dark means you are looking at the thing itself.** `14 Filming` is already dark because the
+  viewfinder is the subject. Extend that rule rather than inventing a second one: the model viewer
+  goes dark and full bleed, chrome stays on `C.bg`. Darkness is a signal, not decoration, so do
+  not darken a list or a form.
+- **Spec data as icon chips, not equal boxes.** A row of content-width chips, each an icon plus a
+  value plus a short label, is denser and more scannable than three equal columns, and it avoids
+  the three-up grid the bans already rule out. Use it for counts, coverage and contributors.
+- **One accent, one meaning, one place.** `C.amber` already means capture conditions and the host;
+  `C.live` already means live. The discipline is to let only one of them appear per screen, on the
+  one element that earns it. An accent used twice on a screen stops being a signal.
+- **Name the specific thing in headings.** "University Clock Tower, as it was this morning" tells
+  the reader what they made. "Artifact ready" tells them a process finished. Prefer the former
+  everywhere, including empty states and confirmations.
+- **Order by what matters, not by what exists.** A screen should descend clearly: the thing, then
+  the facts about it, then the actions. Where stats, badges and three buttons currently compete
+  for the same weight, pick one primary and demote the rest. This is also the fix for the
+  "too many buttons" finding (F3).
+
 ## Icons and assets
 
 - **Ionicons only**, via `IconName` from the kit, which is typed off `@expo/vector-icons`.
