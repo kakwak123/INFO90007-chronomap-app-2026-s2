@@ -1,0 +1,123 @@
+diff --git a/sections/02-methods.tex b/sections/02-methods.tex
+index 134e534..04a93db 100644
+--- a/sections/02-methods.tex
++++ b/sections/02-methods.tex
+@@ -83,7 +83,7 @@ motivated each change.
+   contribution, platform - is addressed. \FILL{reference the mapping table in §3.3}
+   \item \textbf{Nielsen's ten usability heuristics}~\cite{nielsen1994}, used as a checklist when
+   reviewing each high-fidelity round: visibility of system status (the live coverage radar and
+-  session timer), recognition rather than recall (the assigned station repeated inside the capture
++  session timer), recognition rather than recall (the assigned position repeated inside the capture
+   screen), error prevention (quorum before capture can begin, rules agreed before joining), and
+   aesthetic and minimalist design (the create-session screen was simplified after being judged
+   overloaded).
+@@ -119,11 +119,11 @@ which let both halves of the study run in parallel.
+ 
+ \paragraph{Instrument.} Ten standard SUS items, six custom items (purpose comprehension,
+ willingness to join strangers, comfort with voice, radar clarity, trust in privacy controls,
+-motivation), and two open questions.
++motivation), and two open questions. The form is reproduced in Appendix~\ref{app:form}.
+ 
+ \paragraph{Participants.} \FILL{How many recruited, how found, relevant background (whether they
+ had used any 3D scanning application, whether they study the subject), age spread. Do not name
+-anyone; use the codes P1--P5 and Q1--Q5.}
++anyone; use the codes PT-1 to PT-5 (think-aloud) and PQ-1 to PQ-5 (questionnaire).}
+ 
+ \paragraph{Setting and procedure.} \FILL{Where and when sessions ran, on what device, who moderated,
+ how long a session took.}
+diff --git a/sections/03-results.tex b/sections/03-results.tex
+index a191c59..65deaee 100644
+--- a/sections/03-results.tex
++++ b/sections/03-results.tex
+@@ -24,13 +24,13 @@ Appendix~\ref{app:a2feedback} reproduces the feedback in full.
+ 1 & ``The suitability of the aforementioned design space is not adequately justified.'' &
+ Section~\ref{sec:evaldesign} and Section~\ref{sec:findings} now test the premise with ten participants rather than asserting it. \\
+ 2 & ``There's a lot of proposal of features and yet no mid-fidelity wireframes to actually show it.'' &
+-The prototype now covers the whole journey in \VERIFY{31 after the restructure} linked screens (Appendix~\ref{app:figma}), including flows A2 only described in prose. \\
++The prototype now covers the whole journey in 36 linked frames: the 30 screens reproduced in Appendix~\ref{app:figma} and six variants (the participant rally view, a filming view without the timer, a souvenir and score screen, and the location-hidden and location-shown sharing states), including flows A2 only described in prose. \\
+ 3 & ``All of these are great in theory but there are almost no wireframe interfaces to speak of to show how it was actually applied.'' &
+ Every heuristic claimed in Section 3.3 is now tied to a screen a marker can open in the Figma file. \\
+ 4 & ``Who is the host? Is this person just there monitoring the entire session?'' &
+-The host has defined powers and a screen of their own: reading the coverage radar, assigning stations and redirecting participants mid-window. \\
++The host has defined powers and a screen of their own: reading the coverage radar, assigning positions and redirecting participants mid-window. \\
+ 5 & ``What about more collaborative features? Is it just taking photos to form a 3D reconstruction?'' &
+-\FILL{what changed - shared radar state, station assignment, one-tap callouts, voice channel} \\
++\FILL{what changed - shared radar state, position assignment, one-tap callouts, voice channel} \\
+ 6 & ``So does this only work at a specific set of locations? Who decides this? Is there a time limit for each session and how is it decided if there are multiple groups taking pictures\ldots'' &
+ \FILL{what changed - community request board, quorum and geofence, the two-groups-one-landmark flow} \\
+ 7 & ``So there's a profile for users? The final iteration should contain these, especially if it's outlined as important features of the product.'' &
+@@ -313,7 +313,7 @@ records where each one is satisfied, and where the design falls short.
+ \textbf{Heuristic} & \textbf{How the design applies it} & \textbf{Screen} \\
+ \midrule
+ 1. Visibility of system status & Live coverage radar, session timer, quorum counter and upload progress each report what the system and the group are doing. & Rally, capture \\
+-2. Match with the real world & Positions are described by compass side and landmark feature rather than by internal identifiers. \VERIFY{the word ``station'' failed this test in the pilot; confirm the replacement wording} & Briefing \\
++2. Match with the real world & Positions are described by compass side and landmark feature rather than by internal identifiers. The word ``station'' failed this test in the pilot and was replaced with ``position'' (Section~\ref{sec:pilot}). & Briefing \\
+ 3. User control and freedom & A participant can leave a session, end a window early as host, and undo a flag before submitting. & Capture, report \\
+ 4. Consistency and standards & One component set, one type ramp and one colour system across all screens; controls sit where the platform conventions put them. & Throughout \\
+ 5. Error prevention & Capture cannot start below quorum or outside the geofence; the rules must be accepted before joining. & Rally, rules \\
+diff --git a/sections/09-appendices.tex b/sections/09-appendices.tex
+index d3a3e43..77ad299 100644
+--- a/sections/09-appendices.tex
++++ b/sections/09-appendices.tex
+@@ -3,9 +3,11 @@
+ \section{Figma file and flows}
+ \label{app:figma}
+ 
+-The high-fidelity prototype contains \textbf{30 linked screens}, organised in the Figma file into
+-six flows. Every screen is reproduced below in flow order; the numbering matches the Figma frame
+-names so a marker can follow along in the file itself. The main path through the system is
++The high-fidelity prototype contains \textbf{36 linked frames}, organised in the Figma file into
++six flows. The \textbf{30 screens} of the first complete version are reproduced below in flow order; the
++numbering matches the Figma frame names so a marker can follow along in the file itself. The six
++variants added while preparing the evaluation (09P, 14c, 18a and 20b to 20d) are in the Figma file but
++are not reproduced here. The main path through the system is
+ 01, 02, 09, 10, 11, 14, 16, 17, 18, 20; the remaining screens are reachable from it.
+ 
+ A second visual direction was explored for three screens and is shown at the end.
+@@ -109,8 +111,44 @@ design choices were deliberate, which is what the System Design row rewards.}
+ \section{Evaluation materials}
+ \label{app:evalmaterials}
+ 
+-\FILL{The task sheet as read to participants, the moderator script, and the full questionnaire.
+-Reproducing the instrument lets a marker judge whether the method was sound.}
++\subsection*{Questionnaire form (Google Forms)}
++\label{app:form}
++
++The querying method was a questionnaire built as a Google Form. Participants (PQ-1 to PQ-5) worked through
++the five tasks alone, then answered the form straight afterwards. It is anonymous: the only identifier is the
++participant code. The live form is at
++\url{https://docs.google.com/forms/d/e/1FAIpQLSdk7cHsy_SmvPq-3zQoIdOEtMlXYxSNDaYZM05hK_fTmzMszA/viewform}.
++Figures~\ref{fig:form1} to~\ref{fig:form3} show its five pages as participants saw them, signed out, with no
++answers entered. Part~A is the System Usability Scale, Part~B six items about ChronoMap, Part~C two open
++questions, and Part~D questions about the participant and the session.
++
++\begin{figure}[htbp]
++  \centering
++  \fbox{\safeincludegraphics[width=0.66\linewidth,height=0.78\textheight,keepaspectratio]{form-page-1-intro-and-tasks.png}}
++  \caption{Questionnaire form, page 1 of 5 (main page): introduction and consent, participant code, and the five tasks.}
++  \label{fig:form1}
++\end{figure}
++
++\begin{figure}[htbp]
++  \centering
++  \begin{minipage}[t]{0.47\linewidth}\centering\raisebox{-\height}[0pt][\height]{\fbox{\safeincludegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{form-page-2-sus.png}}}\end{minipage}\hfill
++  \begin{minipage}[t]{0.47\linewidth}\centering\raisebox{-\height}[0pt][\height]{\fbox{\safeincludegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{form-page-3-chronomap-items.png}}}\end{minipage}
++  \caption{Questionnaire form, pages 2 and 3 of 5. Left: Part~A, the ten System Usability Scale statements, rated from 1
++  (strongly disagree) to 5 (strongly agree). Right: Part~B, six ChronoMap items (C1 to C6) on the same scale.}
++  \label{fig:form2}
++\end{figure}
++
++\begin{figure}[htbp]
++  \centering
++  \begin{minipage}[t]{0.47\linewidth}\centering\raisebox{-\height}[0pt][\height]{\fbox{\safeincludegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{form-page-4-open-questions.png}}}\end{minipage}\hfill
++  \begin{minipage}[t]{0.47\linewidth}\centering\raisebox{-\height}[0pt][\height]{\fbox{\safeincludegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{form-page-5-about-you.png}}}\end{minipage}
++  \caption{Questionnaire form, pages 4 and 5 of 5. Left: Part~C, two open questions (O1 and O2). Right: Part~D, device,
++  time taken, tasks not completed, and background questions.}
++  \label{fig:form3}
++\end{figure}
++
++\FILL{The task sheet as read to participants and the moderator script. Reproducing the instrument lets a marker
++judge whether the method was sound.}
+ 
+ \section{Assignment 2 feedback}
+ \label{app:a2feedback}
