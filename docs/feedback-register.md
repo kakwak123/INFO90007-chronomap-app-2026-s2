@@ -151,9 +151,10 @@ as the comparison table and prior-art paragraph in Discussion 4.3.
 
 ## 6. The people we tested on
 
-Ten participants, five per technique, recorded in the Overleaf report.
+Recorded in the Overleaf report and, per participant with every item response and
+open answer, in [`evaluation/participant-results.md`](evaluation/participant-results.md).
 
-### PT-8, the first session (29 Oct, 3 min 40 s, recorded and transcribed)
+### PT-5, the first session (29 Oct, 3 min 40 s, recorded and transcribed)
 
 - **"Station" collided with railway station names.** Asked which station they had been given, they
   named a landmark instead of a position. Serious enough to end the task. Led to the rename to
@@ -202,19 +203,24 @@ responses are not yet summarised in this register.
 
 ---
 
-## Three inconsistencies worth fixing before submission
+## What still has to be disclosed in the report
 
-These come out of assembling the above, and none is anyone's feedback as such.
+These come out of assembling the above, and none is anyone's feedback as such. All three are
+settled decisions now; what matters is that the report states them rather than leaving a marker
+to find them.
 
-1. **The pilot is counted twice over.** Methods 2.4 says "Pilot data is reported separately and is
-   not counted toward the ten participants." The participants table lists PT-8 as one of the five
-   think-aloud participants, and PT-8 is the pilot. Either it counts or it does not; at the moment
-   the report says both.
+1. **PT-5 is a partial run.** 3 minutes 40 seconds against a protocol budgeting about 25 minutes,
+   reaching only T1 and T2 with T2 not completed. It is counted as a participant, decided 1 Nov.
+   That is defensible once stated.
 
-2. **Participant codes are inconsistent.** PT-1, PT-2 and PT-8 are hyphenated; PT3 and PT4 are
-   not. A marker reading the findings table will wonder whether they are the same scheme.
+2. **Two of five think-aloud sessions ran on a laptop**, not a phone (PT-1 and PT-5). The design
+   assumes somebody standing at a landmark holding a phone one-handed.
 
-3. **PT3 and PT4 have no recorded data at all**, not even a date, yet they count towards the ten.
-   Two of five think-aloud participants with every demographic field reading "Not recorded" is
-   visible, and the draft review already warned that methods text written in advance has to match
-   what actually happened.
+3. **PT-3 and PT-4 have no recorded data at all**, not even a date, yet they count towards the
+   ten. The moderator's written notes are not in the repository or in Drive.
+
+4. **PQ-1 and PQ-2 were entered from spoken debriefs**, not completed by the respondents, and
+   **PQ-7 straight-lined** every item. Both are counted; both need a sentence.
+
+Per-participant evidence for all of this is in
+[`evaluation/participant-results.md`](evaluation/participant-results.md).
