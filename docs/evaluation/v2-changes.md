@@ -25,8 +25,8 @@ Read this before relying on anything below.
 | --- | --- | --- |
 | PT-1 | Think-aloud, 8:06 | Findings attributed only (F1, F2, F4, F5, F6, F7). **No transcript or recording on this machine or in Drive.** |
 | PT-2 | Think-aloud, 12:02 | Findings attributed only (F1, F4, F5, F6, F7), plus one quoted line. **No transcript or recording available.** |
-| PT-3 | Think-aloud | One attributed remark. No demographics, no date, no notes anywhere. |
-| PT-4 | Think-aloud | One attributed remark. No demographics, no date, no notes anywhere. |
+| PT-3 | Think-aloud, about 6 to 7 min (provisional) | One attributed remark. Demographics given from the moderator's recollection on 1 Nov, not from a record. **No date, and no notes anywhere.** |
+| PT-4 | Think-aloud, about 6 to 7 min (provisional) | One attributed remark. Provisional on the same basis as PT-3. **No date, and no notes anywhere.** |
 | PT-5 | Think-aloud, 3:40 | **Full transcript and audio.** Four findings plus two design-validating results. |
 | PQ-1 to PQ-7 | Questionnaire | Complete item scores and both open answers for all six. |
 
@@ -35,9 +35,19 @@ Two consequences:
 1. **The think-aloud detail below is overwhelmingly PT-5.** That is one participant, a partial
    run on an earlier prototype, on a laptop. Weight it accordingly, and do not present PT-5's
    wording as though five people said it.
-2. **The per-task completion table in the report (T1 to T5) is entirely empty.** No participant's
-   task success, assists, errors or time has been recorded against the five tasks. That is the
-   single largest hole in the evaluation data, and it is not something version 2 can fix.
+2. **The per-task completion table is now filled, and it complicates everything below.**
+   Recorded on 1 Nov from the moderator's record: **all five participants completed all five
+   tasks, unaided, 25 of 25 with zero assists.** Errors and times were not recorded. Two records
+   in this repository disagree, PT-5's transcript at 2:26 and PQ-1's own questionnaire, and both
+   are set out in the override note in
+   [`participant-results.md`](participant-results.md).
+
+   Nothing below changes as a result, but the framing of it does. Every quote on this page comes
+   from somebody who **finished the task anyway**. These are not reports of failure, they are
+   reports of difficulty on the way to success, and that is the stronger claim rather than the
+   weaker one: the design does not block people, it makes them work out what is going on without
+   help. Write the report that way and the 100 per cent completion rate stops contradicting the
+   nine findings and starts supporting them.
 
 ---
 
@@ -178,8 +188,10 @@ teammate's machine, it is worth retrieving before the report is finished.
 ## PT-3 and PT-4
 
 Attributed once, jointly with PT-2, on wanting quick replies. Nothing else: no age, background,
-device, duration or date. The report says they are "reported from the moderator's written notes",
-which are not in the repository or in Drive.
+device or duration recorded. Dhiraj, who moderated both, gave those from recollection on 1 Nov:
+age 25, student, mobile, roughly 6 to 7 minutes each, and they are marked provisional in
+[`participants.md`](participants.md). Neither session has a date, and the written notes the report
+cites as the source are still not in the repository or in Drive.
 
 ---
 
@@ -771,9 +783,14 @@ this point in the 29 October call and it still applies: "content errors can't be
    sole source for F2. No verbatim evidence survives anywhere accessible.
 2. **PT-2's recording or transcript.** 12:02, recorded and transcribed per the participants
    record, but not in the repository or Drive.
-3. **PT-3 and PT-4's moderator notes**, plus their dates and devices.
-4. **The per-task completion data for T1 to T5**, for every participant. The table in the report
-   is entirely empty, and without it there is no task success rate to report at all.
+3. **PT-3 and PT-4's moderator notes**, plus a date for each session. Their background, device
+   and screening fields were supplied on 1 Nov; the age and duration are recollections.
+4. **The record behind the task completion table**, and ideally errors and time on task with it.
+   Completion and assists were given on 1 Nov, so there is a success rate to report, but the
+   record itself is not in the repository and the other two quantitative columns are still empty.
+5. **A decision on whether PT-5 completed task 2.** The completion record says yes, PT-5's
+   transcript says no, and F8's severity 3 is currently written on the no.
 
-Item 4 is the most serious. It is the core quantitative output of an observation study, and the
-rubric asks for findings the evaluation produced.
+Item 1 is now the most serious. The completion rate exists, but the evaluation's qualitative
+weight rests almost entirely on PT-5, a 3:40 laptop session on an earlier prototype, while PT-1
+contributed to six of the nine findings with no surviving quote at all.

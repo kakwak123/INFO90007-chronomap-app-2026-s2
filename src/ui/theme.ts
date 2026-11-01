@@ -13,7 +13,7 @@ export const C = {
   borderStrong: '#C3BFB6',
 
   text: '#15171C',
-  textDim: '#6B6F7A',
+  textDim: '#676B75',
   onInk: '#FFFFFF',
 
   ink: '#1E3A5F',

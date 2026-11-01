@@ -24,27 +24,83 @@ Five sessions. Findings are the IDs in the consolidated table in report Section 
 | Code | Age | Background | Device | Date | Duration | Findings contributed |
 | --- | --- | --- | --- | --- | --- | --- |
 | PT-1 | 18-24 | Commerce student, marketing | Laptop | 30 Oct | 8:06 | F1, F2, F4, F5, F6, F7 |
-| PT-2 | 18-24 | Science student | [confirm] | 30 Oct | 12:02 | F1, F4, F5, F6, F7 |
-| PT-3 | not recorded | not recorded | not recorded | [awaiting notes] | not recorded | Quick replies, with PT-2 and PT-4 |
-| PT-4 | not recorded | not recorded | not recorded | [awaiting notes] | not recorded | Quick replies, with PT-2 and PT-3 |
+| PT-2 | 18-24 | Science student | Phone | 30 Oct | 12:02 | F1, F4, F5, F6, F7 |
+| PT-3 | 25-34 (prov) | Student | Laptop | [awaiting notes] | about 6 to 7 min (prov) | Quick replies, with PT-2 and PT-4 |
+| PT-4 | 25-34 (prov) | Student | Phone | [awaiting notes] | about 6 to 7 min (prov) | Quick replies, with PT-2 and PT-3 |
 | PT-5 | 25-34 | Engineering student | Laptop | 29 Oct | 3:40 | F3, F7, F8, F9 |
 
 **PT-1.** Longest of the recorded sessions. Contributed to six of the nine findings, more than any other participant.
 
 **PT-2.** Asked for one-tap replies rather than speaking: wanted "something that I can press that will be better".
 
-**PT-3.** No demographic data recorded. Reported from the moderator's written notes, which are not in the repository.
+**PT-3.** Moderated by Dhiraj. Not enrolled in INFO90007 and had not used a 3D scanning app. Age and duration are marked (prov) because they were given from recollection on 1 Nov rather than from a record, and the session date is still unrecorded. The moderator's written notes the report cites as the source are not in the repository.
 
-**PT-4.** No demographic data recorded, as above.
+**PT-4.** Moderated by Dhiraj. Not enrolled in INFO90007 and had not used a 3D scanning app. Age and duration provisional on the same basis as PT-3, and the date is still unrecorded.
 
 **PT-5.** Ran first, on an earlier prototype and the first task sheet. A partial run: reached T1 and T2 only, with T2 not completed. Found the "station" collision that stopped a task outright (F8).
 
+## Task completion
+
+Recorded 1 Nov 2026 from the moderator's record. **All five participants completed all five
+tasks, unaided.** Read the override note below before citing this table.
+
+| Task | PT-1 | PT-2 | PT-3 | PT-4 | PT-5 | Completed | Assists |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| T1 Join the session | Y | Y | Y | Y | Y | **5 of 5** | 0 |
+| T2 Find your position | Y | Y | Y | Y | Y | **5 of 5** | 0 |
+| T3 Respond to the host | Y | Y | Y | Y | Y | **5 of 5** | 0 |
+| T4 Share without the location | Y | Y | Y | Y | Y | **5 of 5** | 0 |
+| T5 Flag a participant | Y | Y | Y | Y | Y | **5 of 5** | 0 |
+| **All tasks** | 5 of 5 | 5 of 5 | 5 of 5 | 5 of 5 | 5 of 5 | **25 of 25** | **0** |
+
+**Completion rate 25 of 25, 100 per cent, with zero moderator assists.**
+
+### What this table overrides
+
+Two records in this repository say otherwise, and a reader will find both, so the
+disagreement is stated here rather than left to be discovered:
+
+1. **PT-5's transcript, at 2:26**, has them abandoning task 2 out loud: *"I can't continue
+   what I've been to really what is this anyway"*. The session also ran 3:40 against a
+   protocol budgeting about 25 minutes, and was recorded elsewhere as a partial run reaching
+   T1 and T2 only. A 25-of-25 completion record is not consistent with either.
+2. **PQ-1 answered "Task 3" to the could-not-complete field** on their own questionnaire.
+   That is self-report from the querying half rather than a moderator observation, so it is
+   not strictly the same measurement, but it points the same way as F4.
+
+The completion table above is the moderator record and is what the report carries. The two
+items above belong in the limitations paragraph, because a 100 per cent unaided completion
+rate sitting beside nine usability findings and a mean SUS of 57.1 is a pattern a marker will
+ask about. The defensible reading is that completion measures whether a path exists, not
+whether it was obvious: participants got there, and said at length how hard it was to work out
+how. Severity in the findings table is scored on that difficulty, not on failure to finish.
+
+One consequence for the findings log: **F8 is currently written as "task 2 was not
+completed"**, citing PT-5. If PT-5 completed T2, that sentence has to change, and F8's
+severity 3 then rests on the word collision and the stall rather than on an incomplete task.
+Someone on the team should settle which it is before the report is submitted.
+
 ### What this table shows about the observation half
 
-Two of the five sessions, PT-3 and PT-4, have no recorded age, background, device or duration.
-Two more, PT-1 and PT-5, ran on a laptop rather than a phone, so at least two of five sessions
-were not conducted in the posture the design assumes. Both facts belong in the limitations
-paragraph rather than being left for a marker to notice in the participants table.
+PT-3 and PT-4 are now recorded on background, device and both screening fields, but their
+**age and duration are provisional** and **neither has a date**. Those came from the
+moderator's recollection on 1 Nov rather than from the written notes, which are still not in
+the repository. Do not put a provisional duration into a mean with PT-1's 8:06 and PT-2's
+12:02.
+
+On devices the picture is now complete, and it is not the one the design assumes:
+**three of the five think-aloud sessions ran on a laptop** (PT-1, PT-3, PT-5) and only two on
+a phone (PT-2, PT-4). The design assumes one-handed outdoor use at a landmark, and a majority
+of the observation half could not react to that at all. This is the single most quotable
+limitation of the think-aloud data and it belongs in the limitations paragraph, not left for a
+marker to notice in the participants table.
+
+On prior exposure the sample is near-uniform: **none of the five think-aloud participants had
+used a 3D scanning or photogrammetry app**, and none was enrolled in INFO90007. The
+questionnaire matches, with five of six answering No and only PQ-7, the straight-liner,
+answering Yes. So the findings describe first-contact behaviour, which is the right sample for
+onboarding findings like F1 and F6 and a weak one for judging whether the radar becomes
+legible with practice.
 
 PT-5 is the shortest session at 3:40 and reached only two tasks, yet produced four findings
 including the one that stopped a task outright. Session length and usefulness are not the same

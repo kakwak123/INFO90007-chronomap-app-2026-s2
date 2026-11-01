@@ -20,7 +20,9 @@ Target: **10 participants, 5 per technique**, none from the team, no overlap bet
 groups. A stated minimum in the handout, not a guideline.
 
 Questionnaire data is transcribed from `ChronoMap 3D - questionnaire responses` in Drive
-(six rows, A1:AB7), read 1 Nov 2026. Nothing below is inferred; blanks mean not recorded.
+(six rows, A1:AB7), read 1 Nov 2026. Nothing below is inferred; blanks mean not recorded, and
+values marked `(prov)` are provisional, given from recollection and not yet checked against a
+record.
 
 ---
 
@@ -47,10 +49,10 @@ partial run. All three are defensible once stated and damaging if not.
 | Code | Age | Background | In INFO90007 | Used 3D apps | Device | Date | Duration | Audio consent |
 | ---- | --- | ---------- | ------------ | ------------ | ------ | ---- | -------- | ------------- |
 | PT-1 | 18 to 24 | Commerce student, marketing | No | No | Laptop | 30 Oct 2026 | 8:06 | Yes, recorded and transcribed |
-| PT-2 | 18 to 24 | Science student | No | No | `[confirm]` | 30 Oct 2026 | 12:02 | Yes, recorded and transcribed |
-| PT-3 | | | | | | `[awaiting notes]` | | Reported from written notes |
-| PT-4 | | | | | | `[awaiting notes]` | | Reported from written notes |
-| PT-5 | 25 to 34 | Engineering student | `[confirm]` | `[confirm]` | Laptop | 29 Oct 2026 | 3:40 | Yes, recording exists |
+| PT-2 | 18 to 24 | Science student | No | No | Phone | 30 Oct 2026 | 12:02 | Yes, recorded and transcribed |
+| PT-3 | 25 to 34 `(prov)` | Student | No | No | Laptop | 31 Oct 2026 | about 6 to 7 min `(prov)` | Reported from written notes |
+| PT-4 | 25 to 34 `(prov)` | Student | No | No | Phone | 31 Oct 2026 | about 6 to 7 min `(prov)` | Reported from written notes |
+| PT-5 | 25 to 34 | Engineering student | No | No | Laptop | 29 Oct 2026 | 3:40 | Yes, recording exists |
 
 ### PT-5, the 29 October session
 
@@ -69,18 +71,32 @@ Two things about it have to stay visible in the report, because a reader will no
 It earned its place regardless: it surfaced the "station" word collision, which was fixed before
 anyone else sat down.
 
-The laptop point is no longer unique to PT-5, though. PT-1 also ran on a laptop, so at least two
-of the five think-aloud sessions were not conducted on a phone. The report should say that as a
-count rather than treating PT-5 as the lone exception.
+The laptop point is not unique to PT-5, and it is worse than the earlier draft assumed. With the
+device column now complete, PT-1, PT-3 and PT-5 ran on laptops and only PT-2 and PT-4 on phones:
+**three of the five think-aloud sessions ran on a laptop**, a majority of the observation half.
+The design assumes one-handed outdoor use at a landmark, so the report should carry this as a
+count and a limitation rather than treating PT-5 as the lone exception.
 
-### PT-3 and PT-4 are empty
+### PT-3 and PT-4 are provisional
 
-No age, background, device, duration or even date, anywhere. The report says they are "reported
-from the moderator's written notes". Those notes are not in this repository and not in Drive. Two
-of five think-aloud rows reading blank across every column is conspicuous, and the draft review
-already warned that methods text written ahead of the sessions has to match what happened.
+**Dhiraj moderated both.** On 1 Nov he supplied the detail: both students, neither enrolled in
+INFO90007, neither having used a 3D scanning app, **PT-3 on a laptop and PT-4 on a phone**, age
+25 so the 25-to-34 bracket, and roughly 6 to 7 minutes each.
 
-**Needed from the team:** who moderated each, when, on what device, and where the notes are.
+Most of that is now firm. Two fields are not, and the distinction has to survive into the report:
+
+- **Both ran on 31 Oct**, confirmed 1 Nov. The date is the one field that is now firm.
+- **The duration is a range, not a measurement**, so it cannot go in a mean with PT-1's 8:06 and
+  PT-2's 12:02, and the age is a recollection rather than a form answer. Both are marked `(prov)`.
+- **The written notes are still not in this repository or in Drive.** The report says these two
+  are "reported from the moderator's written notes", so the notes are the record and a
+  recollection is not a substitute for it.
+
+The draft review warned that methods text written ahead of the sessions has to match what
+happened. A recalled figure presented as a measured one is exactly that failure, so either the
+notes are found or the report states that two of five sessions were documented from recollection.
+
+**Still needed from the team:** the notes themselves, and a date for each session.
 
 ---
 
@@ -167,10 +183,23 @@ Appendix C.
 1. **The three disclosures**, which are now the live risk rather than the counts: how PQ-1 and
    PQ-2 were collected, PQ-7's straight-line answers, and PT-5's partial run. All three go in the
    limitations paragraph.
-2. **PT-3 and PT-4 data**, or an honest statement in the report that it was not recorded.
+2. **PT-3 and PT-4's moderator notes, and a date for each session.** Dhiraj supplied the detail
+   on 1 Nov, so the rows are no longer blank, but the age and duration are recollections and both
+   dates are still missing. Either the notes turn up or the report states that two of five
+   sessions were documented from recollection.
+3. **Whether PT-5 completed task 2.** The task completion record taken on 1 Nov says all five
+   participants completed all five tasks unaided, and PT-5's own transcript at 2:26 says they
+   abandoned task 2. F8's severity 3 currently rests on that incomplete task. See the override
+   note in [`participant-results.md`](participant-results.md).
 3. **Whose debriefs became PQ-1 and PQ-2.** The demographics are a partial match to PT-1 and PT-2,
    not a decisive one, so this still needs someone on the team to say.
-4. **PT-2's device.** Every other field for PT-1 and PT-2 was recorded on 1 Nov; this one was not.
-5. **PT-5's two `[confirm]` fields**: whether they study INFO90007, and whether they had used any
-   3D scanning or photogrammetry app. Both belong in the recruitment record and neither is in the
-   transcript.
+Closed on 1 Nov: **PT-2's device** (phone), **PT-5's two screening fields** (does not study
+INFO90007, had never used a 3D scanning or photogrammetry app), and **PT-3 and PT-4's background,
+device and both screening fields**. None of these came from a form; all came from the team.
+
+The screening fields now read the same way for all five: **no think-aloud participant was enrolled
+in INFO90007, and none had used a 3D scanning or photogrammetry app.** The questionnaire matches,
+with five of six answering No and only PQ-7, the straight-liner, answering Yes. So the evaluation
+describes first-contact behaviour. That is the right sample for the onboarding findings F1 and F6
+and a weak one for judging whether the radar becomes legible with practice, and the report should
+say which of its findings rest on which.
