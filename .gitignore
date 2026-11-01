@@ -54,3 +54,11 @@ example
 *.mp4
 docs/evaluation/sessions/audio/
 .artifact-deck/
+
+# Course materials - university copyright, repo is public.
+# Everything stays on disk for citation; only our own README is tracked.
+docs/course-materials/*
+!docs/course-materials/README.md
+
+# Lecture transcripts - same copyright concern, for anything added from here on.
+docs/lecture-transcripts/*.txt
