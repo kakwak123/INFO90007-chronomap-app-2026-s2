@@ -27,6 +27,13 @@ export const C = {
 
   live: '#D94C3D',
   liveSoft: '#FBE7E4',
+
+  // The participant's own position marker on the coverage radar. Deliberately the blue every
+  // map application uses for "you are here", so it reads as self without needing a label.
+  // Added after the evaluation: PQ-2 could describe the old amber marker accurately ("several
+  // dots", "the yellow thing") and still not know it meant them. Not for any other purpose.
+  location: '#007AFF',
+  locationSoft: 'rgba(0,122,255,0.18)',
 };
 
 export const R = { sm: 8, md: 12, lg: 16, xl: 22, pill: 999 };

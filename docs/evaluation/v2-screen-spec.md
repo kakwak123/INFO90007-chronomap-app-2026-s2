@@ -222,9 +222,33 @@ facts still apply.
 
 ---
 
-# What this does not cover
+# What this does not cover, and why
 
-The remaining screens in sections A, B, C and D are **left alone deliberately**. No participant
+Two corrections to an earlier version of this file, which claimed the omitted screens were "left
+alone deliberately" because "no participant raised them". That was wrong.
+
+**Screens 01, 02 and 20 are omitted because the work was already done**, not because nobody raised
+them. F1 names 01 and 02, F5 names 18 and 20, and both are severity 3. Specifically:
+
+- `20 Share exhibit` already carries the location toggle as a two-state component, a line naming
+  who sees the model, and a shared confirmation. Verified in the file on 1 Nov.
+- `01` and `02` were covered by `01 v2` and `02 v2` in section G. **Those screens have since been
+  deleted from the file**, so that work is lost and needs rebuilding before the report can show a
+  before and after pair.
+
+**The remaining screens in sections A, B, C and D are left alone deliberately.** No participant
 raised them and no principle is clearly violated. Changing them would be churn, and every change
 made after the evaluation has to be defensible in Section 3.5 as either a finding or a stated
 design-review decision.
+
+## Where this file disagrees with v2-changes.md
+
+Reconciled 1 Nov. Where the two differ, this file is the later decision and says why.
+
+| Point | `v2-changes.md` | Here | Why |
+| --- | --- | --- | --- |
+| The radar marker | "Name the amber dot in words" | Replace it with the blue location dot | A learned convention needs no label. PQ-2 described the amber dot accurately and still did not know it meant them. The legend keeps a You entry as well. |
+| Screen 22 priority | "Low priority: one participant, off the task path" | Group 1 | It closes a finding, and closing a finding is cheap and countable in Section 3.5. Still the last item inside Group 1. |
+| `09P` onward control | Work order item 6 | Group 3 | It is a wiring correction, not a design finding, so it earns nothing in 3.5. It is listed in `task-completability.md` as a task blocker, which is the right place for it. |
+| Flag icon | "a shield, a person-with-exclamation, or a plain text label" | `icon/alert-triangle` | That component already exists in the file. Note its name follows a non-Ionicons convention; the Ionicons equivalent is `warning`. |
+| Screen 18 provenance | Typed against F5 | Design-review change, not a finding | F5 is about sharing on 18 and 20. The hero treatment of the model viewer is a principle, and no participant asked for it. Both are true of screen 18; the report must not present the second as evaluation-driven. |
