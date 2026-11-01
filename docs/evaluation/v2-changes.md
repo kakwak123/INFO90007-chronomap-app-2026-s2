@@ -10,10 +10,15 @@ written, including in the machine transcription, which is marked where it is unr
 - Participant codes: [`participants.md`](participants.md)
 - Every item score and both open answers per person: [`participant-results.md`](participant-results.md)
 - Which tasks could actually be completed in v1: [`task-completability.md`](task-completability.md)
-- Finding IDs F1 to F9: the consolidated table in report Section 3.4
+- Finding IDs F1 to F9: the consolidated table in report Section 3.4. F14 and F15 come from the
+  1 Nov session and are in [`findings-log.md`](findings-log.md)
 
-Sources: six questionnaire responses (31 Oct to 1 Nov), and five think-aloud sessions (29 to
-30 Oct), of which one is transcribed in full.
+Sources: six questionnaire responses (31 Oct to 1 Nov), and six think-aloud sessions (29 Oct to
+1 Nov), of which two are transcribed in full (the 29 Oct session and the 1 Nov session).
+
+**Code clash.** In this file PT-5 is the 29 Oct session. The 1 Nov session (a recruiter's WhatsApp
+voice recording, transcript `sessions/PT-5-2026-11-01-transcript.md`) is called the **1 Nov
+session** below. The clash is logged in [`participants.md`](participants.md).
 
 ---
 
@@ -28,6 +33,7 @@ Read this before relying on anything below.
 | PT-3 | Think-aloud | One attributed remark. No demographics, no date, no notes anywhere. |
 | PT-4 | Think-aloud | One attributed remark. No demographics, no date, no notes anywhere. |
 | PT-5 | Think-aloud, 3:40 | **Full transcript and audio.** Four findings plus two design-validating results. |
+| 1 Nov session | Think-aloud, 2:15 | **Full transcript and audio.** New task wording, current prototype. Two findings (F14, F15). No four-question debrief. |
 | PQ-1 to PQ-7 | Questionnaire | Complete item scores and both open answers for all six. |
 
 Two consequences:
@@ -153,6 +159,32 @@ evidence for the one-tap callouts, rather than an assertion that strangers find 
 Friends, not strangers. One data point, and possibly a transcription slip for "with my friends",
 but the entire concept rests on strangers cooperating. The questionnaire later said the same
 thing in different words (C2 scored 2 by three of six respondents), so it is probably real.
+
+## The 1 Nov session, 2:15, student (accounting), aged 22
+
+Recorded by the recruiter as a WhatsApp voice message and transcribed locally. Machine
+transcription, not yet checked against the audio. It is the only session on the **new** task
+wording (position, and task 3 as the @mapfox scene) and the current prototype, so it is the best
+evidence on whether the pre-test fixes worked. Device and the Figma link used are `[confirm]`.
+
+- **T1:** joined without difficulty.
+- **T2:** "so i'm 15 meters away from where i'm supposed to be which is the northeast ... i'm gonna
+  assume i'm gonna walk there and i'm gonna click i'm in position" **[0:22]**. The position wording
+  worked, with no confusion.
+- **T3:** understood the scene: "move two meters left aim at the clock face and i'll click ready"
+  **[0:45]**. The rewrite worked.
+- **T4: failed.** "i'm gonna try to stop capture first **[1:07]** see if that goes anywhere um
+  doesn't seem like i can see any 3d model maybe if i go back **[1:16]** ... yeah i cannot see the
+  3d model **[1:28]**". Confirmed afterwards: "the only part you couldn't figure out was the fourth
+  one" - "yes i could not" **[2:01-2:08]**. This is **F14**.
+- **T5:** "i can click his profile i can flag this person and yeah i flagged him not quite sure what
+  it does though but i did my part" **[1:47-1:54]**. Completed, but with no sense of what the flag
+  did. This is **F15**.
+
+Two results that support existing decisions: the T2 and T3 rewrites need no further change, and
+the profile route to flagging is findable.
+
+Caveat: one short session, and the participant was not asked the four debrief questions.
 
 ## PT-2
 
@@ -612,6 +644,24 @@ PQ-2 scored the minimum possible.
 Items 1, 2 and 5 are **corrections**. Items 3 and 4 come from the evaluation and belong in
 Section 3.5.
 
+### Added 1 Nov: F14, the finished model cannot be found after capture
+
+The 1 Nov session reached task 4 on the current prototype, after the share screens (20b to 20d)
+were wired, and still failed: "i cannot see the 3d model" **[1:28]**. After tapping Stop capture
+the participant went back and searched, and gave up. So the loop in version 1 is fixed, but the
+route from the end of capture to the finished model is not findable. Severity 3, one participant,
+and it ended the task.
+
+Specification:
+
+6. After Stop capture, go **directly to the finished model** (or show a clear "View your 3D model"
+   button on the finish screen), so no search is needed.
+7. Name the model the same way in the task, on the finish screen and on 18, so the participant's
+   search words match the label.
+8. **Check first** whether the model appears only after a timer that runs in Present mode. If the
+   participant used the design view, the timers never ran and this may be a test-setup fault,
+   not a design fault. Record which link was used before counting it as a design finding.
+
 ---
 
 ## 26 and 14a: flagging a participant
@@ -637,6 +687,18 @@ but flag-means-bookmark is a widely held convention, not a personal quirk.
 3. Resolve the inconsistency: two flagging routes exist, 14 to 14a to 14b, and 13 to 26.
    Participants who find the second take a different path from everyone else. Decide which is
    canonical.
+
+### Added 1 Nov: F15, no sign of what a flag did
+
+The 1 Nov session found the profile route and flagged the other participant, then said: "not quite
+sure what it does though but i did my part" **[1:54]**. The task was completed, but the screen did
+not tell them what the flag did. Severity 2, one participant.
+
+Specification:
+
+4. After flagging, show a **confirmation** that says what happens next (for example "Reported. The
+   host and moderators will review this person.") and a way to undo.
+5. Label the control **Report** so the action and the result use the same word.
 
 ---
 
@@ -757,6 +819,8 @@ Ordered by weight of evidence, not by effort.
 | 8 | 10, 11 | Retest "position" with a participant | Never tested since the rename | Verification |
 | 9 | All | Scroll affordance audit | PQ-4 | Improvement |
 | 10 | 22 | Separate share from request-a-capture | F9, one participant, off task path | Improvement |
+| 11 | 14 end, 18 | Direct route from Stop capture to the finished model; check Present mode first | F14 sev 3, 1 Nov session, ended task 4 | Correction + improvement |
+| 12 | 26, 14a | Confirmation after a flag, saying what happens next | F15 sev 2, 1 Nov session | Improvement |
 
 **Keep corrections and improvements separate when writing Section 3.5.** The rubric credits
 changes the evaluation produced. A link wired wrongly, or a task that was impossible to complete,
