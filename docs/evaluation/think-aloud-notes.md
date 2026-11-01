@@ -82,6 +82,22 @@ Answers to the 4 questions:
 
 ---
 
+## PT-5
+
+*From the transcript of the recording sent by the recruiter, in the participant's own words where quoted. Machine transcription, not yet checked against the audio. The session ended with a short closing exchange, not the four debrief questions.*
+
+Observations:
+- Task 1: joined without difficulty.
+- Task 2: read that they were 15 metres from the position, to the north east, said they would "assume" they would walk there, and tapped I'm in position.
+- Task 3: understood the instruction ("move two metres left, aim at the clock face") and tapped Ready.
+- Task 4: could not find the 3D model. Tried Stop capture first ("see if that goes anywhere"), then went back, and said "I cannot see the 3D model". Task 4 was not completed.
+- Task 5: tapped the other participant's profile and flagged them, then said "not quite sure what it does though, but I did my part".
+
+Answers to the 4 questions:
+Not recorded. In the closing exchange the participant confirmed that the only task they could not complete was the fourth ("I could not" find the 3D model and share it).
+
+---
+
 ## PT3 (Dhiraj's label)
 
 _Copied as written by Dhiraj in the team Google Doc._

@@ -28,6 +28,7 @@ Because every commit is by one person, the other members' contributions (evaluat
 
 ### Ashlesha
 
+- **1 Nov:** recorded one think-aloud on WhatsApp (a voice message) and sent it to John, who extracted and transcribed it as PT-5. Age 22, studying accounting; other details not yet given.
 - **WhatsApp, 31 Oct:** says she and Dhiraj are working on the evaluation. No evaluation record of hers appears in the doc. One questionnaire response (PQ-5, 14:03) may be hers, but the sheet does not say who recruited whom.
 - **Video plan (doc):** takes the lead on the initial homepage and UI mockups in Figma, sharing drafts for feedback.
 - **Assigned in the 29 Oct meeting:** 3 to 5 participants, due Friday.
@@ -48,7 +49,7 @@ Because every commit is by one person, the other members' contributions (evaluat
 
 | Technique     | Recorded so far                                                                                           | Target | Gap                                                                                  |
 | ------------- | --------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------ |
-| Think-aloud   | PT-1 and PT-2 (transcripts), PT3d and PT4d (Dhiraj's notes) and PT-8 (the 29 Oct session) = **5** | 5      | **1**                                                                                |
+| Think-aloud   | PT-1 and PT-2 (transcripts), PT3d and PT4d (Dhiraj's notes) and PT-8 (the 29 Oct session) = **5, then 6 with PT-5** | 5      | **1**                                                                                |
 | Questionnaire | PQ-3, PQ-4, PQ-5 valid = **3**; PQ-1 and PQ-2 excluded                                                    | 5      | **2** (Dhiraj says he has 2 done; at most one of them may be in the sheet, so check) |
 
 ## Flags the team should act on

@@ -18,7 +18,7 @@ groups. This is a stated minimum in the handout, not a guideline.
 | PT-2 | | | | | | | 30 Oct 2026 | 3:55 | Yes, asked on the recording |
 | PT-3 | | | | | | | | | |
 | PT-4 | | | | | | | | | |
-| PT-5 | | | | | | | | | |
+| PT-5 | 18-24 | | Student (accounting) | `[confirm]` | `[confirm]` | `[confirm]` | 1 Nov 2026 | 2:15 | `[confirm]` |
 | PT-8 | 26 | Male | Engineering student | `[confirm]` | `[confirm]` | Laptop | 29 Oct 2026 | 3:40 | Yes (recording exists) |
 
 ## Questionnaire (querying)
@@ -56,6 +56,7 @@ Proposed 31 Oct after John took PT-1, PT-2, PQ-1 and PQ-2. Yong's row follows th
 
 - **Questionnaire:** six rows have arrived (PQ-1 to PQ-5, then PQ-7; there is no PQ-6 in the sheet). PQ-3, PQ-4, PQ-5 and PQ-7 are independent responses; PQ-1 and PQ-2 need the team to state how they were obtained, and PQ-7's ratings look like a straight-lining pattern (see `questionnaire-results.md`). Gender was not asked.
 - **Think-aloud:** Dhiraj's two sessions are written up in the team document under his labels PT3 and PT4. These clash with the allocation below (PT-3 is Yong, PT-4 is Dhiraj, PT-6 is his spare). Until they are recoded the findings log calls them PT3d and PT4d. Suggested recode: PT3 becomes PT-4 and PT4 becomes PT-6, keeping PT-3 for Yong. Dhiraj must confirm.
+- **PT-5 (Ashlesha's participant):** recorded by voice message on 1 Nov and transcribed (`sessions/PT-5-2026-11-01-transcript.md`). Age 22, so the band 18-24; studying for a Bachelor of accounting. Still to confirm: enrolled in INFO90007, used a 3D scanning app, device, and consent. **With PT-5 there are now six think-aloud sessions** (PT-1, PT-2, PT3 and PT4, PT-5, PT-8). The target is five, so the team should decide which five the report counts, or report six.
 - **Still missing:** age, gender, background and device for PT-1, PT-2, PT-3, PT3d and PT4d, and the recruiter-to-code allocation for the three valid questionnaire responses.
 
 ## Notes on PT-8 (the 29 Oct session)

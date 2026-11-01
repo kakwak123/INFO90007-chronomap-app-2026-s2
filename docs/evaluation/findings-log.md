@@ -6,7 +6,7 @@ Severity (Nielsen): 0 not a problem, 1 cosmetic, 2 minor, 3 major (important to 
 
 Decision: **fix** (made in version 2), **defer** (valid, not done, say why), **reject** (not acted on, say why).
 
-**Status, 1 Nov 2026.** Evidence comes from PT-8 (29 Oct), PT-1 and PT-2 (our transcripts), two think-aloud sessions
+**Status, 1 Nov 2026.** Evidence comes from PT-8 (29 Oct), PT-5 (1 Nov, our transcript), PT-1 and PT-2 (our transcripts), two think-aloud sessions
 written up in the team document by Dhiraj, and three valid questionnaire responses (PQ-3, PQ-4, PQ-5). **PT3d and PT4d
 are Dhiraj's own labels (PT3 and PT4 in the team document); they clash with our allocation (PT-3 is Yong, PT-4 is Dhiraj,
 PT-6 is his spare) and must be recoded before the report uses them.** Think-aloud notes are second-hand summaries, not
@@ -30,6 +30,8 @@ found about the design.
 | F11 | It is unclear whether the microphone is on or off | 13, 14 | T3 | PT3d: confused whether their microphone was on | PT3d | 2 | #1 Visibility of system status | Open: show the mic state clearly | `[FILL]` | `[FILL]` |
 | F12 | The screens are long on a phone, so people scroll and miss content, and one could not reach task 4 directly | Several | T4 | PT4d: UI too long on phone, could not navigate to task 4 (may be Figma specific). PQ-4: the interface needs scrolling | PT4d, PQ-4 | 2 | #8 Aesthetic and minimalist design | Defer or fix: check screen height in the prototype view; mostly a Figma presentation issue | `[FILL]` | `[FILL]` |
 | F13 | The onboarding is skipped by one tap and cannot be viewed again | 01 | T1 | PQ-3: next went straight from the tutorial to the main app. PT3d: wants a better tutorial and an option to view it again | PQ-3, PT3d | 2 | #10 Help and documentation | Fix in v2 (proposed): slower onboarding and a way to reopen it | `[FILL after v2]` | `[FILL]` |
+| F14 | The finished 3D model cannot be found after capture: tapping Stop capture did not lead the participant to it | 14, 16, 17, 18 | T4 | PT-5: "I cannot see the 3D model", task 4 not completed. PT-1 and PT-2 were also unsure on task 4 (see F5). Check which Figma link and mode was used, because the screens advance on timers that only run in Present mode | PT-5 | 3 | #1 Visibility of system status; #7 Flexibility and efficiency of use | Open: confirm the auto-advance runs in the link participants use; label the next step | `[FILL]` | `[FILL]` |
+| F15 | After flagging a person there is no clear sign of what the flag does | 14a, 14b | T5 | PT-5: "not quite sure what it does though, but I did my part" | PT-5 | 2 | #1 Visibility of system status | Open: say what happens next (host and moderators are alerted) | `[FILL]` | `[FILL]` |
 
 ### Positive and mixed evidence (not problems)
 
@@ -38,23 +40,25 @@ found about the design.
 
 ## Evidence matrix: problem by participant
 
-A tick means that participant's session or answers support the problem. Columns for Dhiraj's sessions use his labels (PT3d, PT4d). PQ-1 and PQ-2 are excluded. "Count" is the number of participants; "Sev." is the proposed severity.
+A tick means that participant's session or answers support the problem. Columns for Dhiraj's sessions use his labels (PT3d, PT4d). PT-5 was added on 1 Nov. PQ-1 and PQ-2 are excluded. "Count" is the number of participants; "Sev." is the proposed severity.
 
-| Problem | PT-8 | PT-1 | PT-2 | PT3d | PT4d | PQ-3 | PQ-4 | PQ-5 | Count | Sev. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F1 Purpose and introduction unclear |  | x | x | x |  |  |  | x | 4 | 3 |
-| F2 Quick replies did nothing |  | x |  |  |  |  |  |  | 1 | 3 |
-| F3 Too many controls | x |  |  |  |  |  |  |  | 1 | 3 |
-| F4 Task 3 wording unclear |  | x | x |  |  |  |  |  | 2 | 2 |
-| F5 Sharing unclear |  | x | x |  |  |  |  |  | 2 | 3 |
-| F6 Radar and position hard to read |  | x | x | x | x |  |  | x | 5 | 3 |
-| F7 Reluctance to join strangers | x | x | x | x | x |  | x | x | 7 | 2 |
-| F8 Station collision | x |  |  |  |  |  |  |  | 1 | 3 |
-| F9 Share and request look alike | x |  |  |  |  |  |  |  | 1 | 2 |
-| F10 Reporting a person confusing |  |  |  | x | x |  | x |  | 3 | 3 |
-| F11 Mic state unclear |  |  |  | x |  |  |  |  | 1 | 2 |
-| F12 Screens too long on a phone |  |  |  |  | x |  | x |  | 2 | 2 |
-| F13 Onboarding skipped, cannot revisit |  |  |  | x |  | x |  |  | 2 | 2 |
+| Problem | PT-8 | PT-1 | PT-2 | PT3d | PT4d | PT-5 | PQ-3 | PQ-4 | PQ-5 | Count | Sev. |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F1 Purpose and introduction unclear |  | x | x | x |  |  |  |  | x | 4 | 3 |
+| F2 Quick replies did nothing |  | x |  |  |  |  |  |  |  | 1 | 3 |
+| F3 Too many controls | x |  |  |  |  |  |  |  |  | 1 | 3 |
+| F4 Task 3 wording unclear |  | x | x |  |  |  |  |  |  | 2 | 2 |
+| F5 Sharing unclear |  | x | x |  |  |  |  |  |  | 2 | 3 |
+| F6 Radar and position hard to read |  | x | x | x | x |  |  |  | x | 5 | 3 |
+| F7 Reluctance to join strangers | x | x | x | x | x |  |  | x | x | 7 | 2 |
+| F8 Station collision | x |  |  |  |  |  |  |  |  | 1 | 3 |
+| F9 Share and request look alike | x |  |  |  |  |  |  |  |  | 1 | 2 |
+| F10 Reporting a person confusing |  |  |  | x | x |  |  | x |  | 3 | 3 |
+| F11 Mic state unclear |  |  |  | x |  |  |  |  |  | 1 | 2 |
+| F12 Screens too long on a phone |  |  |  |  | x |  |  | x |  | 2 | 2 |
+| F13 Onboarding skipped, cannot revisit |  |  |  | x |  |  | x |  |  | 2 | 2 |
+| F14 Finished model not found after capture |  |  |  |  |  | x |  |  |  | 1 | 3 |
+| F15 No sign of what a flag does |  |  |  |  |  | x |  |  |  | 1 | 2 |
 
 Ranked by count, then severity: F7 (7), F6 (5), F1 (4), F10 (3), then F4, F5, F12, F13 (2 each), and the single-participant items. F7 is the most widely shared, but it is a risk to the concept, not a screen fix.
 
