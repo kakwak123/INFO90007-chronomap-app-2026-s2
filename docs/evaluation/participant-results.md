@@ -12,6 +12,9 @@ All six responses are counted, per the 1 Nov decision.
 
 **Codes only, no names.** Backgrounds are generalised.
 
+What to change in Figma as a result, screen by screen with the evidence attached:
+[`v2-changes.md`](v2-changes.md).
+
 ---
 
 # Think-aloud (observation)
